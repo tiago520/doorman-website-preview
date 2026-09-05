@@ -1,0 +1,132 @@
+[
+  {
+    "width": 1440,
+    "errors": [],
+    "violations": [],
+    "notesViolations": [],
+    "noteStatus": 200,
+    "stateResults": [
+      {
+        "state": "protected",
+        "pressed": true,
+        "correctPreviews": true,
+        "neutralFavicon": true
+      },
+      {
+        "state": "reconnecting",
+        "pressed": true,
+        "correctPreviews": true,
+        "neutralFavicon": true
+      },
+      {
+        "state": "paused",
+        "pressed": true,
+        "correctPreviews": true,
+        "neutralFavicon": true
+      },
+      {
+        "state": "attention",
+        "pressed": true,
+        "correctPreviews": true,
+        "neutralFavicon": true
+      },
+      {
+        "state": "managed",
+        "pressed": true,
+        "correctPreviews": true,
+        "neutralFavicon": true
+      },
+      {
+        "state": "signedOut",
+        "pressed": true,
+        "correctPreviews": true,
+        "neutralFavicon": true
+      }
+    ],
+    "reconnectAnimation": "switch-wave",
+    "motionOff": true,
+    "reducedMotion": true,
+    "reducedToggleDisabled": true,
+    "overflow": false,
+    "brokenImages": 0,
+    "icons": [
+      {
+        "declared": 16,
+        "actual": 16
+      },
+      {
+        "declared": 24,
+        "actual": 24
+      },
+      {
+        "declared": 48,
+        "actual": 48
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "errors": [],
+    "violations": [],
+    "notesViolations": [],
+    "noteStatus": 200,
+    "stateResults": [
+      {
+        "state": "protected",
+        "pressed": true,
+        "correctPreviews": true,
+        "neutralFavicon": true
+      },
+      {
+        "state": "reconnecting",
+        "pressed": true,
+        "correctPreviews": true,
+        "neutralFavicon": true
+      },
+      {
+        "state": "paused",
+        "pressed": true,
+        "correctPreviews": true,
+        "neutralFavicon": true
+      },
+      {
+        "state": "attention",
+        "pressed": true,
+        "correctPreviews": true,
+        "neutralFavicon": true
+      },
+      {
+        "state": "managed",
+        "pressed": true,
+        "correctPreviews": true,
+        "neutralFavicon": true
+      },
+      {
+        "state": "signedOut",
+        "pressed": true,
+        "correctPreviews": true,
+        "neutralFavicon": true
+      }
+    ],
+    "reconnectAnimation": "switch-wave",
+    "motionOff": true,
+    "reducedMotion": true,
+    "reducedToggleDisabled": true,
+    "overflow": false,
+    "brokenImages": 0,
+    "icons": [
+      {
+        "declared": 16,
+        "actual": 16
+      },
+      {
+        "declared": 24,
+        "actual": 24
+      },
+      {
+        "declared": 48,
+        "actual": 48
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+/* Selected Switch geometry is unchanged. Only state treatment and motion vary. */
+.switch-mark{display:block;overflow:visible;flex-shrink:0;--mark-color:var(--ink,#18201b);--attention-color:var(--amber,#9a5a0e)}
+.switch-mark .gate,.switch-mark .state-pause,.switch-mark .state-managed{fill:var(--mark-color)}
+.switch-mark .state-pause,.switch-mark .state-managed,.switch-mark .state-attention{display:none}
+.switch-mark[data-state=protected] .gate{animation:switch-settle .6s cubic-bezier(.2,.7,.3,1) both}
+.switch-mark[data-state=reconnecting] .gate{animation:switch-wave 1.5s ease-in-out infinite}
+.switch-mark[data-state=reconnecting] .gate-b{animation-delay:.18s}
+.switch-mark[data-state=paused] .gate{opacity:.4}
+.switch-mark[data-state=paused] .state-pause{display:block}
+.switch-mark[data-state=attention] .gate-b{fill:var(--attention-color);animation:switch-attention 1.8s ease-in-out infinite}
+.switch-mark[data-state=attention] .state-attention{display:block;fill:var(--attention-color)}
+.switch-mark[data-state=managed] .state-managed{display:block}
+.switch-mark[data-state=signedOut] .gate{fill:none;stroke:var(--mark-color);stroke-width:1.5;opacity:.65}
+.dark .switch-mark{--mark-color:var(--white,#ffffff);--attention-color:var(--amber-soft,#fff1dc)}
+.state-controls .switch-mark *, .state-grid .switch-mark *{animation:none!important}
+.motion-off .switch-mark *{animation:none!important}
+@keyframes switch-settle{from{opacity:.2;transform:translateY(3px)}to{opacity:1;transform:translateY(0)}}
+@keyframes switch-wave{0%,70%,100%{opacity:1}30%{opacity:.24}}
+@keyframes switch-attention{0%,100%{opacity:1}50%{opacity:.35}}
+@media(prefers-reduced-motion:reduce){.switch-mark *{animation:none!important}}
