@@ -1,0 +1,92 @@
+[
+  {
+    "width": 1440,
+    "errors": [],
+    "violations": [],
+    "overflow": false,
+    "brokenImages": 0,
+    "icons": [
+      {
+        "declared": 16,
+        "actual": 16
+      },
+      {
+        "declared": 24,
+        "actual": 24
+      },
+      {
+        "declared": 48,
+        "actual": 48
+      },
+      {
+        "declared": 16,
+        "actual": 16
+      },
+      {
+        "declared": 24,
+        "actual": 24
+      },
+      {
+        "declared": 48,
+        "actual": 48
+      },
+      {
+        "declared": 16,
+        "actual": 16
+      },
+      {
+        "declared": 24,
+        "actual": 24
+      },
+      {
+        "declared": 48,
+        "actual": 48
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "errors": [],
+    "violations": [],
+    "overflow": false,
+    "brokenImages": 0,
+    "icons": [
+      {
+        "declared": 16,
+        "actual": 16
+      },
+      {
+        "declared": 24,
+        "actual": 24
+      },
+      {
+        "declared": 48,
+        "actual": 48
+      },
+      {
+        "declared": 16,
+        "actual": 16
+      },
+      {
+        "declared": 24,
+        "actual": 24
+      },
+      {
+        "declared": 48,
+        "actual": 48
+      },
+      {
+        "declared": 16,
+        "actual": 16
+      },
+      {
+        "declared": 24,
+        "actual": 24
+      },
+      {
+        "declared": 48,
+        "actual": 48
+      }
+    ]
+  }
+]
