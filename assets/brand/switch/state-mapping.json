@@ -1,0 +1,63 @@
+{
+  "selectedGeometry": {
+    "gateA": "M5 5h16v6H11v9H5V5Z",
+    "gateB": "M27 27H11v-6h10v-9h6v15Z"
+  },
+  "referenceFiles": [
+    "Sources/DoormanMenuBar/Glyph.swift",
+    "Sources/DoormanMenuBar/App.swift",
+    "Sources/DoormanModel/Model.swift"
+  ],
+  "states": [
+    {
+      "id": "protected",
+      "label": "Protected",
+      "summary": "Active and settled.",
+      "treatment": "The two gates settle into place, then stay still.",
+      "timing": "One entrance \u00b7 0.6 s",
+      "sourceMapping": "A 0.6-second settle on entry follows the native protected transition."
+    },
+    {
+      "id": "reconnecting",
+      "label": "Reconnecting",
+      "summary": "A connection is being restored.",
+      "treatment": "An offset wave moves through the two gates. The symbol keeps its shape.",
+      "timing": "Soft wave \u00b7 1.5 s",
+      "sourceMapping": "A 1.5-second opacity wave adapts the existing seven-tile reconnect animation. \u201cLoading\u201d can share this motion only while connection or setup is actually pending."
+    },
+    {
+      "id": "paused",
+      "label": "Paused",
+      "summary": "Routing is paused.",
+      "treatment": "Quiet gates and a small pause sign keep the state recognizable without motion.",
+      "timing": "Static \u00b7 pause mark",
+      "sourceMapping": "The native paused state dims its tiles to 40% and outlines its door. Switch keeps the dimming and proposes two small pause bars."
+    },
+    {
+      "id": "attention",
+      "label": "Needs attention",
+      "summary": "There is something to review.",
+      "treatment": "One gate carries a slow amber pulse; a small marker remains when motion stops.",
+      "timing": "Amber pulse \u00b7 1.8 s",
+      "sourceMapping": "A 1.8-second pulse follows native attention timing. The proposed marker replaces the displaced native corner tile; shape and text accompany color."
+    },
+    {
+      "id": "managed",
+      "label": "Managed",
+      "summary": "Settings are managed by your team.",
+      "treatment": "A gate bar joins the two halves. Clear ownership, without an alert.",
+      "timing": "Static \u00b7 managed bar",
+      "sourceMapping": "The native managed state adds a gate bar across its door. Switch carries that bar through the central opening."
+    },
+    {
+      "id": "signedOut",
+      "label": "Signed out",
+      "summary": "Sign in to connect Doorman.",
+      "treatment": "The solid mark becomes an outline. Present, but not active.",
+      "timing": "Static \u00b7 outlined",
+      "sourceMapping": "The native signed-out state outlines its tiles and door. Switch uses the same outline convention."
+    }
+  ],
+  "nativeReferenceCommit": "f9011431294746e3ae68cf5e809d376e3eb2a55d",
+  "status": "Selected geometry approved by owner; motion/state treatments proposed for implementation"
+}

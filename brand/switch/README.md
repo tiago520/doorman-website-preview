@@ -15,4 +15,4 @@ The six-state native reference is Sources/DoormanMenuBar/Glyph.swift, App.swift 
 
 Verification: Playwright at 1440 and 390, keyboard selection of all six states, one pressed state at a time, matching inspector/menu previews, neutral browser tab, animation on/off, reduced-motion behavior, exact 16/24/48 sizes, no overflow/broken images/browser errors, and zero axe WCAG AA violations on both pages. Results: verification.json.
 
-Fonts: local subsets of Inter, SIL Open Font License in assets/OFL.txt. SVG wordmarks use outlines. No analytics or external requests.
+Fonts: the shared local Inter variable subsets used by the website and console; SIL Open Font License in fonts/OFL.txt. SVG wordmarks use outlines. No analytics or external requests.
