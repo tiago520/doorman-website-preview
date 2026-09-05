@@ -32,6 +32,7 @@
 .nx-branding .browser-tab > span:nth-child(2) { flex: 1; }
 .nx-branding .browser-address { display: block; font-size: 11px; color: var(--muted); padding: 14px 4px 0; }
 .nx-branding .context-note { font-size: 12px; line-height: 1.7; color: var(--muted); margin-top: 22px; max-width: 420px; }
+.nx-branding .context-note a, .nx-branding .brand-provenance a { display: inline-flex; align-items: center; min-height: 32px; }
 .nx-branding .colors, .nx-branding .states, .nx-branding .brand-usage { margin-top: 100px; }
 .nx-branding .section-heading { text-align: center; }
 .nx-branding .section-heading h2 { margin: 14px auto 18px; }

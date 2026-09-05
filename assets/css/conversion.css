@@ -14,6 +14,8 @@
 .nx .cx-audience p { font-size: 13px; line-height: 21px; color: var(--muted); }
 .nx .cx-audience .link { margin-top: auto; font-size: 12px; }
 .nx .cx-action-note { font-size: 12px; line-height: 20px; color: var(--muted); margin-top: 18px; }
+.nx .band .cx-action-note { color: var(--ink); }
+.nx .nx-native-table td a, .nx .nx-help-panel p > a { display: inline-flex; align-items: center; min-height: 32px; }
 .nx .cx-reading { max-width: 760px; }
 .nx .cx-guide-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 22px; }
 .nx .cx-guide-card { display: block; padding: 28px; border: 1px solid var(--line); border-radius: var(--r-12); color: var(--ink); text-decoration: none; }

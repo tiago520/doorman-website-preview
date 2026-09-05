@@ -89,10 +89,23 @@ scale differs between marketing and an operational console; family and clarity a
 ## Implementation and proof
 
 The website and independent console preview implement the selected brand. Native
-menu bars here are **identity applications**, not captured native-app screenshots.
-The new native state drawing is a proposal for implementation; this bundle does not
-change Swift or Go behavior. State timings are based on native commit
-`f9011431294746e3ae68cf5e809d376e3eb2a55d`, `Glyph.swift`, `App.swift`, and `Model.swift`.
+menu bars in this identity playground are **identity applications**, not captured
+native-app screenshots. Selecting a state changes the demonstration only.
+
+All six Switch glyph states and the native brand mark are implemented in isolated
+[native preview PR #4](https://github.com/DoormanAI/doorman-mac/pull/4), source
+`ebad20b2616de26ce8ee38e95ebdd5d066a1c907`. The preview preserves the existing state
+actions and 0.6 s / 1.5 s / 1.8 s timings from production reference
+`f9011431294746e3ae68cf5e809d376e3eb2a55d`; reduced motion stops the native animation
+timers. See `Glyph.swift`, `App.swift`, and `Model.swift` for the actual state bindings.
+Main and released apps remain unchanged; this is not a production release.
+
+[Actual macOS screenshots](https://tiago520.github.io/doorman-website-preview/next/macos.html)
+were captured from these SwiftUI views on macOS with true 2× backing resolution.
+They are labeled **Native preview build · example data**: development fixtures, not
+customer activity or proof of live routing. The native build and captures were verified;
+interactive native action flows were not end-to-end tested. The web demonstration
+checks below do not establish native behavior.
 
 [Verification results](verification.json): desktop/mobile keyboard selection, six
 states, motion toggle, OS reduced motion, tiny sizes, neutral favicon, no overflow,

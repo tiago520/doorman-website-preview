@@ -15,7 +15,7 @@ if (search) {
 const intent = new URLSearchParams(location.search).get('intent');
 const topic = document.querySelector('#nx-contact-form select[name="topic"]');
 if (topic && intent) {
-  const labels = { macos: 'macos', team: 'team', security: 'security', deployment: 'deployment', support: 'support' };
+  const labels = { macos: 'macos', team: 'team', security: 'security', deployment: 'deployment', support: 'support', finance: 'finance' };
   const option = [...topic.options].find(option => (option.value + ' ' + option.text).toLowerCase().includes(labels[intent] || '\u0000'));
   if (option) topic.value = option.value;
 }

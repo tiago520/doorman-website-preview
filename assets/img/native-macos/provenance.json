@@ -1,0 +1,28 @@
+{
+  "rendering": "Actual preview SwiftUI views raster-captured from NSHostingView on an ephemeral macOS Retina display at native 2x backing scale, including native controls; view content without desktop window chrome",
+  "fixture_data": true,
+  "fixture": "stub/helper-stub.mjs",
+  "production_base_sha": "f9011431294746e3ae68cf5e809d376e3eb2a55d",
+  "capture_commit": "ebad20b2616de26ce8ee38e95ebdd5d066a1c907",
+  "os": "macOS-15.7.9-arm64-arm-64bit-Mach-O",
+  "run_id": "33984022562",
+  "limitations": [
+    "Switch native identity is implemented in this isolated preview build; it is not a released app.",
+    "Coverage, money, model names and account data are bundled fixture examples, not observed customer activity.",
+    "No installation, certificate trust, provider connection or traffic routing was performed."
+  ],
+  "images": [
+    "doctor@2x.png",
+    "popover-attention@2x.png",
+    "popover-managed@2x.png",
+    "popover-paused@2x.png",
+    "popover-protected@2x.png",
+    "popover-reconnecting@2x.png",
+    "popover-signedOut@2x.png",
+    "preferences@2x.png",
+    "setup-0@2x.png",
+    "setup-1@2x.png",
+    "setup-2@2x.png",
+    "supported-apps@2x.png"
+  ]
+}
