@@ -1,0 +1,63 @@
+1
+00:00:00,000 --> 00:00:01,647
+Summarize this pull request.
+
+2
+00:00:01,667 --> 00:00:03,313
+ONE REQUEST.
+
+3
+00:00:03,333 --> 00:00:04,980
+Claude Code. Codex. Your AI apps.
+
+4
+00:00:05,000 --> 00:00:06,647
+Meet Doorman. The AI gateway.
+
+5
+00:00:06,667 --> 00:00:08,313
+Your tools. Doorman. Your models.
+
+6
+00:00:08,333 --> 00:00:09,980
+The task and your policy guide a suitable model.
+
+7
+00:00:10,000 --> 00:00:11,230
+Routing follows your policy.
+
+8
+00:00:11,250 --> 00:00:12,480
+YOUR LIMITS.
+
+9
+00:00:12,500 --> 00:00:13,730
+Choose the limits.
+
+10
+00:00:13,750 --> 00:00:14,980
+Budgets. Data rules. Agent permissions.
+
+11
+00:00:15,000 --> 00:00:16,647
+CLEAR COSTS.
+
+12
+00:00:16,667 --> 00:00:18,313
+Follow recorded costs.
+
+13
+00:00:18,333 --> 00:00:19,980
+Your providers. Your models. Your keys.
+
+14
+00:00:20,000 --> 00:00:21,647
+KEEP BUILDING.
+
+15
+00:00:21,667 --> 00:00:23,313
+Meet Doorman. The AI gateway.
+
+16
+00:00:23,333 --> 00:00:26,647
+Your AI. Under control. doorman.ai

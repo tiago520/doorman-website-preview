@@ -1,0 +1,75 @@
+1
+00:00:00,000 --> 00:00:00,837
+YOUR AI.
+
+2
+00:00:00,857 --> 00:00:01,694
+MORE TOOLS.
+
+3
+00:00:01,714 --> 00:00:02,551
+Claude Code. Codex. Your AI apps.
+
+4
+00:00:02,571 --> 00:00:03,409
+MORE AGENTS.
+
+5
+00:00:03,429 --> 00:00:05,123
+Meet Doorman. The AI gateway.
+
+6
+00:00:05,143 --> 00:00:06,837
+Your tools. Doorman. Your models.
+
+7
+00:00:06,857 --> 00:00:07,694
+ROUTE SMARTER.
+
+8
+00:00:07,714 --> 00:00:08,551
+Summarize this pull request.
+
+9
+00:00:08,571 --> 00:00:10,266
+The task and your policy guide a suitable model.
+
+10
+00:00:10,286 --> 00:00:11,123
+SET LIMITS.
+
+11
+00:00:11,143 --> 00:00:12,409
+Set clear budgets.
+
+12
+00:00:12,429 --> 00:00:13,694
+Budgets. Data rules. Agent permissions.
+
+13
+00:00:13,714 --> 00:00:14,551
+SEE THE SPEND.
+
+14
+00:00:14,571 --> 00:00:16,266
+Understand recorded spend.
+
+15
+00:00:16,286 --> 00:00:17,123
+YOUR TOOLS.
+
+16
+00:00:17,143 --> 00:00:17,980
+YOUR KEYS.
+
+17
+00:00:18,000 --> 00:00:18,837
+YOUR RULES.
+
+18
+00:00:18,857 --> 00:00:20,551
+Your tools. Your keys. Your rules.
+
+19
+00:00:20,571 --> 00:00:23,980
+Your AI. Under control. doorman.ai

@@ -1,0 +1,566 @@
+[
+  {
+    "id": "04-velocity",
+    "title": "Velocity",
+    "bpm": 140,
+    "duration": 24,
+    "poster": 4.1,
+    "description": "Big type. Abrupt scale changes. Tight product close-ups. A driving 140 BPM electro groove.",
+    "shots": [
+      {
+        "beats": 2,
+        "kind": "type",
+        "words": [
+          "YOUR",
+          "AI."
+        ],
+        "bg": "#18201b",
+        "start": 0,
+        "duration": 0.8571428571428571
+      },
+      {
+        "beats": 2,
+        "kind": "type",
+        "words": [
+          "MORE",
+          "TOOLS."
+        ],
+        "bg": "#18201b",
+        "start": 0.8571428571428571,
+        "duration": 0.8571428571428571
+      },
+      {
+        "beats": 2,
+        "kind": "tools",
+        "words": [],
+        "bg": "#18201b",
+        "start": 1.7142857142857142,
+        "duration": 0.8571428571428571
+      },
+      {
+        "beats": 2,
+        "kind": "type",
+        "words": [
+          "MORE",
+          "AGENTS."
+        ],
+        "bg": "#18201b",
+        "start": 2.5714285714285716,
+        "duration": 0.8571428571428571
+      },
+      {
+        "beats": 4,
+        "kind": "brand",
+        "words": [],
+        "bg": "#ffe600",
+        "start": 3.4285714285714284,
+        "duration": 1.7142857142857142
+      },
+      {
+        "beats": 4,
+        "kind": "flow",
+        "words": [],
+        "bg": "#f7f7f3",
+        "start": 5.142857142857143,
+        "duration": 1.7142857142857142
+      },
+      {
+        "beats": 2,
+        "kind": "type",
+        "words": [
+          "ROUTE",
+          "SMARTER."
+        ],
+        "bg": "#18201b",
+        "start": 6.857142857142857,
+        "duration": 0.8571428571428571
+      },
+      {
+        "beats": 2,
+        "kind": "request",
+        "words": [],
+        "bg": "#f7f7f3",
+        "start": 7.714285714285714,
+        "duration": 0.8571428571428571
+      },
+      {
+        "beats": 4,
+        "kind": "route",
+        "words": [],
+        "bg": "#f7f7f3",
+        "start": 8.571428571428571,
+        "duration": 1.7142857142857142
+      },
+      {
+        "beats": 2,
+        "kind": "type",
+        "words": [
+          "SET",
+          "LIMITS."
+        ],
+        "bg": "#18201b",
+        "start": 10.285714285714286,
+        "duration": 0.8571428571428571
+      },
+      {
+        "beats": 3,
+        "kind": "capture",
+        "words": [],
+        "bg": "#f7f7f3",
+        "image": "budgets",
+        "label": "Set clear budgets.",
+        "focus": "budget",
+        "start": 11.142857142857142,
+        "duration": 1.2857142857142858
+      },
+      {
+        "beats": 3,
+        "kind": "policies",
+        "words": [],
+        "bg": "#f7f7f3",
+        "start": 12.428571428571429,
+        "duration": 1.2857142857142858
+      },
+      {
+        "beats": 2,
+        "kind": "type",
+        "words": [
+          "SEE THE",
+          "SPEND."
+        ],
+        "bg": "#18201b",
+        "start": 13.714285714285714,
+        "duration": 0.8571428571428571
+      },
+      {
+        "beats": 4,
+        "kind": "capture",
+        "words": [],
+        "bg": "#f7f7f3",
+        "image": "spend",
+        "label": "Understand recorded spend.",
+        "focus": "spend",
+        "start": 14.571428571428571,
+        "duration": 1.7142857142857142
+      },
+      {
+        "beats": 2,
+        "kind": "type",
+        "words": [
+          "YOUR",
+          "TOOLS."
+        ],
+        "bg": "#18201b",
+        "start": 16.285714285714285,
+        "duration": 0.8571428571428571
+      },
+      {
+        "beats": 2,
+        "kind": "type",
+        "words": [
+          "YOUR",
+          "KEYS."
+        ],
+        "bg": "#18201b",
+        "start": 17.142857142857142,
+        "duration": 0.8571428571428571
+      },
+      {
+        "beats": 2,
+        "kind": "type",
+        "words": [
+          "YOUR",
+          "RULES."
+        ],
+        "bg": "#18201b",
+        "start": 18,
+        "duration": 0.8571428571428571
+      },
+      {
+        "beats": 4,
+        "kind": "montage",
+        "words": [],
+        "bg": "#f7f7f3",
+        "start": 18.857142857142858,
+        "duration": 1.7142857142857142
+      },
+      {
+        "beats": 8,
+        "kind": "end",
+        "words": [],
+        "bg": "#ffe600",
+        "start": 20.571428571428573,
+        "duration": 3.4285714285714284
+      }
+    ]
+  },
+  {
+    "id": "05-assembly",
+    "title": "Assembly",
+    "bpm": 144,
+    "duration": 26.666666666666668,
+    "poster": 0.9,
+    "description": "Follow the request through moving layers, precision edits and product detail. A syncopated 144 BPM bass groove.",
+    "shots": [
+      {
+        "beats": 4,
+        "kind": "request",
+        "words": [],
+        "bg": "#f7f7f3",
+        "macro": true,
+        "start": 0,
+        "duration": 1.6666666666666667
+      },
+      {
+        "beats": 4,
+        "kind": "type",
+        "words": [
+          "ONE",
+          "REQUEST."
+        ],
+        "bg": "#18201b",
+        "start": 1.6666666666666667,
+        "duration": 1.6666666666666667
+      },
+      {
+        "beats": 4,
+        "kind": "tools",
+        "words": [],
+        "bg": "#f7f7f3",
+        "start": 3.3333333333333335,
+        "duration": 1.6666666666666667
+      },
+      {
+        "beats": 4,
+        "kind": "brand",
+        "words": [],
+        "bg": "#18201b",
+        "start": 5,
+        "duration": 1.6666666666666667
+      },
+      {
+        "beats": 4,
+        "kind": "flow",
+        "words": [],
+        "bg": "#f7f7f3",
+        "start": 6.666666666666667,
+        "duration": 1.6666666666666667
+      },
+      {
+        "beats": 4,
+        "kind": "route",
+        "words": [],
+        "bg": "#f7f7f3",
+        "start": 8.333333333333334,
+        "duration": 1.6666666666666667
+      },
+      {
+        "beats": 3,
+        "kind": "capture",
+        "words": [],
+        "bg": "#f7f7f3",
+        "image": "routing",
+        "label": "Routing follows your policy.",
+        "focus": "routing",
+        "start": 10,
+        "duration": 1.25
+      },
+      {
+        "beats": 3,
+        "kind": "type",
+        "words": [
+          "YOUR",
+          "LIMITS."
+        ],
+        "bg": "#18201b",
+        "start": 11.25,
+        "duration": 1.25
+      },
+      {
+        "beats": 3,
+        "kind": "capture",
+        "words": [],
+        "bg": "#f7f7f3",
+        "image": "budgets",
+        "label": "Choose the limits.",
+        "focus": "budget",
+        "start": 12.5,
+        "duration": 1.25
+      },
+      {
+        "beats": 3,
+        "kind": "policies",
+        "words": [],
+        "bg": "#f7f7f3",
+        "start": 13.75,
+        "duration": 1.25
+      },
+      {
+        "beats": 4,
+        "kind": "type",
+        "words": [
+          "CLEAR",
+          "COSTS."
+        ],
+        "bg": "#18201b",
+        "start": 15,
+        "duration": 1.6666666666666667
+      },
+      {
+        "beats": 4,
+        "kind": "capture",
+        "words": [],
+        "bg": "#f7f7f3",
+        "image": "spend",
+        "label": "Follow recorded costs.",
+        "focus": "spend",
+        "start": 16.666666666666668,
+        "duration": 1.6666666666666667
+      },
+      {
+        "beats": 4,
+        "kind": "tools",
+        "words": [],
+        "bg": "#f7f7f3",
+        "providers": true,
+        "start": 18.333333333333332,
+        "duration": 1.6666666666666667
+      },
+      {
+        "beats": 4,
+        "kind": "type",
+        "words": [
+          "KEEP",
+          "BUILDING."
+        ],
+        "bg": "#18201b",
+        "start": 20,
+        "duration": 1.6666666666666667
+      },
+      {
+        "beats": 4,
+        "kind": "brand",
+        "words": [],
+        "bg": "#ffe600",
+        "start": 21.666666666666668,
+        "duration": 1.6666666666666667
+      },
+      {
+        "beats": 8,
+        "kind": "end",
+        "words": [],
+        "bg": "#ffe600",
+        "start": 23.333333333333332,
+        "duration": 3.3333333333333335
+      }
+    ]
+  },
+  {
+    "id": "06-overdrive",
+    "title": "Overdrive",
+    "bpm": 168,
+    "duration": 20,
+    "poster": 2.5,
+    "description": "The fastest cut: one-word hits, rapid changes in scale and a 168 BPM broken-beat soundtrack.",
+    "shots": [
+      {
+        "beats": 2,
+        "kind": "type",
+        "words": [
+          "AI."
+        ],
+        "bg": "#18201b",
+        "start": 0,
+        "duration": 0.7142857142857143
+      },
+      {
+        "beats": 2,
+        "kind": "type",
+        "words": [
+          "IS."
+        ],
+        "bg": "#18201b",
+        "start": 0.7142857142857143,
+        "duration": 0.7142857142857143
+      },
+      {
+        "beats": 2,
+        "kind": "type",
+        "words": [
+          "MOVING."
+        ],
+        "bg": "#18201b",
+        "start": 1.4285714285714286,
+        "duration": 0.7142857142857143
+      },
+      {
+        "beats": 2,
+        "kind": "type",
+        "words": [
+          "FAST."
+        ],
+        "bg": "#18201b",
+        "start": 2.142857142857143,
+        "duration": 0.7142857142857143
+      },
+      {
+        "beats": 4,
+        "kind": "brand",
+        "words": [],
+        "bg": "#ffe600",
+        "start": 2.857142857142857,
+        "duration": 1.4285714285714286
+      },
+      {
+        "beats": 2,
+        "kind": "type",
+        "words": [
+          "THE AI",
+          "GATEWAY."
+        ],
+        "bg": "#18201b",
+        "start": 4.285714285714286,
+        "duration": 0.7142857142857143
+      },
+      {
+        "beats": 4,
+        "kind": "flow",
+        "words": [],
+        "bg": "#f7f7f3",
+        "start": 5,
+        "duration": 1.4285714285714286
+      },
+      {
+        "beats": 2,
+        "kind": "type",
+        "words": [
+          "ROUTE."
+        ],
+        "bg": "#18201b",
+        "start": 6.428571428571429,
+        "duration": 0.7142857142857143
+      },
+      {
+        "beats": 4,
+        "kind": "route",
+        "words": [],
+        "bg": "#f7f7f3",
+        "start": 7.142857142857143,
+        "duration": 1.4285714285714286
+      },
+      {
+        "beats": 2,
+        "kind": "type",
+        "words": [
+          "LIMITS."
+        ],
+        "bg": "#18201b",
+        "start": 8.571428571428571,
+        "duration": 0.7142857142857143
+      },
+      {
+        "beats": 2,
+        "kind": "singlePolicy",
+        "words": [
+          "BUDGETS."
+        ],
+        "bg": "#f7f7f3",
+        "policy": 0,
+        "start": 9.285714285714286,
+        "duration": 0.7142857142857143
+      },
+      {
+        "beats": 2,
+        "kind": "singlePolicy",
+        "words": [
+          "DATA."
+        ],
+        "bg": "#f7f7f3",
+        "policy": 1,
+        "start": 10,
+        "duration": 0.7142857142857143
+      },
+      {
+        "beats": 2,
+        "kind": "singlePolicy",
+        "words": [
+          "AGENTS."
+        ],
+        "bg": "#f7f7f3",
+        "policy": 2,
+        "start": 10.714285714285714,
+        "duration": 0.7142857142857143
+      },
+      {
+        "beats": 2,
+        "kind": "type",
+        "words": [
+          "SPEND."
+        ],
+        "bg": "#18201b",
+        "start": 11.428571428571429,
+        "duration": 0.7142857142857143
+      },
+      {
+        "beats": 4,
+        "kind": "capture",
+        "words": [],
+        "bg": "#f7f7f3",
+        "image": "spend",
+        "label": "Know what you spend.",
+        "focus": "spend",
+        "start": 12.142857142857142,
+        "duration": 1.4285714285714286
+      },
+      {
+        "beats": 2,
+        "kind": "type",
+        "words": [
+          "YOUR",
+          "TOOLS."
+        ],
+        "bg": "#18201b",
+        "start": 13.571428571428571,
+        "duration": 0.7142857142857143
+      },
+      {
+        "beats": 2,
+        "kind": "type",
+        "words": [
+          "YOUR",
+          "KEYS."
+        ],
+        "bg": "#18201b",
+        "start": 14.285714285714286,
+        "duration": 0.7142857142857143
+      },
+      {
+        "beats": 2,
+        "kind": "type",
+        "words": [
+          "YOUR",
+          "RULES."
+        ],
+        "bg": "#18201b",
+        "start": 15,
+        "duration": 0.7142857142857143
+      },
+      {
+        "beats": 4,
+        "kind": "montage",
+        "words": [],
+        "bg": "#f7f7f3",
+        "start": 15.714285714285714,
+        "duration": 1.4285714285714286
+      },
+      {
+        "beats": 8,
+        "kind": "end",
+        "words": [],
+        "bg": "#ffe600",
+        "start": 17.142857142857142,
+        "duration": 2.857142857142857
+      }
+    ]
+  }
+]

@@ -1,0 +1,181 @@
+{
+  "exports": [
+    {
+      "file": "04-velocity-landscape.mp4",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 60,
+      "frames": 1440,
+      "duration": 24,
+      "video_codec": "H.264 High",
+      "pixel_format": "yuv420p",
+      "audio_codec": "AAC",
+      "sample_rate": 48000,
+      "channels": 2,
+      "decoded_audio_peak": 0.7171,
+      "decoded_audio_rms": 0.1663,
+      "brand_yellow_rgb": [
+        254,
+        230,
+        0
+      ],
+      "fast_start": true,
+      "full_decode": true,
+      "bytes": 3572518,
+      "sha256": "eebc030effd9212b3357512182bfc380206127150caec08986cf15f0263e09ad"
+    },
+    {
+      "file": "04-velocity-vertical.mp4",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 60,
+      "frames": 1440,
+      "duration": 24,
+      "video_codec": "H.264 High",
+      "pixel_format": "yuv420p",
+      "audio_codec": "AAC",
+      "sample_rate": 48000,
+      "channels": 2,
+      "decoded_audio_peak": 0.7171,
+      "decoded_audio_rms": 0.1663,
+      "brand_yellow_rgb": [
+        252,
+        229,
+        0
+      ],
+      "fast_start": true,
+      "full_decode": true,
+      "bytes": 2558190,
+      "sha256": "90ac193b6a93fd99f3c5316f98ce7fefcf1602792988ce6c6b848cbeb3c77b70"
+    },
+    {
+      "file": "05-assembly-landscape.mp4",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 60,
+      "frames": 1600,
+      "duration": 26.666666666666668,
+      "video_codec": "H.264 High",
+      "pixel_format": "yuv420p",
+      "audio_codec": "AAC",
+      "sample_rate": 48000,
+      "channels": 2,
+      "decoded_audio_peak": 0.6813,
+      "decoded_audio_rms": 0.1675,
+      "brand_yellow_rgb": [
+        254,
+        230,
+        0
+      ],
+      "fast_start": true,
+      "full_decode": true,
+      "bytes": 4100966,
+      "sha256": "0a344f4be6e94572cbb18dad95f1fc9bfdc9c4bd9880624391d6fdcf7e842eaa"
+    },
+    {
+      "file": "05-assembly-vertical.mp4",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 60,
+      "frames": 1600,
+      "duration": 26.666666666666668,
+      "video_codec": "H.264 High",
+      "pixel_format": "yuv420p",
+      "audio_codec": "AAC",
+      "sample_rate": 48000,
+      "channels": 2,
+      "decoded_audio_peak": 0.6813,
+      "decoded_audio_rms": 0.1675,
+      "brand_yellow_rgb": [
+        252,
+        229,
+        0
+      ],
+      "fast_start": true,
+      "full_decode": true,
+      "bytes": 2755259,
+      "sha256": "5c2a0077232390c88a218199c7da2c16caa4dfa7f91b5d55755d5127858f627f"
+    },
+    {
+      "file": "06-overdrive-landscape.mp4",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 60,
+      "frames": 1200,
+      "duration": 20,
+      "video_codec": "H.264 High",
+      "pixel_format": "yuv420p",
+      "audio_codec": "AAC",
+      "sample_rate": 48000,
+      "channels": 2,
+      "decoded_audio_peak": 0.7408,
+      "decoded_audio_rms": 0.1725,
+      "brand_yellow_rgb": [
+        254,
+        230,
+        0
+      ],
+      "fast_start": true,
+      "full_decode": true,
+      "bytes": 2658750,
+      "sha256": "a4e927c5bb25e87be05fd56288e1d4fc7021a6698b39782f521af1239ad3768c"
+    },
+    {
+      "file": "06-overdrive-vertical.mp4",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 60,
+      "frames": 1200,
+      "duration": 20,
+      "video_codec": "H.264 High",
+      "pixel_format": "yuv420p",
+      "audio_codec": "AAC",
+      "sample_rate": 48000,
+      "channels": 2,
+      "decoded_audio_peak": 0.7408,
+      "decoded_audio_rms": 0.1725,
+      "brand_yellow_rgb": [
+        252,
+        229,
+        0
+      ],
+      "fast_start": true,
+      "full_decode": true,
+      "bytes": 2034852,
+      "sha256": "40e0be4da8ef1ef55761f06afeeafd7aee1651c615136cfdd6327dd020bb507d"
+    }
+  ],
+  "soundtracks": [
+    {
+      "file": "04-velocity.m4a",
+      "integrated_lufs": "-14.11",
+      "true_peak_dbtp": "-2.82",
+      "loudness_range": "14.90"
+    },
+    {
+      "file": "05-assembly.m4a",
+      "integrated_lufs": "-14.03",
+      "true_peak_dbtp": "-3.33",
+      "loudness_range": "5.80"
+    },
+    {
+      "file": "06-overdrive.m4a",
+      "integrated_lufs": "-14.03",
+      "true_peak_dbtp": "-2.52",
+      "loudness_range": "6.20"
+    }
+  ],
+  "note": "Actual delivery files fully decoded. No claims of reach, conversion, or native routing validation."
+}

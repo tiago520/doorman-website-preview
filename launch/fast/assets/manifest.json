@@ -1,0 +1,87 @@
+[
+  {
+    "asset": "Inter.ttf",
+    "bytes": 122592,
+    "sha256": "9256f89ca41781779a69466698566c78d2b98e091d3273ddd393d279695e7b66"
+  },
+  {
+    "asset": "OFL.txt",
+    "bytes": 4380,
+    "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+  },
+  {
+    "asset": "brand-guide.md",
+    "bytes": 8840,
+    "sha256": "ae446d5bbc10a97e3e1b58c46e2016e73b39271aff329702932e1607dc8acf0a"
+  },
+  {
+    "asset": "budgets.png",
+    "bytes": 440403,
+    "sha256": "e5cc55619c3e2aaaa857004240261c974cfdc52cf341e33672c378a352e376bf"
+  },
+  {
+    "asset": "guardrails.png",
+    "bytes": 236826,
+    "sha256": "2dff3c42eb8dbe5a94e500debf74e69ac42b87d9093a2335341e838c471c3c79"
+  },
+  {
+    "asset": "inter-latin-variable.woff2",
+    "bytes": 48256,
+    "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62"
+  },
+  {
+    "asset": "native-popover.png",
+    "bytes": 45649,
+    "sha256": "ae85dbb53c1d095e4da45bcb47f3e88815bb38ccc4ca59a5070410ff5653e2bd"
+  },
+  {
+    "asset": "native-provenance.json",
+    "bytes": 1176,
+    "sha256": "76974d7b0f11e4e02df81697d41b306bd92195282fce295a6fe4747a4853d6a5"
+  },
+  {
+    "asset": "overview.png",
+    "bytes": 366558,
+    "sha256": "43457d0a9b7bf7554f25c1a37f1a9b9fba377894cfe2217304babff2d7d13857"
+  },
+  {
+    "asset": "requests.png",
+    "bytes": 340745,
+    "sha256": "cf31f020311cb62549f7d839f7749ce6ec5adff442fc733631409a98b6514c53"
+  },
+  {
+    "asset": "routing.png",
+    "bytes": 384073,
+    "sha256": "138a7e496b0bd0819d05b13bc6d43ff45c4902719b579899aeb83c3399bf90ce"
+  },
+  {
+    "asset": "savings.png",
+    "bytes": 359838,
+    "sha256": "546e073bf08e94a4f6462e94945ed29b55b257f3d6c2a5c31a4425df8ad978c7"
+  },
+  {
+    "asset": "spend.png",
+    "bytes": 327674,
+    "sha256": "c08cd9b98eae32e0bcfc6100a965b4ace732a5337e1f0e2869799945876f61e7"
+  },
+  {
+    "asset": "switch-app.svg",
+    "bytes": 359,
+    "sha256": "9132b1d2b24002a51acb9fca0c04f7783b8abfc678b9a9d3bf62f817f3a8cbb4"
+  },
+  {
+    "asset": "switch-icon.svg",
+    "bytes": 248,
+    "sha256": "34f4e2bca1684fe014c8fdf5b23096dae00f25e4dc83e52dfb34589048824059"
+  },
+  {
+    "asset": "switch-wordmark-white.svg",
+    "bytes": 3855,
+    "sha256": "04f390e531047835690aa790f62387b6c72bf1893e787c2cdce10ed6cc0d6f26"
+  },
+  {
+    "asset": "switch-wordmark.svg",
+    "bytes": 3855,
+    "sha256": "99a8bde882ec86e4d3cf798ca3d055fdb7bfc0bd2ec7bf1d583267822f2c2ff9"
+  }
+]

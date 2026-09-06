@@ -1,0 +1,151 @@
+{
+  "checks": [
+    {
+      "viewport": 1440,
+      "film": 0,
+      "format": "landscape",
+      "width": 1280,
+      "height": 720,
+      "duration": 24.008,
+      "error": null,
+      "src": "exports/04-velocity-landscape.mp4",
+      "playingSource": "http://127.0.0.1:48630/previews/04-velocity-landscape.webm",
+      "playback": true
+    },
+    {
+      "viewport": 1440,
+      "film": 0,
+      "format": "vertical",
+      "width": 720,
+      "height": 1280,
+      "duration": 24.008,
+      "error": null,
+      "src": "exports/04-velocity-vertical.mp4",
+      "playingSource": "http://127.0.0.1:48630/previews/04-velocity-vertical.webm",
+      "playback": true
+    },
+    {
+      "viewport": 1440,
+      "film": 1,
+      "format": "landscape",
+      "width": 1280,
+      "height": 720,
+      "duration": 26.674,
+      "error": null,
+      "src": "exports/05-assembly-landscape.mp4",
+      "playingSource": "http://127.0.0.1:48630/previews/05-assembly-landscape.webm",
+      "playback": true
+    },
+    {
+      "viewport": 1440,
+      "film": 1,
+      "format": "vertical",
+      "width": 720,
+      "height": 1280,
+      "duration": 26.674,
+      "error": null,
+      "src": "exports/05-assembly-vertical.mp4",
+      "playingSource": "http://127.0.0.1:48630/previews/05-assembly-vertical.webm",
+      "playback": true
+    },
+    {
+      "viewport": 1440,
+      "film": 2,
+      "format": "landscape",
+      "width": 1280,
+      "height": 720,
+      "duration": 20.018,
+      "error": null,
+      "src": "exports/06-overdrive-landscape.mp4",
+      "playingSource": "http://127.0.0.1:48630/previews/06-overdrive-landscape.webm",
+      "playback": true
+    },
+    {
+      "viewport": 1440,
+      "film": 2,
+      "format": "vertical",
+      "width": 720,
+      "height": 1280,
+      "duration": 20.018,
+      "error": null,
+      "src": "exports/06-overdrive-vertical.mp4",
+      "playingSource": "http://127.0.0.1:48630/previews/06-overdrive-vertical.webm",
+      "playback": true
+    },
+    {
+      "viewport": 390,
+      "film": 0,
+      "format": "landscape",
+      "width": 1280,
+      "height": 720,
+      "duration": 24.008,
+      "error": null,
+      "src": "exports/04-velocity-landscape.mp4",
+      "playingSource": "http://127.0.0.1:48630/previews/04-velocity-landscape.webm",
+      "playback": true
+    },
+    {
+      "viewport": 390,
+      "film": 0,
+      "format": "vertical",
+      "width": 720,
+      "height": 1280,
+      "duration": 24.008,
+      "error": null,
+      "src": "exports/04-velocity-vertical.mp4",
+      "playingSource": "http://127.0.0.1:48630/previews/04-velocity-vertical.webm",
+      "playback": true
+    },
+    {
+      "viewport": 390,
+      "film": 1,
+      "format": "landscape",
+      "width": 1280,
+      "height": 720,
+      "duration": 26.674,
+      "error": null,
+      "src": "exports/05-assembly-landscape.mp4",
+      "playingSource": "http://127.0.0.1:48630/previews/05-assembly-landscape.webm",
+      "playback": true
+    },
+    {
+      "viewport": 390,
+      "film": 1,
+      "format": "vertical",
+      "width": 720,
+      "height": 1280,
+      "duration": 26.674,
+      "error": null,
+      "src": "exports/05-assembly-vertical.mp4",
+      "playingSource": "http://127.0.0.1:48630/previews/05-assembly-vertical.webm",
+      "playback": true
+    },
+    {
+      "viewport": 390,
+      "film": 2,
+      "format": "landscape",
+      "width": 1280,
+      "height": 720,
+      "duration": 20.018,
+      "error": null,
+      "src": "exports/06-overdrive-landscape.mp4",
+      "playingSource": "http://127.0.0.1:48630/previews/06-overdrive-landscape.webm",
+      "playback": true
+    },
+    {
+      "viewport": 390,
+      "film": 2,
+      "format": "vertical",
+      "width": 720,
+      "height": 1280,
+      "duration": 20.018,
+      "error": null,
+      "src": "exports/06-overdrive-vertical.mp4",
+      "playingSource": "http://127.0.0.1:48630/previews/06-overdrive-vertical.webm",
+      "playback": true
+    }
+  ],
+  "errors": [],
+  "autoplay": false,
+  "reducedMotion": "No autoplay or animated page chrome; video playback is explicitly controlled."
+}
