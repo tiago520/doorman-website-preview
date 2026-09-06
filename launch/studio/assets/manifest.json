@@ -1,0 +1,97 @@
+[
+  {
+    "file": "Inter-400.ttf",
+    "bytes": 66416,
+    "sha256": "735deb793f9dc4085e6346fb93ab6d2a6495e7e2b884789207dbe47d027bbec8"
+  },
+  {
+    "file": "Inter-500.ttf",
+    "bytes": 66496,
+    "sha256": "2129a10cbe5a81e84845b8762af914d30995f5bfabc2c5a94b203ad31e3ff0e2"
+  },
+  {
+    "file": "Inter-600.ttf",
+    "bytes": 66596,
+    "sha256": "b0d9e6c19b3d6dbb39776ea05539fc972393595b59dc66a334372ee5e674f659"
+  },
+  {
+    "file": "Inter-700.ttf",
+    "bytes": 66640,
+    "sha256": "6fab0ebf5bd115ba65c71d18ecd38ae564c09b1e0024f24add5104856b804778"
+  },
+  {
+    "file": "Inter.ttf",
+    "bytes": 122592,
+    "sha256": "9256f89ca41781779a69466698566c78d2b98e091d3273ddd393d279695e7b66"
+  },
+  {
+    "file": "OFL.txt",
+    "bytes": 4380,
+    "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+  },
+  {
+    "file": "brand-guide.md",
+    "bytes": 8840,
+    "sha256": "ae446d5bbc10a97e3e1b58c46e2016e73b39271aff329702932e1607dc8acf0a"
+  },
+  {
+    "file": "budgets.png",
+    "bytes": 440403,
+    "sha256": "e5cc55619c3e2aaaa857004240261c974cfdc52cf341e33672c378a352e376bf"
+  },
+  {
+    "file": "fins.png",
+    "bytes": 1483156,
+    "sha256": "c5f3fc9bf79ac6ab7b9237ea569f85c9e859a7fd19f32a0c4a234f0eb576c962"
+  },
+  {
+    "file": "inter-latin-variable.woff2",
+    "bytes": 48256,
+    "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62"
+  },
+  {
+    "file": "overview.png",
+    "bytes": 366558,
+    "sha256": "43457d0a9b7bf7554f25c1a37f1a9b9fba377894cfe2217304babff2d7d13857"
+  },
+  {
+    "file": "requests.png",
+    "bytes": 340745,
+    "sha256": "cf31f020311cb62549f7d839f7749ce6ec5adff442fc733631409a98b6514c53"
+  },
+  {
+    "file": "ribbons.png",
+    "bytes": 1395700,
+    "sha256": "d9aad65535196d21c805c3235674fd920a1cf74af42e565d67f8ae814607c6fe"
+  },
+  {
+    "file": "routing.png",
+    "bytes": 384073,
+    "sha256": "138a7e496b0bd0819d05b13bc6d43ff45c4902719b579899aeb83c3399bf90ce"
+  },
+  {
+    "file": "spend.png",
+    "bytes": 327674,
+    "sha256": "c08cd9b98eae32e0bcfc6100a965b4ace732a5337e1f0e2869799945876f61e7"
+  },
+  {
+    "file": "switch-app.svg",
+    "bytes": 359,
+    "sha256": "9132b1d2b24002a51acb9fca0c04f7783b8abfc678b9a9d3bf62f817f3a8cbb4"
+  },
+  {
+    "file": "switch-icon.svg",
+    "bytes": 248,
+    "sha256": "34f4e2bca1684fe014c8fdf5b23096dae00f25e4dc83e52dfb34589048824059"
+  },
+  {
+    "file": "switch-wordmark-white.svg",
+    "bytes": 3855,
+    "sha256": "04f390e531047835690aa790f62387b6c72bf1893e787c2cdce10ed6cc0d6f26"
+  },
+  {
+    "file": "switch-wordmark.svg",
+    "bytes": 3855,
+    "sha256": "99a8bde882ec86e4d3cf798ca3d055fdb7bfc0bd2ec7bf1d583267822f2c2ff9"
+  }
+]

@@ -1,0 +1,111 @@
+{
+  "exports": [
+    {
+      "file": "07-studio-groove-landscape.mp4",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "duration": 48,
+      "fps": 60,
+      "frames": 2880,
+      "video": "H.264 High / Rec.709",
+      "audio": "AAC / stereo / 48 kHz",
+      "audio_rms": 0.17026385659551824,
+      "audio_peak": 0.7409367561340332,
+      "lufs": -14.05,
+      "true_peak_dbtp": -1.77,
+      "brand_yellow_rgb": [
+        254,
+        230,
+        0
+      ],
+      "full_decode": true,
+      "fast_start": true,
+      "bytes": 23867074,
+      "sha256": "2e5307fc8a55378cae5e1e7d0afe5167723a7cef57a852d85ddc30cea76ca263"
+    },
+    {
+      "file": "07-studio-groove-vertical.mp4",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "duration": 48,
+      "fps": 60,
+      "frames": 2880,
+      "video": "H.264 High / Rec.709",
+      "audio": "AAC / stereo / 48 kHz",
+      "audio_rms": 0.17026385659551824,
+      "audio_peak": 0.7409367561340332,
+      "lufs": -14.05,
+      "true_peak_dbtp": -1.77,
+      "brand_yellow_rgb": [
+        252,
+        229,
+        0
+      ],
+      "full_decode": true,
+      "fast_start": true,
+      "bytes": 22688644,
+      "sha256": "1d65ac583921b096df2840485c774895d3405b4eaf4483cb19c201cb55646c6a"
+    },
+    {
+      "file": "08-studio-club-landscape.mp4",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "duration": 48,
+      "fps": 60,
+      "frames": 2880,
+      "video": "H.264 High / Rec.709",
+      "audio": "AAC / stereo / 48 kHz",
+      "audio_rms": 0.18188746587811536,
+      "audio_peak": 0.7922033071517944,
+      "lufs": -14.02,
+      "true_peak_dbtp": -1.96,
+      "brand_yellow_rgb": [
+        254,
+        230,
+        0
+      ],
+      "full_decode": true,
+      "fast_start": true,
+      "bytes": 23873059,
+      "sha256": "871dd95bb339618b9de74621b576efa93c2fbbb263069649895793912105320b"
+    },
+    {
+      "file": "08-studio-club-vertical.mp4",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "duration": 48,
+      "fps": 60,
+      "frames": 2880,
+      "video": "H.264 High / Rec.709",
+      "audio": "AAC / stereo / 48 kHz",
+      "audio_rms": 0.18188746587811536,
+      "audio_peak": 0.7922033071517944,
+      "lufs": -14.02,
+      "true_peak_dbtp": -1.96,
+      "brand_yellow_rgb": [
+        252,
+        229,
+        0
+      ],
+      "full_decode": true,
+      "fast_start": true,
+      "bytes": 22694629,
+      "sha256": "7a138a9b1d48144553305852fb543ae0718e179c4845cc6ba44db68981f922de"
+    }
+  ],
+  "reading_time": {
+    "minimum_scene_seconds": 4,
+    "minimum_settled_headline_seconds": 3.3,
+    "maximum_scene_seconds": 6,
+    "story_scenes": 9
+  },
+  "verification_scope": "Media decoding, audio levels, brand-color sample and delivery timing. Audience response is not measured."
+}

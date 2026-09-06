@@ -1,0 +1,24 @@
+{
+  "track": "Deep Urban",
+  "artist": "Eugenio Mininni",
+  "source_sha256": "ac7e28f0cdd6c607df199c759f34ca66cfebd881ea61c26473fb4cecebe64fa8",
+  "source_start": 16,
+  "duration": 48,
+  "license": "Mixkit Stock Music Free License",
+  "source_page": "https://mixkit.co/free-stock-music/house/",
+  "license_url": "https://mixkit.co/license/#musicFree",
+  "changes": "48-second audiovisual sync excerpt, edge fades and loudness normalization. No new musical arrangement.",
+  "measurement": {
+    "input_i": "-9.07",
+    "input_tp": "0.00",
+    "input_lra": "1.20",
+    "input_thresh": "-19.08",
+    "output_i": "-13.92",
+    "output_tp": "-4.85",
+    "output_lra": "1.20",
+    "output_thresh": "-23.93",
+    "normalization_type": "linear",
+    "target_offset": "-0.08"
+  },
+  "delivery": "Music is included in finished video exports; standalone tracks are not distributed."
+}

@@ -1,0 +1,11 @@
+# Background artwork
+
+Generated with the built-in image tool for this film. The supplied Doorman identity is composited separately and retains its original geometry.
+
+## Ribbons
+
+Use case: ads-marketing. Asset type: cinematic background plate for a premium software product launch film, landscape 16:9, high resolution. Create an impeccably art-directed CGI macro photograph of a few broad, sculptural ribbons of dark satin metal curving through deep black space. Think high-end industrial studio photography: tactile graphite surfaces, brushed silver grazing highlights, a restrained lemon-yellow #ffe600 reflected edge. Large uninterrupted black negative space in the center and upper left for legible typography. The forms frame the perimeter and lower right, flowing diagonally with elegant depth. Strong chiaroscuro, crisp selective focus, rich almost-black #111612 and #18201b shadows, controlled studio softboxes. This should feel like a luxury technology launch film still, exceptionally clean material rendering. No objects resembling a logo, no door shapes, no icons, no computers, no devices, no typography, no UI, no text, no watermark, no purple, no blue, no rainbow, no stars, no neon glow, no generic sci-fi grids. Do not make a collage.
+
+## Fins
+
+Use case: ads-marketing. Asset type: second cinematic background plate for the same premium software launch film, landscape 16:9, high resolution. An extreme macro, architectural close-up of precisely machined graphite channels and polished black glass fins, arranged as an abstract sweeping curved surface fading into an infinite dark studio. Only the right half and lower edge contain the sculptural material; the left half is deep clean black negative space suitable for white headline copy. Precise thin silver highlights and a few sharply controlled reflections of Doorman lemon-yellow #ffe600. Rich deep ink #18201b and black, sophisticated industrial product lighting, shallow depth of field, photorealistic CGI, physical material quality, no noise or grunge. Monolithic, confident, architectural, tactile. No recognizable hardware, no logo, no icon, no door, no microchip text, no letters, no numbers, no UI, no watermark, no blue, no purple, no glowing sci-fi circuits, no starfield. One coherent composition, no collage.

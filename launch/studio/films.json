@@ -1,0 +1,134 @@
+[
+  {
+    "id": "07-studio-groove",
+    "title": "Studio groove",
+    "duration": 48,
+    "poster": 2.5,
+    "track": "Deep Urban",
+    "artist": "Eugenio Mininni",
+    "source": "deep-urban-source.mp3",
+    "offset": 16,
+    "shots": [
+      {
+        "start": 0,
+        "duration": 4,
+        "kind": "opening",
+        "text": "AI moves fast. Keep control."
+      },
+      {
+        "start": 4,
+        "duration": 4,
+        "kind": "reveal",
+        "text": "Meet Doorman. The AI gateway."
+      },
+      {
+        "start": 8,
+        "duration": 6,
+        "kind": "tools",
+        "text": "Keep your tools. Bring supported AI traffic through one gateway."
+      },
+      {
+        "start": 14,
+        "duration": 6,
+        "kind": "routing",
+        "text": "Route with intent. The task and your policy guide the model."
+      },
+      {
+        "start": 20,
+        "duration": 6,
+        "kind": "budgets",
+        "text": "Set the limits. Choose budgets and how they are enforced."
+      },
+      {
+        "start": 26,
+        "duration": 6,
+        "kind": "rules",
+        "text": "Define the boundaries. Data rules. Agent permissions."
+      },
+      {
+        "start": 32,
+        "duration": 6,
+        "kind": "spend",
+        "text": "See the spend. Follow recorded costs in one console."
+      },
+      {
+        "start": 38,
+        "duration": 4,
+        "kind": "ownership",
+        "text": "Your tools. Your keys. Your rules."
+      },
+      {
+        "start": 42,
+        "duration": 6,
+        "kind": "end",
+        "text": "Your AI. Under control. doorman.ai"
+      }
+    ]
+  },
+  {
+    "id": "08-studio-club",
+    "title": "Club mix",
+    "duration": 48,
+    "poster": 16.8,
+    "track": "Cat Walk",
+    "artist": "Arulo",
+    "source": "cat-walk-source.mp3",
+    "offset": 24,
+    "shots": [
+      {
+        "start": 0,
+        "duration": 4,
+        "kind": "opening",
+        "text": "AI moves fast. Keep control."
+      },
+      {
+        "start": 4,
+        "duration": 4,
+        "kind": "reveal",
+        "text": "Meet Doorman. The AI gateway."
+      },
+      {
+        "start": 8,
+        "duration": 6,
+        "kind": "tools",
+        "text": "Keep your tools. Bring supported AI traffic through one gateway."
+      },
+      {
+        "start": 14,
+        "duration": 6,
+        "kind": "routing",
+        "text": "Route with intent. The task and your policy guide the model."
+      },
+      {
+        "start": 20,
+        "duration": 6,
+        "kind": "budgets",
+        "text": "Set the limits. Choose budgets and how they are enforced."
+      },
+      {
+        "start": 26,
+        "duration": 6,
+        "kind": "rules",
+        "text": "Define the boundaries. Data rules. Agent permissions."
+      },
+      {
+        "start": 32,
+        "duration": 6,
+        "kind": "spend",
+        "text": "See the spend. Follow recorded costs in one console."
+      },
+      {
+        "start": 38,
+        "duration": 4,
+        "kind": "ownership",
+        "text": "Your tools. Your keys. Your rules."
+      },
+      {
+        "start": 42,
+        "duration": 6,
+        "kind": "end",
+        "text": "Your AI. Under control. doorman.ai"
+      }
+    ]
+  }
+]

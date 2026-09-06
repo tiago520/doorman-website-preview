@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:03,970
+AI moves fast. Keep control.
+
+2
+00:00:04,000 --> 00:00:07,970
+Meet Doorman. The AI gateway.
+
+3
+00:00:08,000 --> 00:00:13,970
+Keep your tools. Bring supported AI traffic through one gateway.
+
+4
+00:00:14,000 --> 00:00:19,970
+Route with intent. The task and your policy guide the model.
+
+5
+00:00:20,000 --> 00:00:25,970
+Set the limits. Choose budgets and how they are enforced.
+
+6
+00:00:26,000 --> 00:00:31,970
+Define the boundaries. Data rules. Agent permissions.
+
+7
+00:00:32,000 --> 00:00:37,970
+See the spend. Follow recorded costs in one console.
+
+8
+00:00:38,000 --> 00:00:41,970
+Your tools. Your keys. Your rules.
+
+9
+00:00:42,000 --> 00:00:47,970
+Your AI. Under control. doorman.ai
