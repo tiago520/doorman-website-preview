@@ -111,3 +111,22 @@ checks below do not establish native behavior.
 states, motion toggle, OS reduced motion, tiny sizes, neutral favicon, no overflow,
 no broken images/browser errors, and zero axe AA issues. Fonts are licensed under
 [SIL OFL](https://tiago520.github.io/doorman-website-preview/brand/switch/assets/OFL.txt). Future design work must reference this guide and these assets.
+
+## Motion applications on the Branding page
+
+The public [motion gallery](https://tiago520.github.io/doorman-website-preview/next/branding.html#motion)
+shows six optional interface examples using the same approved Switch geometry.
+These are illustrative applications, not new identity states, native screenshots,
+or evidence that loading, saving, retrying or exporting is happening in a product.
+
+- Page loading, saving and retry use two 1.5s opacity waves, with 0.18s gate offset.
+- Completion uses the existing 0.6s settle once; attention uses one 1.8s pulse.
+- Measured progress follows a visitor-controlled count of four example steps.
+- Replay and Pause/Resume control one selected example; background tabs stop it.
+- Reduced motion and manual Motion off retain every static label and shape cue.
+- Re-enabling motion does not replay; without JavaScript all specimens stay visible.
+
+Implementation: `src/partials/brand-motion.html`, `site/assets/css/branding.css`,
+`site/assets/js/branding.js`. This does not change the native state model or timings.
+Product implementations must bind these patterns to real pending/completed outcomes;
+never infer protection or success from the presence of an animated mark.

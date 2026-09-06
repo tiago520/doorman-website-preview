@@ -4,8 +4,8 @@
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "README.md": "29a50849a331143eef7d7c91c4527777c61c1c40925458984b6d5f69f1c99c12",
-    "assets/brand/switch/DESIGN.md": "b6cc4261c1d8c141def9f300421e1ec7e18fc177aa88e359307a8bc8b2beb6d2",
-    "assets/brand/switch/doorman-switch-kit.zip": "3a1856191a8441e9bd243d50aa09b78fd49d829320cc9eb616fc82ab36fbefae",
+    "assets/brand/switch/DESIGN.md": "ae446d5bbc10a97e3e1b58c46e2016e73b39271aff329702932e1607dc8acf0a",
+    "assets/brand/switch/doorman-switch-kit.zip": "3d268487b0d094f3afa0386385c90ac55b6259c1b87950c061d03c4e73525244",
     "assets/brand/switch/favicon.svg": "4db8a80b136f087790fd0c2cc3fa70955d919545ab24771a6ea0340a2f22c1a5",
     "assets/brand/switch/state-mapping.json": "ee8f3edf293d4134f3be7799b1ad7e8b2d3d2e29502319a2e41ecac74b62de5c",
     "assets/brand/switch/switch-app-ink.svg": "e302f5707e24864df65a04e35d8da91e26ae8ed7b3f5a492c6f1214f101e73e5",
@@ -33,7 +33,7 @@
     "assets/brand/switch/switch-white.svg": "011b385773453a761901ee3c8b120ffd24ae5bfa7cef090988d50246fd37f35f",
     "assets/brand/switch/switch-wordmark-white.svg": "04f390e531047835690aa790f62387b6c72bf1893e787c2cdce10ed6cc0d6f26",
     "assets/brand/switch/switch-wordmark.svg": "99a8bde882ec86e4d3cf798ca3d055fdb7bfc0bd2ec7bf1d583267822f2c2ff9",
-    "assets/css/branding.css": "4b76b749fd525f6e0da0ec81145fafec46605b671fec463f6ee49ffe08e90407",
+    "assets/css/branding.css": "5fa187ac41123fa25d1dff79f3f209fce92bc315ccaf6add60d5649e154402ef",
     "assets/css/conversion.css": "5944e8878eed8e60e3f236dbd955d7f0a35e3f04350bd788683faad3006b68ce",
     "assets/css/explainers.css": "6ed1dc55132829989c4bfdeb674960ca5e724027d4716a2115526e3939a73e9c",
     "assets/css/product-directory.css": "94208a8959d84f348008066f76d3307f4a00c733d6e3e0d9b34dbd5a7d033812",
@@ -99,7 +99,7 @@
     "assets/img/savings.jpg": "64343bafb833d91b9889d1e7902250758320bed581abfe7d673d2462f0f64bd6",
     "assets/img/switch-favicon.svg": "4db8a80b136f087790fd0c2cc3fa70955d919545ab24771a6ea0340a2f22c1a5",
     "assets/img/switch.svg": "34f4e2bca1684fe014c8fdf5b23096dae00f25e4dc83e52dfb34589048824059",
-    "assets/js/branding.js": "02f0eb8138af5613d9c4a45e1b190b41c8cf1bc6125d5d9416ccf84add00fc8e",
+    "assets/js/branding.js": "79f5f80379fbd58c876c333adfbf29277eddc58f0ebcd6740b1cced2ae4b4306",
     "assets/js/conversion.js": "ea07039fc843839cfe7af20752f240f30213d0eab274b1901c9a38c1c58db698",
     "assets/js/explainers.js": "0da1d1db5a37c85dc7d77218608da9de892c7038b46c24fe6b78101967a50cf4",
     "assets/js/flow-utils.js": "2e3835424ff9092d0b35cdabd7d64b3de815b448b630caddcb95b34f9b940cda",
@@ -152,7 +152,7 @@
     "brand/archive/three-directions@2x.png": "6ff466d16159628414a4e2343abb0b8923760b4863330f24adbaae9cc7ff8d25",
     "brand/archive/verification.json": "cff581c3e5ed41390b5af2362526e1e2d2bf10ff2723724f2d5f0cc744db82aa",
     "brand/index.html": "875ab67223d92eb42efc68a4b3fa27df2f261ca6ddeb295117cdc3d5bfba7c78",
-    "brand/switch/DESIGN.md": "336f24b96459a2262720ff41797a72a2662e6ae87ccdf38166530bb5e18d0577",
+    "brand/switch/DESIGN.md": "45dd3849216c4e5a0203dad4eac3fbfd1907dc4517be40c7dd2e976e4e6ff30c",
     "brand/switch/README.md": "1fa31173eea90d4c8f0e9aa397106e268f2f9abddd1c98bf8ef793fa1b5ac9be",
     "brand/switch/assets/OFL.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
     "brand/switch/assets/favicon.svg": "4db8a80b136f087790fd0c2cc3fa70955d919545ab24771a6ea0340a2f22c1a5",
@@ -181,7 +181,7 @@
     "brand/switch/assets/switch-white.svg": "011b385773453a761901ee3c8b120ffd24ae5bfa7cef090988d50246fd37f35f",
     "brand/switch/assets/switch-wordmark-white.svg": "04f390e531047835690aa790f62387b6c72bf1893e787c2cdce10ed6cc0d6f26",
     "brand/switch/assets/switch-wordmark.svg": "99a8bde882ec86e4d3cf798ca3d055fdb7bfc0bd2ec7bf1d583267822f2c2ff9",
-    "brand/switch/doorman-switch-kit.zip": "3a1856191a8441e9bd243d50aa09b78fd49d829320cc9eb616fc82ab36fbefae",
+    "brand/switch/doorman-switch-kit.zip": "3d268487b0d094f3afa0386385c90ac55b6259c1b87950c061d03c4e73525244",
     "brand/switch/fonts/OFL.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
     "brand/switch/fonts/README.md": "3cf26263fb2e7a0bccf255280871f769c2634011e4cd97bc1df75b16c791cdff",
     "brand/switch/fonts/inter-cyrillic-ext-variable.woff2": "ca157063339ac4ad418f214f3abfed119b0798ab4d377386ce5c9e5a7a435ebd",
@@ -328,7 +328,7 @@
     "next/agents.html": "f69944d017f65457699b3845f5badd960d4784deb97a3efb5356558773f61607",
     "next/ai-close.html": "9e2a066ea4a39276d7bd4a003683b2ab8a54afcf6ba3e97b92d19a6c9328b765",
     "next/boundaries.html": "c267ba89fcd20ceb05850d31926092e05626fc34b457877c285b5a0fc0b9d09f",
-    "next/branding.html": "0073fc762d44aab107433ff7f3e53395197acc003a864573a2439fe3ec20f653",
+    "next/branding.html": "42233300957a1c3bf045993341e622eb2ae8b7c0c4f691a46e6f32296aabd4d4",
     "next/budgets.html": "ec4d092e8184c5617dec405faba86b29835e237aca1b97cd0e51411313084a71",
     "next/compliance.html": "50f76e871a6a1784e93d3d7caed220e8d72538cbc98517bd6ce24cfded838668",
     "next/contact.html": "9f8cfcd5c198953fe6e11f58ebb893c9294cf7441be6a32b66bcf56cdd27bf3a",
@@ -515,5 +515,18 @@
       "console/",
       "console-precision/"
     ]
+  },
+  "brandingMotion": {
+    "sourceCommit": "13b49e644b8ff2af847c68199df5970a8cf64da1",
+    "path": "next/branding.html#motion",
+    "patterns": [
+      "page loading",
+      "button loading",
+      "connection retry",
+      "measured progress",
+      "completion",
+      "attention"
+    ],
+    "demonstrationOnly": true
   }
 }

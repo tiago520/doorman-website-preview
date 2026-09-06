@@ -163,3 +163,81 @@
   .nx-branding .brand-scale table { font-size: 12px; }
   .nx-branding .brand-scale th, .nx-branding .brand-scale td { padding: 12px 6px; }
 }
+
+/* Motion gallery: one selected demonstration, shared identity and finite motion. */
+.nx-branding .brand-motion { margin-top: 100px; }
+.nx-branding .bm-gallery { margin-top: 40px; }
+.nx-branding .bm-gallery.is-enhanced { display: grid; grid-template-columns: 230px minmax(0, 1fr); gap: 32px; }
+.nx-branding .bm-choices { align-self: start; }
+.nx-branding .bm-choices button { display: flex; align-items: center; gap: 12px; width: 100%; min-height: 60px; padding: 14px 12px; background: none; border: 0; border-bottom: 1px solid var(--line); color: var(--muted); font: inherit; font-size: 13px; text-align: left; cursor: pointer; }
+.nx-branding .bm-choices button[aria-pressed=true] { color: var(--ink); font-weight: 600; background: var(--paper); border-radius: var(--r-8); }
+.nx-branding .bm-index { font-size: 11px; font-variant-numeric: tabular-nums; }
+.nx-branding .bm-selection { margin-left: auto; visibility: hidden; }
+.nx-branding .bm-choices button[aria-pressed=true] .bm-selection { visibility: visible; }
+.nx-branding .bm-pattern + .bm-pattern { margin-top: 28px; }
+.nx-branding .is-enhanced .bm-pattern { margin-top: 0; }
+.nx-branding .bm-pattern[hidden], .nx-branding .bm-choices[hidden], .nx-branding .bm-toolbar[hidden] { display: none; }
+.nx-branding .bm-scene { background: var(--paper); border-radius: var(--r-16); min-height: 360px; display: flex; align-items: center; justify-content: center; padding: 36px; }
+.nx-branding .bm-scene .switch-mark * { animation: none !important; }
+.nx-branding .bm-page, .nx-branding .bm-action-card, .nx-branding .bm-inline-card, .nx-branding .bm-progress-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--r-12); width: 100%; max-width: 450px; padding: 28px; }
+.nx-branding .bm-page { padding: 0; }
+.nx-branding .bm-scene-label { display: block; font-size: 11px; line-height: 1.6; color: var(--muted); }
+.nx-branding .bm-page > .bm-scene-label { padding: 12px 18px; border-bottom: 1px solid var(--line); }
+.nx-branding .bm-page-body { display: flex; flex-direction: column; align-items: center; gap: 12px; padding: 20px 16px; text-align: center; }
+.nx-branding .bm-scene strong { display: block; font-size: 15px; line-height: 1.5; font-weight: 600; }
+.nx-branding .bm-page-body > span, .nx-branding .bm-scene p { font-size: 12px; line-height: 1.7; color: var(--muted); }
+.nx-branding .bm-page-body > span { min-height: 40px; }
+.nx-branding .bm-page-footer { padding: 12px 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 11px; }
+.nx-branding .bm-setting { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin: 24px 0; padding-bottom: 20px; border-bottom: 1px solid var(--line); font-size: 12px; }
+.nx-branding .bm-setting strong { font-size: 12px; }
+.nx-branding .bm-demo-button { display: flex; align-items: center; justify-content: center; gap: 10px; width: 200px; max-width: 100%; min-height: 48px; border-radius: var(--r-24); background: var(--ink); color: var(--card); font-size: 13px; font-weight: 600; margin: 0 auto; }
+.nx-branding .bm-demo-button .switch-mark { --mark-color: var(--card); }
+.nx-branding .bm-action-card > p { text-align: center; margin-top: 18px; }
+.nx-branding .bm-inline-state { display: flex; align-items: center; gap: 18px; min-height: 96px; }
+.nx-branding .bm-inline-state > div { min-width: 0; }
+.nx-branding .bm-small-note { display: block; font-size: 11px; line-height: 1.7; color: var(--muted); }
+.nx-branding .bm-result-card { text-align: center; max-width: 350px; }
+.nx-branding .bm-result-card > .switch-mark { margin: 0 auto 20px; }
+.nx-branding .bm-result-card > strong { margin: 10px 0; font-size: 24px; letter-spacing: -.025em; }
+.nx-branding .bm-progress-card progress { display: block; width: 100%; height: 6px; appearance: none; border: 0; border-radius: var(--r-7); overflow: hidden; background: var(--stage); }
+.nx-branding .bm-progress-card progress::-webkit-progress-bar { background: var(--stage); }
+.nx-branding .bm-progress-card progress::-webkit-progress-value { background: var(--ink); }
+.nx-branding .bm-progress-card progress::-moz-progress-bar { background: var(--ink); }
+.nx-branding .bm-progress-card label { display: block; font-size: 12px; margin-top: 24px; }
+.nx-branding .bm-progress-card input { display: block; width: 100%; min-height: 44px; margin: 0; accent-color: var(--ink); }
+.nx-branding .bm-caption { display: grid; grid-template-columns: 1.35fr 1fr; gap: 36px; margin-top: 26px; min-height: 150px; }
+.nx-branding .bm-caption h3 { font-size: 20px; line-height: 1.35; letter-spacing: -.025em; }
+.nx-branding .bm-caption p { font-size: 13px; line-height: 1.8; color: var(--muted); margin-top: 10px; }
+.nx-branding .bm-caption dl { margin: 0; font-size: 12px; line-height: 1.7; }
+.nx-branding .bm-caption dl > div + div { margin-top: 12px; }
+.nx-branding .bm-caption dt { color: var(--muted); }
+.nx-branding .bm-caption dd { margin: 2px 0 0; }
+.nx-branding .bm-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 20px; border-top: 1px solid var(--line); padding-top: 22px; margin: 18px 0 0 262px; }
+.nx-branding .bm-toolbar > p { font-size: 12px; line-height: 1.7; color: var(--muted); }
+.nx-branding .bm-toolbar > div { display: flex; gap: 8px; flex-shrink: 0; }
+.nx-branding .bm-disclosure { font-size: 12px; line-height: 1.8; color: var(--muted); margin: 24px 0 0 262px; }
+.nx-branding .brand-motion button:focus-visible, .nx-branding .brand-motion input:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+@media (max-width: 1100px) {
+  .nx-branding .bm-gallery.is-enhanced { grid-template-columns: 200px minmax(0,1fr); gap: 24px; }
+  .nx-branding .bm-caption { grid-template-columns: 1fr; gap: 20px; min-height: 210px; }
+  .nx-branding .bm-caption dl { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .nx-branding .bm-caption dl > div + div { margin-top: 0; }
+  .nx-branding .bm-toolbar, .nx-branding .bm-disclosure { margin-left: 224px; }
+}
+@media (max-width: 720px) {
+  .nx-branding .brand-motion { margin-top: 72px; }
+  .nx-branding .bm-gallery.is-enhanced { grid-template-columns: 1fr; gap: 20px; margin-top: 28px; }
+  .nx-branding .bm-choices { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; }
+  .nx-branding .bm-choices button { padding: 12px 8px; gap: 8px; min-height: 54px; font-size: 12px; }
+  .nx-branding .bm-scene { padding: 18px; min-height: 364px; }
+  .nx-branding .bm-page, .nx-branding .bm-action-card, .nx-branding .bm-inline-card, .nx-branding .bm-progress-card { padding: 20px; }
+  .nx-branding .bm-page { padding: 0; }
+  .nx-branding .bm-inline-state { gap: 12px; }
+  .nx-branding .bm-caption { min-height: 220px; gap: 18px; }
+  .nx-branding .bm-caption dl { font-size: 11px; gap: 16px; }
+  .nx-branding .bm-toolbar { margin-left: 0; flex-wrap: wrap; gap: 12px; }
+  .nx-branding .bm-toolbar > p { min-height: 40px; }
+  .nx-branding .bm-toolbar > div { width: 100%; }
+  .nx-branding .bm-toolbar button { flex: 1; }
+  .nx-branding .bm-disclosure { margin-left: 0; }
+}
