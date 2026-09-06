@@ -1,0 +1,189 @@
+{
+  "kind": "HTML design mockups, not native captures",
+  "generatedAt": "2026-09-06T06:35:36.883Z",
+  "browser": "151.0.7922.34",
+  "platform": "linux",
+  "font": "Native SF first; Inter Latin variable rendered on Linux",
+  "scale": 2,
+  "nativeReferenceCommit": "f9011431294746e3ae68cf5e809d376e3eb2a55d",
+  "websitePreviewCommit": "164d0f04f6b39fadb90607625752cca2451c85f6",
+  "brandGuide": "https://tiago520.github.io/doorman-website-preview/assets/brand/switch/DESIGN.md",
+  "assetHashes": {
+    "switch-app.svg": "9132b1d2b24002a51acb9fca0c04f7783b8abfc678b9a9d3bf62f817f3a8cbb4",
+    "brand-guide.md": "ae446d5bbc10a97e3e1b58c46e2016e73b39271aff329702932e1607dc8acf0a",
+    "state-mapping.json": "ee8f3edf293d4134f3be7799b1ad7e8b2d3d2e29502319a2e41ecac74b62de5c",
+    "inter-latin-variable.woff2": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62"
+  },
+  "exports": [
+    {
+      "file": "overview-light@2x.png",
+      "logicalWidth": 1344,
+      "logicalHeight": 740,
+      "scale": 2
+    },
+    {
+      "file": "states-light@2x.png",
+      "logicalWidth": 1344,
+      "logicalHeight": 1031,
+      "scale": 2
+    },
+    {
+      "file": "menubar-protected-light@2x.png",
+      "logicalWidth": 480,
+      "logicalHeight": 680,
+      "scale": 2
+    },
+    {
+      "file": "menubar-reconnecting-light@2x.png",
+      "logicalWidth": 480,
+      "logicalHeight": 680,
+      "scale": 2
+    },
+    {
+      "file": "menubar-paused-light@2x.png",
+      "logicalWidth": 480,
+      "logicalHeight": 704,
+      "scale": 2
+    },
+    {
+      "file": "menubar-attention-light@2x.png",
+      "logicalWidth": 480,
+      "logicalHeight": 641,
+      "scale": 2
+    },
+    {
+      "file": "menubar-managed-light@2x.png",
+      "logicalWidth": 480,
+      "logicalHeight": 680,
+      "scale": 2
+    },
+    {
+      "file": "menubar-signedOut-light@2x.png",
+      "logicalWidth": 480,
+      "logicalHeight": 607,
+      "scale": 2
+    },
+    {
+      "file": "setup-1-light@2x.png",
+      "logicalWidth": 632,
+      "logicalHeight": 777,
+      "scale": 2
+    },
+    {
+      "file": "setup-2-light@2x.png",
+      "logicalWidth": 632,
+      "logicalHeight": 804,
+      "scale": 2
+    },
+    {
+      "file": "setup-3-light@2x.png",
+      "logicalWidth": 632,
+      "logicalHeight": 772,
+      "scale": 2
+    },
+    {
+      "file": "settings-light@2x.png",
+      "logicalWidth": 630,
+      "logicalHeight": 871,
+      "scale": 2
+    },
+    {
+      "file": "apps-light@2x.png",
+      "logicalWidth": 712,
+      "logicalHeight": 909,
+      "scale": 2
+    },
+    {
+      "file": "doctor-light@2x.png",
+      "logicalWidth": 578,
+      "logicalHeight": 856,
+      "scale": 2
+    },
+    {
+      "file": "overview-dark@2x.png",
+      "logicalWidth": 1344,
+      "logicalHeight": 740,
+      "scale": 2
+    },
+    {
+      "file": "states-dark@2x.png",
+      "logicalWidth": 1344,
+      "logicalHeight": 1031,
+      "scale": 2
+    },
+    {
+      "file": "menubar-protected-dark@2x.png",
+      "logicalWidth": 480,
+      "logicalHeight": 680,
+      "scale": 2
+    },
+    {
+      "file": "menubar-reconnecting-dark@2x.png",
+      "logicalWidth": 480,
+      "logicalHeight": 680,
+      "scale": 2
+    },
+    {
+      "file": "menubar-paused-dark@2x.png",
+      "logicalWidth": 480,
+      "logicalHeight": 704,
+      "scale": 2
+    },
+    {
+      "file": "menubar-attention-dark@2x.png",
+      "logicalWidth": 480,
+      "logicalHeight": 641,
+      "scale": 2
+    },
+    {
+      "file": "menubar-managed-dark@2x.png",
+      "logicalWidth": 480,
+      "logicalHeight": 680,
+      "scale": 2
+    },
+    {
+      "file": "menubar-signedOut-dark@2x.png",
+      "logicalWidth": 480,
+      "logicalHeight": 607,
+      "scale": 2
+    },
+    {
+      "file": "setup-1-dark@2x.png",
+      "logicalWidth": 632,
+      "logicalHeight": 777,
+      "scale": 2
+    },
+    {
+      "file": "setup-2-dark@2x.png",
+      "logicalWidth": 632,
+      "logicalHeight": 804,
+      "scale": 2
+    },
+    {
+      "file": "setup-3-dark@2x.png",
+      "logicalWidth": 632,
+      "logicalHeight": 772,
+      "scale": 2
+    },
+    {
+      "file": "settings-dark@2x.png",
+      "logicalWidth": 630,
+      "logicalHeight": 871,
+      "scale": 2
+    },
+    {
+      "file": "apps-dark@2x.png",
+      "logicalWidth": 712,
+      "logicalHeight": 909,
+      "scale": 2
+    },
+    {
+      "file": "doctor-dark@2x.png",
+      "logicalWidth": 578,
+      "logicalHeight": 856,
+      "scale": 2
+    }
+  ],
+  "pdfPages": 9,
+  "browserErrors": []
+}
