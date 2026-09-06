@@ -1,0 +1,61 @@
+/* Mac adoption story. Shared typography and tokens; see DESIGN.md. */
+.nx .ms-intro { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 64px; align-items: center; }
+.nx .ms-intro-copy { display: flex; flex-direction: column; align-items: start; gap: 14px; max-width: 560px; text-align: left; }
+.nx .ms-intro .ctas { justify-content: start; margin-top: 28px; }
+.nx .ms-native { margin: 0; min-width: 0; }
+.nx .ms-native-stage { display: flex; justify-content: center; align-items: center; padding: 40px 24px; background: var(--stage); border: 1px solid var(--line); border-radius: var(--r-16); }
+.nx .ms-native-stage a { display: block; width: 100%; max-width: 520px; overflow: hidden; border-radius: var(--r-12); box-shadow: var(--shadow-pop); }
+.nx .ms-native img { display: block; width: 100%; height: auto; }
+.nx .ms-native figcaption { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 16px; padding-top: 16px; font-size: 12px; line-height: 1.6; color: var(--muted); }
+.nx .ms-native figcaption a { display: inline-flex; align-items: center; min-height: 24px; }
+.nx .ms-path { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); padding: 0; margin: 48px 0 0; list-style: none; border-top: 1px solid var(--line); }
+.nx .ms-path li { padding: 28px 30px 0 0; }
+.nx .ms-path li + li { padding-left: 30px; border-left: 1px solid var(--line); }
+.nx .ms-path span { font-size: 12px; color: var(--muted); }
+.nx .ms-path h3 { margin: 14px 0 10px; font-size: 22px; letter-spacing: -.03em; line-height: 1.3; }
+.nx .ms-path p { margin: 0; max-width: 370px; font-size: 15px; line-height: 1.7; color: var(--muted); }
+.nx .ms-path a { display: inline-flex; align-items: center; min-height: 44px; margin-top: 12px; font-size: 13px; }
+.nx .ms-advanced { border: 1px solid var(--line-strong); border-radius: var(--r-16); margin-top: 32px; }
+.nx .ms-advanced > summary { padding: 25px 28px; cursor: pointer; font-size: 17px; line-height: 1.5; font-weight: 600; }
+.nx .ms-advanced > summary::marker { color: var(--muted); }
+.nx .ms-advanced > .nx-connect-layout { padding: 0 28px 28px; }
+.nx .ms-advanced .nx-connect-copy { padding-right: 6px; }
+.nx .ms-coverage-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 72px; align-items: start; margin-top: 44px; }
+.nx .ms-coverage-list { display: grid; }
+.nx .ms-coverage-list article { padding: 24px 0; border-top: 1px solid var(--line); }
+.nx .ms-coverage-list h3 { font-size: 23px; letter-spacing: -.025em; margin: 10px 0; }
+.nx .ms-coverage-list p { color: var(--muted); font-size: 15px; line-height: 1.75; margin: 0; }
+.nx .ms-coverage-list .nx-overline { font-size: 12px; }
+.nx .ms-coverage-image { max-width: 520px; margin-inline: auto; }
+.nx .ms-coverage-image .ms-native-stage { padding: 24px; }
+.nx .ms-coverage-image .ms-native-stage a { max-width: 600px; }
+.nx .ms-care .ms-native-stage a { max-width: 466px; }
+.nx .ms-care .ms-path { grid-template-columns: 1fr; margin-top: 28px; }
+.nx .ms-care .ms-path li, .nx .ms-care .ms-path li + li { padding: 22px 0; border-left: 0; border-bottom: 1px solid var(--line); }
+.nx .ms-care .ms-path h3 { margin-top: 0; font-size: 21px; }
+.nx .ms-care .ms-path p { max-width: none; }
+.nx .ms-role-links { display: flex; flex-wrap: wrap; gap: 12px 26px; margin-top: 28px; }
+.nx .ms-role-links a { display: inline-flex; align-items: center; min-height: 44px; }
+.nx .ms-preview-note { margin-top: 24px; padding: 22px 24px; background: var(--paper); border: 1px solid var(--line); border-radius: var(--r-12); font-size: 14px; line-height: 1.8; color: var(--muted); }
+.nx .ms-preview-note b { color: var(--ink); }
+.nx #coverage, .nx #everyday, .nx #developer-integration { scroll-margin-top: 95px; }
+.nx .mi-gallery #mi-screen-link { width: min(100%, var(--mi-preview-width, 1344px)); margin-inline: auto; }
+.nx .mi-gallery .mi-screen-figure { padding: 30px 24px 0; border: 1px solid var(--line); border-radius: var(--r-16); background: var(--paper); }
+.nx .mi-gallery .mi-screen-figure > a { border-radius: var(--r-8); }
+.nx #mi-gallery-status { min-height: 24px; margin: 14px 0 0; font-size: 13px; line-height: 1.6; color: var(--muted); }
+@media (max-width: 1000px) {
+  .nx .ms-intro, .nx .ms-coverage-layout { gap: 36px; }
+  .nx .ms-native-stage { padding: 26px 18px; }
+}
+@media (max-width: 720px) {
+  .nx .ms-intro, .nx .ms-coverage-layout, .nx .ms-path { grid-template-columns: 1fr; }
+  .nx .ms-intro { gap: 32px; }
+  .nx .ms-path { margin-top: 32px; }
+  .nx .ms-path li, .nx .ms-path li + li { padding: 24px 0; border-left: 0; border-bottom: 1px solid var(--line); }
+  .nx .ms-advanced > summary { padding: 22px 18px; font-size: 16px; }
+  .nx .ms-advanced > .nx-connect-layout { padding: 0 12px 18px; }
+  .nx .ms-preview-note { padding: 20px; }
+  .nx .ms-coverage-layout { gap: 30px; margin-top: 30px; }
+  .nx .ms-role-links { flex-direction: column; gap: 2px; }
+  .nx .mi-gallery .mi-screen-figure { padding: 14px 12px 0; }
+}
