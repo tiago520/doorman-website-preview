@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:03,960
+More tools. More agents. More AI.
+Who’s in control?
+
+2
+00:00:04,000 --> 00:00:07,960
+Take control.
+Meet Doorman.
+
+3
+00:00:08,000 --> 00:00:11,960
+The AI gateway.
+Your tools → Doorman → Your models.
+
+4
+00:00:12,000 --> 00:00:15,960
+Route smarter.
+A suitable model, guided by your rules.
+
+5
+00:00:16,000 --> 00:00:19,960
+Set the boundaries.
+Budgets. Data rules. Agent permissions.
+
+6
+00:00:20,000 --> 00:00:23,960
+Make spend visible.
+Understand the cost of your AI.
+
+7
+00:00:24,000 --> 00:00:27,960
+Your tools. Your keys. Your rules.
+Keep building.
+
+8
+00:00:28,000 --> 00:00:31,960
+Your AI. Under control.
+Explore Doorman at doorman.ai.

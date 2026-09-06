@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:04,960
+What happens to an AI request?
+Follow the request.
+
+2
+00:00:05,000 --> 00:00:09,960
+Meet your AI gateway.
+Doorman connects the tools you use to the models you choose.
+
+3
+00:00:10,000 --> 00:00:14,960
+Start with your tools.
+Connect a supported client through Doorman.
+
+4
+00:00:15,000 --> 00:00:19,960
+Match the model to the task.
+Routing considers the request and your policy.
+
+5
+00:00:20,000 --> 00:00:24,960
+Put your rules in the flow.
+Define budgets, data rules and agent permissions.
+
+6
+00:00:25,000 --> 00:00:29,960
+Follow the request.
+Inspect the model, recorded cost and outcome.
+
+7
+00:00:30,000 --> 00:00:34,960
+Know what you spend.
+Explore recorded costs by team, tool and model.
+
+8
+00:00:35,000 --> 00:00:39,960
+Your AI. Under control.
+Explore Doorman at doorman.ai.

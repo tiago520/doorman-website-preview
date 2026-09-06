@@ -1,0 +1,17 @@
+{
+  "bpm": 96,
+  "duration": 40,
+  "source": "Original synthesized composition; no third-party samples",
+  "measurement": {
+    "input_i": "-15.12",
+    "input_tp": "-1.30",
+    "input_lra": "9.50",
+    "input_thresh": "-25.70",
+    "output_i": "-13.87",
+    "output_tp": "-1.00",
+    "output_lra": "4.50",
+    "output_thresh": "-24.16",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.13"
+  }
+}

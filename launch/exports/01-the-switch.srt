@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:04,760
+Your AI is everywhere.
+Tools. Agents. Models.
+
+2
+00:00:04,800 --> 00:00:09,560
+Bring it into focus.
+Meet Doorman, your AI gateway.
+
+3
+00:00:09,600 --> 00:00:14,360
+One gateway.
+Between your tools and your models.
+
+4
+00:00:14,400 --> 00:00:19,160
+Route with clear rules.
+Match the model to the task and your policy.
+
+5
+00:00:19,200 --> 00:00:23,960
+Give AI clear boundaries.
+Budgets. Data rules. Agent permissions.
+
+6
+00:00:24,000 --> 00:00:28,760
+See where the money goes.
+Understand recorded spend by team, tool and model.
+
+7
+00:00:28,800 --> 00:00:33,560
+Keep your tools. Keep building.
+Your providers. Your keys. Your rules.
+
+8
+00:00:33,600 --> 00:00:38,360
+Your AI. Under control.
+Explore Doorman at doorman.ai.

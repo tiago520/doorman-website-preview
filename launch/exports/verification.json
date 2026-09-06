@@ -1,0 +1,181 @@
+{
+  "exports": [
+    {
+      "file": "01-the-switch-landscape.mp4",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "frames": 1152,
+      "duration": 38.4,
+      "video_codec": "H.264 High",
+      "pixel_format": "yuv420p",
+      "audio_codec": "AAC",
+      "sample_rate": 48000,
+      "channels": 2,
+      "decoded_audio_peak": 0.899,
+      "decoded_audio_rms": 0.1675,
+      "brand_yellow_rgb": [
+        254,
+        230,
+        0
+      ],
+      "fast_start": true,
+      "full_decode": true,
+      "bytes": 3001833,
+      "sha256": "e1efa6b6756e907c736cdf1ed328d74a66f155e5d73393a3840aa62e3047973c"
+    },
+    {
+      "file": "01-the-switch-vertical.mp4",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "frames": 1152,
+      "duration": 38.4,
+      "video_codec": "H.264 High",
+      "pixel_format": "yuv420p",
+      "audio_codec": "AAC",
+      "sample_rate": 48000,
+      "channels": 2,
+      "decoded_audio_peak": 0.899,
+      "decoded_audio_rms": 0.1675,
+      "brand_yellow_rgb": [
+        252,
+        229,
+        0
+      ],
+      "fast_start": true,
+      "full_decode": true,
+      "bytes": 2870730,
+      "sha256": "824d4b4f2321068cec44d92d5b69b05d97ab1731b1cb047e3d33ea3bff01b179"
+    },
+    {
+      "file": "02-in-motion-landscape.mp4",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "frames": 960,
+      "duration": 32,
+      "video_codec": "H.264 High",
+      "pixel_format": "yuv420p",
+      "audio_codec": "AAC",
+      "sample_rate": 48000,
+      "channels": 2,
+      "decoded_audio_peak": 0.9176,
+      "decoded_audio_rms": 0.1705,
+      "brand_yellow_rgb": [
+        254,
+        230,
+        0
+      ],
+      "fast_start": true,
+      "full_decode": true,
+      "bytes": 2633548,
+      "sha256": "c248fdedde1c3bd89a9a19ad8ca67042b935cd074278405f9a8749005ca380ed"
+    },
+    {
+      "file": "02-in-motion-vertical.mp4",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "frames": 960,
+      "duration": 32,
+      "video_codec": "H.264 High",
+      "pixel_format": "yuv420p",
+      "audio_codec": "AAC",
+      "sample_rate": 48000,
+      "channels": 2,
+      "decoded_audio_peak": 0.9176,
+      "decoded_audio_rms": 0.1705,
+      "brand_yellow_rgb": [
+        252,
+        229,
+        0
+      ],
+      "fast_start": true,
+      "full_decode": true,
+      "bytes": 2491991,
+      "sha256": "f348ba8895a92eba304b8da57957c548af01f860112d5a3dae229a1a36328bd5"
+    },
+    {
+      "file": "03-inside-doorman-landscape.mp4",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "frames": 1200,
+      "duration": 40,
+      "video_codec": "H.264 High",
+      "pixel_format": "yuv420p",
+      "audio_codec": "AAC",
+      "sample_rate": 48000,
+      "channels": 2,
+      "decoded_audio_peak": 0.9187,
+      "decoded_audio_rms": 0.1716,
+      "brand_yellow_rgb": [
+        254,
+        230,
+        0
+      ],
+      "fast_start": true,
+      "full_decode": true,
+      "bytes": 4829423,
+      "sha256": "51e240a3e7a8496948df5be75c7d1cde4847b0083f2ea5d53b440024b25051ad"
+    },
+    {
+      "file": "03-inside-doorman-vertical.mp4",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "frames": 1200,
+      "duration": 40,
+      "video_codec": "H.264 High",
+      "pixel_format": "yuv420p",
+      "audio_codec": "AAC",
+      "sample_rate": 48000,
+      "channels": 2,
+      "decoded_audio_peak": 0.9187,
+      "decoded_audio_rms": 0.1716,
+      "brand_yellow_rgb": [
+        252,
+        229,
+        0
+      ],
+      "fast_start": true,
+      "full_decode": true,
+      "bytes": 4612666,
+      "sha256": "db8e8d3416723052cf0141380dd180c1b5903266645f3cce34e824667934b2bb"
+    }
+  ],
+  "soundtracks": [
+    {
+      "file": "01-the-switch.m4a",
+      "integrated_lufs": "-13.99",
+      "true_peak_dbtp": "-0.92",
+      "loudness_range": "7.60"
+    },
+    {
+      "file": "02-in-motion.m4a",
+      "integrated_lufs": "-13.99",
+      "true_peak_dbtp": "-0.75",
+      "loudness_range": "13.50"
+    },
+    {
+      "file": "03-inside-doorman.m4a",
+      "integrated_lufs": "-13.96",
+      "true_peak_dbtp": "-0.74",
+      "loudness_range": "5.40"
+    }
+  ],
+  "note": "Actual delivery files fully decoded. No claims of reach, conversion, or native routing validation."
+}

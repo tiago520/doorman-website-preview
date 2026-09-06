@@ -1,0 +1,151 @@
+{
+  "checks": [
+    {
+      "viewport": 1440,
+      "film": 0,
+      "format": "landscape",
+      "width": 1280,
+      "height": 720,
+      "duration": 38.408,
+      "error": null,
+      "src": "exports/01-the-switch-landscape.mp4",
+      "playingSource": "http://127.0.0.1:48628/previews/01-the-switch-landscape.webm",
+      "playback": true
+    },
+    {
+      "viewport": 1440,
+      "film": 0,
+      "format": "vertical",
+      "width": 720,
+      "height": 1280,
+      "duration": 38.408,
+      "error": null,
+      "src": "exports/01-the-switch-vertical.mp4",
+      "playingSource": "http://127.0.0.1:48628/previews/01-the-switch-vertical.webm",
+      "playback": true
+    },
+    {
+      "viewport": 1440,
+      "film": 1,
+      "format": "landscape",
+      "width": 1280,
+      "height": 720,
+      "duration": 32.008,
+      "error": null,
+      "src": "exports/02-in-motion-landscape.mp4",
+      "playingSource": "http://127.0.0.1:48628/previews/02-in-motion-landscape.webm",
+      "playback": true
+    },
+    {
+      "viewport": 1440,
+      "film": 1,
+      "format": "vertical",
+      "width": 720,
+      "height": 1280,
+      "duration": 32.008,
+      "error": null,
+      "src": "exports/02-in-motion-vertical.mp4",
+      "playingSource": "http://127.0.0.1:48628/previews/02-in-motion-vertical.webm",
+      "playback": true
+    },
+    {
+      "viewport": 1440,
+      "film": 2,
+      "format": "landscape",
+      "width": 1280,
+      "height": 720,
+      "duration": 40.008,
+      "error": null,
+      "src": "exports/03-inside-doorman-landscape.mp4",
+      "playingSource": "http://127.0.0.1:48628/previews/03-inside-doorman-landscape.webm",
+      "playback": true
+    },
+    {
+      "viewport": 1440,
+      "film": 2,
+      "format": "vertical",
+      "width": 720,
+      "height": 1280,
+      "duration": 40.008,
+      "error": null,
+      "src": "exports/03-inside-doorman-vertical.mp4",
+      "playingSource": "http://127.0.0.1:48628/previews/03-inside-doorman-vertical.webm",
+      "playback": true
+    },
+    {
+      "viewport": 390,
+      "film": 0,
+      "format": "landscape",
+      "width": 1280,
+      "height": 720,
+      "duration": 38.408,
+      "error": null,
+      "src": "exports/01-the-switch-landscape.mp4",
+      "playingSource": "http://127.0.0.1:48628/previews/01-the-switch-landscape.webm",
+      "playback": true
+    },
+    {
+      "viewport": 390,
+      "film": 0,
+      "format": "vertical",
+      "width": 720,
+      "height": 1280,
+      "duration": 38.408,
+      "error": null,
+      "src": "exports/01-the-switch-vertical.mp4",
+      "playingSource": "http://127.0.0.1:48628/previews/01-the-switch-vertical.webm",
+      "playback": true
+    },
+    {
+      "viewport": 390,
+      "film": 1,
+      "format": "landscape",
+      "width": 1280,
+      "height": 720,
+      "duration": 32.008,
+      "error": null,
+      "src": "exports/02-in-motion-landscape.mp4",
+      "playingSource": "http://127.0.0.1:48628/previews/02-in-motion-landscape.webm",
+      "playback": true
+    },
+    {
+      "viewport": 390,
+      "film": 1,
+      "format": "vertical",
+      "width": 720,
+      "height": 1280,
+      "duration": 32.008,
+      "error": null,
+      "src": "exports/02-in-motion-vertical.mp4",
+      "playingSource": "http://127.0.0.1:48628/previews/02-in-motion-vertical.webm",
+      "playback": true
+    },
+    {
+      "viewport": 390,
+      "film": 2,
+      "format": "landscape",
+      "width": 1280,
+      "height": 720,
+      "duration": 40.008,
+      "error": null,
+      "src": "exports/03-inside-doorman-landscape.mp4",
+      "playingSource": "http://127.0.0.1:48628/previews/03-inside-doorman-landscape.webm",
+      "playback": true
+    },
+    {
+      "viewport": 390,
+      "film": 2,
+      "format": "vertical",
+      "width": 720,
+      "height": 1280,
+      "duration": 40.008,
+      "error": null,
+      "src": "exports/03-inside-doorman-vertical.mp4",
+      "playingSource": "http://127.0.0.1:48628/previews/03-inside-doorman-vertical.webm",
+      "playback": true
+    }
+  ],
+  "errors": [],
+  "autoplay": false,
+  "reducedMotion": "No autoplay or animated page chrome; video playback is explicitly controlled."
+}
