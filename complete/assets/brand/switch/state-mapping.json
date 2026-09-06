@@ -1,0 +1,68 @@
+{
+  "selectedGeometry": {
+    "gateA": "M5 5h16v6H11v9H5V5Z",
+    "gateB": "M27 27H11v-6h10v-9h6v15Z"
+  },
+  "referenceFiles": [
+    "Sources/DoormanMenuBar/Glyph.swift",
+    "Sources/DoormanMenuBar/App.swift",
+    "Sources/DoormanModel/Model.swift"
+  ],
+  "states": [
+    {
+      "id": "protected",
+      "label": "Protected",
+      "summary": "Active and settled.",
+      "treatment": "The two gates settle into place, then stay still.",
+      "timing": "One entrance · 0.6 s",
+      "sourceMapping": "The native preview implements the two-gate 0.6-second settle on entry, preserving the protected transition timing."
+    },
+    {
+      "id": "reconnecting",
+      "label": "Reconnecting",
+      "summary": "A connection is being restored.",
+      "treatment": "An offset wave moves through the two gates. The symbol keeps its shape.",
+      "timing": "Soft wave · 1.5 s",
+      "sourceMapping": "The native preview implements the two-gate 1.5-second opacity wave. “Loading” can share this motion only while connection or setup is actually pending."
+    },
+    {
+      "id": "paused",
+      "label": "Paused",
+      "summary": "Routing is paused.",
+      "treatment": "Quiet gates and a small pause sign keep the state recognizable without motion.",
+      "timing": "Static · pause mark",
+      "sourceMapping": "The native preview dims both Switch gates to 40% and adds two static pause bars."
+    },
+    {
+      "id": "attention",
+      "label": "Needs attention",
+      "summary": "There is something to review.",
+      "treatment": "One gate carries a slow amber pulse; a small marker remains when motion stops.",
+      "timing": "Amber pulse · 1.8 s",
+      "sourceMapping": "The native preview implements the lower-gate amber pulse at the existing 1.8-second timing, plus a persistent attention marker."
+    },
+    {
+      "id": "managed",
+      "label": "Managed",
+      "summary": "Settings are managed by your team.",
+      "treatment": "A gate bar joins the two halves. Clear ownership, without an alert.",
+      "timing": "Static · managed bar",
+      "sourceMapping": "The native preview joins the Switch gates with the static central managed bar."
+    },
+    {
+      "id": "signedOut",
+      "label": "Signed out",
+      "summary": "Sign in to connect Doorman.",
+      "treatment": "The solid mark becomes an outline. Present, but not active.",
+      "timing": "Static · outlined",
+      "sourceMapping": "The native preview draws the Switch gates as dimmed outlines."
+    }
+  ],
+  "nativeReferenceCommit": "f9011431294746e3ae68cf5e809d376e3eb2a55d",
+  "status": "Selected geometry approved by owner; all six states implemented in isolated native preview PR #4. Website menu bars remain identity demonstrations; actual macOS captures use development fixtures. Not a production release.",
+  "nativeReferenceRole": "Production source used for original state semantics and timings; main and releases remain unchanged.",
+  "nativePreviewCommit": "ebad20b2616de26ce8ee38e95ebdd5d066a1c907",
+  "nativePreviewPullRequest": "https://github.com/DoormanAI/doorman-mac/pull/4",
+  "nativeCaptures": "https://tiago520.github.io/doorman-website-preview/next/macos.html",
+  "nativePreviewReducedMotion": "Stops animation timers while retaining static state cues."
+}

@@ -1,0 +1,119 @@
+/* Three distinct mechanisms: evidence passport, routing ladder and MCP patchbay. */
+.nx .vp-platform .ex-board, .nx .vp-routing .ex-board, .nx .vp-mcp .ex-board { padding: 42px; }
+.nx .vp-passport { display: grid; grid-template-columns: 155px minmax(0, 1fr); max-width: 970px; width: 100%; margin: auto; }
+.nx .vp-passport-stub { padding: 28px 22px; display: flex; flex-direction: column; gap: 16px; color: var(--code-fg); background: var(--ink); border-radius: var(--r-16) 0 0 var(--r-16); }
+.nx .vp-passport-stub > span:first-child { font-size: 12px; }
+.nx .vp-passport-stub > strong { font-size: 23px; line-height: 28px; letter-spacing: -.025em; }
+.nx .vp-passport-stub small { font-size: 12px; line-height: 19px; }
+.nx .vp-record-spine { display: block; height: 35px; width: 44px; border-top: 4px double var(--code-fg); border-bottom: 4px double var(--code-fg); margin: auto 0; }
+.nx .vp-passport-record { padding: 26px 28px; background: var(--card); border: 1px solid var(--line); border-left: 1px dashed var(--line-strong); border-radius: 0 var(--r-16) var(--r-16) 0; }
+.nx .vp-record-heading { display: flex; justify-content: space-between; gap: 15px; font-size: 12px; color: var(--muted); }
+.nx .vp-record-heading b { font-weight: 600; color: var(--ink); }
+.nx .vp-record-fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 30px; margin: 25px 0; }
+.nx .vp-record-cell { display: flex; flex-direction: column; gap: 8px; padding-bottom: 15px; border-bottom: 1px solid var(--line); }
+.nx .vp-record-cell span { font-size: 12px; color: var(--muted); }
+.nx .vp-record-cell strong { font-size: 15px; line-height: 21px; font-weight: 600; }
+.nx .vp-passport-record > p { color: var(--muted); font-size: 12px; line-height: 19px; }
+.nx .vp-record-views { grid-column: 1 / -1; list-style: none; margin: 28px 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+.nx .vp-record-view { display: flex; flex-direction: column; gap: 8px; border-top: 1px solid var(--line-strong); padding-top: 18px; }
+.nx .vp-record-view > span { color: var(--muted); font-size: 12px; }
+.nx .vp-record-view strong { font-size: 15px; line-height: 22px; font-weight: 600; }
+.nx .vp-record-view small { color: var(--muted); font-size: 12px; line-height: 20px; }
+.nx .vp-passport-missing .vp-record-cell { border-bottom-style: dashed; }
+.nx .vp-passport-missing .vp-record-cell strong { color: var(--muted); font-weight: 400; }
+.nx .vp-platform[data-ex-entered] .ex-frame:not([hidden]) .vp-record-cell { animation: vp-record-reveal .65s ease-out backwards; }
+.nx .vp-platform[data-ex-entered] .vp-record-cell:nth-child(2) { animation-delay: .16s; }
+.nx .vp-platform[data-ex-entered] .vp-record-cell:nth-child(3) { animation-delay: .32s; }
+.nx .vp-platform[data-ex-entered] .vp-record-cell:nth-child(4) { animation-delay: .48s; }
+.nx .vp-platform[data-ex-entered] .ex-frame:not([hidden]) .vp-record-view { animation: vp-record-reveal .7s .9s ease-out backwards; }
+@keyframes vp-record-reveal { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+.nx .vp-route-map { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.3fr); gap: 45px; align-items: center; max-width: 1060px; margin: auto; width: 100%; }
+.nx .vp-route-brief > span { font-size: 12px; color: var(--muted); }
+.nx .vp-route-brief blockquote { font-size: 29px; line-height: 36px; font-weight: 700; letter-spacing: -.035em; margin: 22px 0; }
+.nx .vp-route-factors { display: flex; flex-wrap: wrap; gap: 8px; }
+.nx .vp-route-factors > span { padding: 7px 10px; border: 1px solid var(--line-strong); border-radius: var(--r-7); font-size: 11px; line-height: 16px; }
+.nx .vp-route-brief > p { font-size: 13px; line-height: 21px; color: var(--muted); margin-top: 22px; }
+.nx .vp-tier-ladder { background: var(--card); padding: 24px; border: 1px solid var(--line); border-radius: var(--r-16); }
+.nx .vp-ladder-heading { display: flex; justify-content: space-between; gap: 14px; font-size: 11px; line-height: 17px; color: var(--muted); padding-bottom: 12px; }
+.nx .vp-tier-ladder ol { margin: 0; padding: 0; list-style: none; }
+.nx .vp-tier { display: grid; grid-template-columns: 32px minmax(0,1fr) auto; gap: 12px; align-items: center; border-top: 1px solid var(--line); padding: 19px 0; }
+.nx .vp-tier-code { width: 30px; height: 30px; display: grid; place-items: center; border: 1px solid var(--line-strong); border-radius: var(--r-7); font: 12px var(--mono); }
+.nx .vp-tier > div { display: flex; flex-direction: column; gap: 5px; }
+.nx .vp-tier strong { font-weight: 600; font-size: 14px; }
+.nx .vp-tier small { font-size: 11px; line-height: 17px; color: var(--muted); }
+.nx .vp-tier-verdict { font-size: 10px; color: var(--muted); text-align: right; max-width: 75px; line-height: 16px; grid-column: 3; grid-row: 1 / 3; }
+.nx .vp-tier-track { grid-column: 2; height: 2px; background: var(--line); display: block; }
+.nx .vp-tier-track i { display: block; height: 100%; width: 100%; transform-origin: left; }
+.nx .vp-tier-selected .vp-tier-code { background: var(--ink); color: var(--card); border-color: var(--ink); }
+.nx .vp-tier-selected .vp-tier-track i { background: var(--ink); }
+.nx .vp-tier-selected .vp-tier-verdict { color: var(--ink); font-weight: 600; }
+.nx .vp-tier-ladder > p { border-top: 1px solid var(--line); padding-top: 14px; margin: 0; font-size: 11px; line-height: 18px; color: var(--muted); }
+.nx .vp-routing[data-ex-entered] .ex-frame:not([hidden]) .vp-tier-selected .vp-tier-track i { animation: vp-route-select 1.6s ease-out 1; }
+@keyframes vp-route-select { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+.nx .vp-mcp-instrument { background: var(--card); border: 1px solid var(--line-strong); border-radius: var(--r-16); padding: 30px; max-width: 960px; width: 100%; margin: auto; }
+.nx .vp-mcp-label { display: flex; flex-direction: column; gap: 10px; }
+.nx .vp-mcp-label > span { font-size: 12px; color: var(--muted); }
+.nx .vp-mcp-label b { font-size: 20px; line-height: 27px; letter-spacing: -.025em; }
+.nx .vp-mcp-patch { display: grid; grid-template-columns: 130px minmax(80px, 1fr) minmax(0, 1.5fr); align-items: center; margin: 26px 0; }
+.nx .vp-mcp-input { position: relative; height: 160px; padding-right: 27px; justify-content: center; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center; }
+.nx .vp-mcp-input strong { font-size: 14px; font-weight: 600; }
+.nx .vp-mcp-input > span:last-child { font-size: 11px; color: var(--muted); }
+.nx .vp-mcp-socket { position: absolute; right: -19px; top: 61px; width: 38px; height: 38px; border-radius: 50%; border: 9px double var(--ink); background: var(--card); }
+.nx .vp-mcp-cable { height: 160px; }
+.nx .vp-mcp-cable svg { height: 100%; width: 100%; overflow: visible; }
+.nx .vp-mcp-wire { fill: none; stroke: var(--ink); stroke-width: 2; vector-effect: non-scaling-stroke; stroke-dasharray: 400; }
+.nx .vp-mcp-port { display: grid; grid-template-columns: 14px minmax(0,1fr) auto; gap: 14px; align-items: center; min-height: 80px; border-bottom: 1px solid var(--line); }
+.nx .vp-mcp-port > i { width: 12px; height: 12px; border: 1px solid var(--line-strong); border-radius: 50%; }
+.nx .vp-mcp-connected > i { background: var(--ink); border: 1px solid var(--ink); }
+.nx .vp-mcp-port > div { display: flex; flex-direction: column; gap: 7px; }
+.nx .vp-mcp-port strong { font-size: 14px; font-weight: 600; }
+.nx .vp-mcp-port span, .nx .vp-mcp-port > b { font-size: 11px; line-height: 18px; color: var(--muted); font-weight: 400; }
+.nx .vp-mcp-connected > b { font-weight: 600; color: var(--ink); }
+.nx .vp-mcp-output { padding-top: 22px; border-top: 1px solid var(--line-strong); }
+.nx .vp-mcp-output > span { font-size: 12px; font-weight: 600; }
+.nx .vp-mcp-output ul { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 18px; padding: 0; margin: 18px 0 0; list-style: none; }
+.nx .vp-mcp-output li { display: flex; flex-direction: column; gap: 8px; }
+.nx .vp-mcp-output strong { font-size: 13px; font-weight: 600; }
+.nx .vp-mcp-output li span { font-size: 12px; line-height: 19px; color: var(--muted); }
+.nx .vp-mcp[data-ex-entered] .ex-frame:not([hidden]) .vp-mcp-wire { animation: vp-patch-connect 1.7s ease-out 1; }
+.nx .vp-mcp[data-ex-entered] .ex-frame:not([hidden]) .vp-mcp-connected > i { animation: vp-patch-port 1.4s ease-out 1; }
+@keyframes vp-patch-port { 0%, 55% { opacity: .3; } 35%, 100% { opacity: 1; } }
+@keyframes vp-patch-connect { from { stroke-dashoffset: 400; } to { stroke-dashoffset: 0; } }
+@media (max-width: 1000px) {
+ .nx .vp-platform .ex-board, .nx .vp-routing .ex-board, .nx .vp-mcp .ex-board { padding: 28px; }
+ .nx .vp-route-map { gap: 24px; }
+ .nx .vp-mcp-patch { grid-template-columns: 110px 70px minmax(0, 1fr); }
+ .nx .vp-mcp-port { grid-template-columns: 14px minmax(0,1fr); gap: 7px 12px; }
+ .nx .vp-mcp-port > b { grid-column: 2; }
+}
+@media (max-width: 720px) {
+ .nx .vp-platform .ex-board, .nx .vp-routing .ex-board, .nx .vp-mcp .ex-board { padding: 24px 18px; }
+ .nx .vp-passport { grid-template-columns: 1fr; }
+ .nx .vp-passport-stub { border-radius: var(--r-16) var(--r-16) 0 0; padding: 20px; gap: 12px; }
+ .nx .vp-record-spine { display: none; }
+ .nx .vp-passport-record { padding: 22px 20px; border-radius: 0 0 var(--r-16) var(--r-16); border-left: 1px solid var(--line); border-top: 1px dashed var(--line-strong); }
+ .nx .vp-record-heading { flex-direction: column; gap: 7px; }
+ .nx .vp-record-fields { gap: 20px; }
+ .nx .vp-record-views { grid-template-columns: 1fr; gap: 18px; margin-top: 20px; }
+ .nx .vp-record-view { gap: 5px; padding-top: 14px; }
+ .nx .vp-route-map { grid-template-columns: 1fr; }
+ .nx .vp-route-brief blockquote { font-size: 26px; line-height: 33px; }
+ .nx .vp-tier-ladder { padding: 18px; }
+ .nx .vp-tier { grid-template-columns: 29px minmax(0,1fr) 65px; gap: 10px; }
+ .nx .vp-ladder-heading { flex-direction: column; gap: 6px; }
+ .nx .vp-mcp-instrument { padding: 22px 18px; }
+ .nx .vp-mcp-label b { font-size: 19px; line-height: 26px; }
+ .nx .vp-mcp-patch { grid-template-columns: 1fr; margin: 22px 0; gap: 20px; }
+ .nx .vp-mcp-input { height: auto; padding-right: 0; align-items: flex-start; text-align: left; display: grid; grid-template-columns: 38px 1fr; gap: 7px 14px; }
+ .nx .vp-mcp-socket { position: static; grid-row: 1 / 3; }
+ .nx .vp-mcp-cable { display: none; }
+ .nx .vp-mcp-port { grid-template-columns: 14px minmax(0,1fr); min-height: 86px; padding: 12px 0; }
+ .nx .vp-mcp-output ul { grid-template-columns: repeat(2, minmax(0,1fr)); gap: 22px 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+ .nx .vp-platform[data-ex-entered] .ex-frame:not([hidden]) .vp-record-cell,
+ .nx .vp-platform[data-ex-entered] .ex-frame:not([hidden]) .vp-record-view,
+ .nx .vp-routing[data-ex-entered] .ex-frame:not([hidden]) .vp-tier-selected .vp-tier-track i,
+ .nx .vp-mcp[data-ex-entered] .ex-frame:not([hidden]) .vp-mcp-wire,
+ .nx .vp-mcp[data-ex-entered] .ex-frame:not([hidden]) .vp-mcp-connected > i { animation: none; }
+}

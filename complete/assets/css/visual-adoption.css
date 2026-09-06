@@ -1,0 +1,244 @@
+/* Six distinct product stories. Shared type/tokens, separate visual grammar. */
+.nx .va-board { padding: 44px; }
+.nx .va-small { display: block; color: var(--faint); font-size: 12px; line-height: 18px; font-weight: 400; }
+.nx .va-scene svg { stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
+.nx .va-scene strong { color: var(--ink); }
+.nx .va-scene p { font-size: 13px; line-height: 21px; }
+.nx .va-scene[data-ex-entered] .ex-frame:not([hidden]) .va-motion { animation: var(--va-animation, va-arrive) .9s ease-out 1 both; }
+
+/* Developers: a line-numbered record and attached field inspector. */
+.nx .va-inspector { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, .8fr); max-width: 1120px; margin: auto; width: 100%; align-items: center; gap: 38px; }
+.nx .va-editor { background: var(--ink); color: var(--code-fg); border-radius: var(--r-14); overflow: hidden; box-shadow: var(--shadow-pop); min-width: 0; }
+.nx .va-editor-chrome { display: flex; justify-content: space-between; gap: 12px; align-items: center; padding: 16px 20px; border-bottom: 1px solid var(--muted); font-size: 11px; }
+.nx .va-editor-tab { color: var(--card); font-size: 12px; }
+.nx .va-code { padding: 30px 0; }
+.nx .va-code-line { display: grid; grid-template-columns: 30px minmax(0, 1fr); gap: 10px; padding: 8px 20px; font-family: var(--mono); font-size: 12px; line-height: 20px; }
+.nx .va-code-line code { font-family: inherit; color: var(--code-fg); overflow-wrap: anywhere; }
+.nx .va-code-line code > span { color: var(--card); }
+.nx .va-line-number { color: var(--code-fg); font-size: 10px; text-align: right; padding-right: 10px; }
+.nx .va-code-line.va-focus { background: var(--card); --va-animation: va-focus; }
+.nx .va-focus code, .nx .va-focus code > span, .nx .va-focus .va-line-number { color: var(--ink); }
+.nx .va-editor-foot { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; padding: 14px 20px; border-top: 1px solid var(--muted); font-size: 11px; line-height: 18px; }
+.nx .va-inspect-note { padding: 8px 0; --va-animation: va-inspect; }
+.nx .va-inspect-note > strong { display: block; font-size: 25px; line-height: 32px; letter-spacing: -.025em; margin: 12px 0 16px; max-width: 290px; }
+.nx .va-inspect-note > p { color: var(--muted); margin: 0 0 26px; }
+.nx .va-inspect-selection { border: 1px solid var(--line-strong); background: var(--card); border-radius: var(--r-10); padding: 15px 18px; display: flex; flex-direction: column; gap: 8px; }
+.nx .va-inspect-selection > span, .nx .va-inspect-next > span { color: var(--faint); font-size: 11px; }
+.nx .va-inspect-selection code { font-family: var(--mono); font-size: 13px; color: var(--ink); }
+.nx .va-inspect-next { padding-top: 20px; display: flex; flex-direction: column; gap: 8px; }
+.nx .va-inspect-next b { color: var(--ink); font-size: 13px; line-height: 20px; font-weight: 600; }
+
+/* Models: capability dossiers standing on one quiet catalogue shelf. */
+.nx .va-library { max-width: 1040px; width: 100%; margin: auto; }
+.nx .va-model-brief { margin-bottom: 38px; text-align: center; }
+.nx .va-model-brief > strong { display: block; font-size: 24px; line-height: 31px; letter-spacing: -.025em; margin: 8px 0; }
+.nx .va-model-brief p { color: var(--muted); margin: 0; }
+.nx .va-model-shelf { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 22px; padding: 14px 20px 0; border-bottom: 8px solid var(--stage); align-items: stretch; }
+.nx .va-model { background: var(--card); border: 1px solid var(--line-strong); border-radius: var(--r-12) var(--r-12) 0 0; overflow: hidden; min-width: 0; }
+.nx .va-model-spine { display: flex; justify-content: space-between; padding: 13px 18px; border-bottom: 1px solid var(--line); font-size: 10px; color: var(--faint); }
+.nx .va-model-cover { padding: 24px 20px; min-height: 244px; display: flex; flex-direction: column; }
+.nx .va-model-type { color: var(--faint); font-size: 11px; line-height: 18px; }
+.nx .va-model-cover > strong { font-size: 25px; line-height: 32px; letter-spacing: -.025em; margin: 9px 0 24px; }
+.nx .va-model-cover ul { list-style: none; padding: 0; margin: 0 0 26px; color: var(--muted); font-size: 12px; line-height: 24px; }
+.nx .va-model-choice { margin-top: auto; display: flex; align-items: center; gap: 8px; font-size: 11px; line-height: 18px; color: var(--muted); }
+.nx .va-model-selected { border-color: var(--ink); box-shadow: var(--shadow-pop); transform: translateY(-12px); --va-animation: va-shelf; }
+.nx .va-model-selected .va-model-spine { background: var(--ink); color: var(--card); }
+.nx .va-model-selected .va-model-choice { color: var(--ink); font-weight: 600; }
+.nx .va-model-choice svg { width: 17px; height: 17px; }
+.nx .va-shelf-note { margin: 24px 20px 0; display: flex; align-items: baseline; justify-content: space-between; gap: 22px; }
+.nx .va-shelf-note > span { color: var(--ink); font-size: 12px; font-weight: 600; flex-shrink: 0; }
+.nx .va-shelf-note p { margin: 0; color: var(--muted); }
+
+/* Organization: a directory selection and the permissions of its actual role. */
+.nx .va-directory { max-width: 1000px; width: 100%; margin: auto; display: grid; grid-template-columns: minmax(0,.9fr) minmax(0,1.1fr); background: var(--card); border-radius: var(--r-16); box-shadow: var(--shadow-card); }
+.nx .va-directory-roster { padding: 28px; border-right: 1px solid var(--line); }
+.nx .va-directory-title { margin-bottom: 22px; }
+.nx .va-directory-title > strong { display: block; margin-top: 6px; font-size: 19px; line-height: 26px; letter-spacing: -.025em; }
+.nx .va-person { display: flex; align-items: center; gap: 12px; padding: 14px 12px; border-radius: var(--r-10); }
+.nx .va-avatar { width: 38px; height: 38px; display: inline-grid; place-items: center; flex-shrink: 0; border-radius: var(--r-24); border: 1px solid var(--line-strong); background: var(--card); color: var(--ink); font-size: 11px; font-weight: 600; }
+.nx .va-person > span:nth-child(2) { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.nx .va-person strong { font-size: 13px; font-weight: 600; line-height: 19px; }
+.nx .va-person small { font-size: 11px; color: var(--faint); line-height: 18px; }
+.nx .va-person-selected { background: var(--paper); --va-animation: va-directory-select; }
+.nx .va-person-indicator { margin-left: auto; min-width: 18px; color: var(--ink); }
+.nx .va-person-indicator svg { display: block; width: 18px; height: 18px; }
+.nx .va-directory-source { border-top: 1px solid var(--line); margin-top: 24px; padding-top: 20px; display: flex; flex-direction: column; gap: 7px; }
+.nx .va-directory-source span { color: var(--faint); font-size: 11px; }
+.nx .va-directory-source strong { font-size: 12px; line-height: 20px; font-weight: 600; }
+.nx .va-role-map { padding: 34px; position: relative; }
+.nx .va-role-head { display: flex; gap: 18px; align-items: center; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+.nx .va-avatar-large { width: 48px; height: 48px; background: var(--ink); color: var(--card); font-size: 13px; }
+.nx .va-role-head strong { display: block; font-size: 27px; line-height: 34px; letter-spacing: -.025em; margin: 4px 0 5px; }
+.nx .va-role-head p { color: var(--muted); margin: 0; font-size: 12px; }
+.nx .va-permissions { list-style: none; padding: 20px 0 0; margin: 0; }
+.nx .va-permissions li { display: flex; align-items: center; gap: 10px; padding: 16px 0; font-size: 12px; line-height: 19px; }
+.nx .va-permission-mark { color: var(--ink); display: flex; }
+.nx .va-permissions li > span:nth-child(2) { flex: 1; color: var(--muted); }
+.nx .va-permissions b { font-size: 10px; font-weight: 600; color: var(--ink); }
+.nx .va-role-foot { color: var(--muted); margin: 20px 0 0; padding-top: 20px; border-top: 1px solid var(--line); font-size: 12px; }
+
+/* Teams: one cohort advances through explicit acceptance milestones. */
+.nx .va-pilot { width: 100%; max-width: 1040px; margin: auto; }
+.nx .va-pilot-header { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 28px; }
+.nx .va-pilot-header strong { display: block; font-size: 25px; line-height: 32px; letter-spacing: -.025em; margin-top: 7px; }
+.nx .va-pilot-state { border: 1px solid var(--line-strong); padding: 10px 14px; border-radius: var(--r-8); background: var(--card); color: var(--ink); font-size: 12px; line-height: 18px; }
+.nx .va-cohort { display: flex; align-items: center; gap: 20px; padding: 22px 26px; background: var(--card); border-radius: var(--r-12); }
+.nx .va-cohort-people { display: flex; padding-right: 9px; }
+.nx .va-cohort-people .va-avatar + .va-avatar { margin-left: -9px; }
+.nx .va-cohort strong { display: block; font-size: 13px; line-height: 21px; font-weight: 600; }
+.nx .va-cohort > div:not(.va-cohort-people) > span { display: block; color: var(--muted); font-size: 12px; line-height: 20px; margin-top: 3px; }
+.nx .va-milestones { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 18px; padding: 34px 4px; margin: 0; list-style: none; }
+.nx .va-milestone { min-width: 0; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.nx .va-milestone-seal { width: 42px; height: 42px; display: grid; place-items: center; border: 1px dashed var(--line-strong); border-radius: var(--r-24); background: var(--card); color: var(--faint); font-size: 12px; margin-bottom: 17px; }
+.nx .va-milestone-done .va-milestone-seal { background: var(--ink); border-color: var(--ink); color: var(--card); --va-animation: va-stamp; }
+.nx .va-milestone:nth-child(2) .va-motion { animation-delay: .12s; }
+.nx .va-milestone:nth-child(3) .va-motion { animation-delay: .24s; }
+.nx .va-milestone:nth-child(4) .va-motion { animation-delay: .36s; }
+.nx .va-milestone > strong { font-size: 14px; line-height: 21px; font-weight: 600; }
+.nx .va-milestone small { color: var(--muted); font-size: 11px; line-height: 18px; margin-top: 5px; }
+.nx .va-milestone-state { color: var(--faint); font-size: 10px; margin-top: 10px; line-height: 17px; }
+.nx .va-pilot-decision { padding: 25px 28px; background: var(--card); border: 1px solid var(--line); border-radius: var(--r-12); }
+.nx .va-pilot-decision > strong { display: block; margin: 7px 0 8px; font-size: 19px; line-height: 27px; letter-spacing: -.025em; }
+.nx .va-pilot-decision p { margin: 0; color: var(--muted); }
+.nx .va-next-cohort { margin-top: 22px; border-top: 1px dashed var(--line-strong); padding-top: 16px; display: flex; gap: 16px; justify-content: space-between; font-size: 11px; line-height: 18px; color: var(--faint); }
+.nx .va-next-cohort-ready { color: var(--ink); font-weight: 600; }
+
+/* Keys: a perforated workload pass with a separate, sparse lifecycle. */
+.nx .va-access { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,.9fr); align-items: center; gap: 70px; width: 100%; max-width: 1000px; margin: auto; }
+.nx .va-access-pass { background: var(--card); border-radius: var(--r-16); box-shadow: var(--shadow-pop); overflow: hidden; }
+.nx .va-pass-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 20px 25px; border-bottom: 1px solid var(--line); }
+.nx .va-pass-header > span:last-child { color: var(--ink); font-size: 11px; font-weight: 600; border: 1px solid var(--line-strong); border-radius: var(--r-7); padding: 5px 9px; }
+.nx .va-pass-identity { display: flex; align-items: center; gap: 18px; padding: 28px 25px; }
+.nx .va-pass-monogram { width: 46px; height: 46px; display: grid; place-items: center; border: 1px solid var(--line-strong); border-radius: var(--r-10); font-size: 15px; font-weight: 600; color: var(--ink); }
+.nx .va-pass-identity strong { font-size: 22px; line-height: 28px; letter-spacing: -.025em; }
+.nx .va-pass-identity p { margin: 6px 0 0; color: var(--muted); font-size: 12px; }
+.nx .va-pass-key { margin: 0 25px 24px; padding: 22px; background: var(--paper); border-radius: var(--r-10); display: flex; flex-direction: column; gap: 10px; }
+.nx .va-pass-key > span { color: var(--faint); font-size: 11px; }
+.nx .va-pass-key code { font-family: var(--mono); color: var(--ink); font-size: 20px; line-height: 27px; overflow-wrap: anywhere; }
+.nx .va-pass-key small { color: var(--faint); font-size: 10px; line-height: 17px; }
+.nx .va-pass-scope { padding: 0 25px 28px; display: flex; flex-direction: column; gap: 8px; }
+.nx .va-pass-scope span { font-size: 11px; color: var(--faint); }
+.nx .va-pass-scope strong { font-size: 13px; font-weight: 600; line-height: 21px; }
+.nx .va-pass-stub { border-top: 1px dashed var(--line-strong); padding: 23px 25px; display: flex; flex-direction: column; gap: 16px; }
+.nx .va-pass-stub > span:first-child { color: var(--muted); font-size: 12px; line-height: 20px; }
+.nx .va-pass-stamp { display: flex; align-items: center; gap: 9px; color: var(--ink); --va-animation: va-stamp; }
+.nx .va-pass-stamp b { font-size: 13px; font-weight: 600; }
+.nx .va-access-revoked .va-pass-key code { text-decoration: line-through; text-decoration-thickness: 1px; }
+.nx .va-key-lifecycle > strong { display: block; font-size: 27px; line-height: 34px; letter-spacing: -.025em; margin: 10px 0 30px; max-width: 340px; }
+.nx .va-key-lifecycle ol { list-style: none; margin: 0; padding: 0; }
+.nx .va-key-lifecycle li { display: flex; gap: 20px; position: relative; padding-bottom: 28px; }
+.nx .va-key-lifecycle li:not(:last-child)::before { position: absolute; content: ''; left: 6px; top: 19px; bottom: 7px; width: 1px; background: var(--line-strong); }
+.nx .va-key-event-dot { width: 13px; height: 13px; margin-top: 4px; border: 1px solid var(--ink); border-radius: var(--r-7); background: var(--card); flex-shrink: 0; }
+.nx .va-key-lifecycle li:last-child .va-key-event-dot { background: var(--ink); --va-animation: va-stamp; }
+.nx .va-key-lifecycle li strong { font-size: 14px; font-weight: 600; line-height: 21px; }
+.nx .va-key-lifecycle li p { margin: 5px 0 0; color: var(--muted); font-size: 12px; }
+.nx .va-key-boundary { border-top: 1px solid var(--line); padding-top: 22px; margin: 0; color: var(--muted); }
+
+/* Tune: an annotated example beside a rubric notebook, then a promotion gate. */
+.nx .va-tune { width: 100%; max-width: 1080px; margin: auto; }
+.nx .va-tune-workbench { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 26px; align-items: stretch; }
+.nx .va-sample-sheet { background: var(--card); border-radius: var(--r-12); padding: 28px; box-shadow: var(--shadow-card); }
+.nx .va-sheet-top { display: flex; justify-content: space-between; gap: 16px; padding-bottom: 22px; border-bottom: 1px solid var(--line); }
+.nx .va-sheet-top > span:last-child { color: var(--faint); font-size: 11px; line-height: 18px; }
+.nx .va-sample-sheet > strong { display: block; font-size: 23px; line-height: 30px; letter-spacing: -.025em; margin: 25px 0 15px; }
+.nx .va-sample-prompt { color: var(--muted); margin: 0 0 25px; }
+.nx .va-sample-answer { padding: 20px; border: 1px solid var(--line-strong); border-radius: var(--r-10); }
+.nx .va-sample-answer p { margin: 11px 0 0; color: var(--ink); }
+.nx .va-sample-answer mark { background: var(--stage); color: var(--ink); padding: 2px 0; --va-animation: va-focus; }
+.nx .va-sample-note { border-top: 1px solid var(--line); margin-top: 24px; padding-top: 18px; }
+.nx .va-sample-note > span { font-size: 11px; color: var(--faint); }
+.nx .va-sample-note p { margin: 7px 0 0; font-size: 12px; color: var(--muted); }
+.nx .va-rubric-page { padding: 29px 28px; background: var(--card); border: 1px solid var(--line-strong); border-radius: var(--r-12); }
+.nx .va-rubric-page > strong { display: block; font-size: 23px; line-height: 30px; letter-spacing: -.025em; margin: 9px 0 27px; }
+.nx .va-rubric-page ol { padding: 0; margin: 0; list-style: none; }
+.nx .va-rubric-page li { display: flex; gap: 18px; padding: 18px 0; border-top: 1px solid var(--line); }
+.nx .va-rubric-page li > span { color: var(--faint); font-size: 12px; line-height: 21px; }
+.nx .va-rubric-page li strong { font-size: 13px; line-height: 21px; font-weight: 600; }
+.nx .va-rubric-page li p { margin: 5px 0 0; color: var(--muted); font-size: 12px; }
+.nx .va-rubric-version { border-top: 1px solid var(--line); padding-top: 20px; display: flex; flex-direction: column; gap: 8px; }
+.nx .va-rubric-version span { color: var(--faint); font-size: 11px; }
+.nx .va-rubric-version code { color: var(--ink); font-family: var(--mono); font-size: 11px; overflow-wrap: anywhere; }
+.nx .va-promotion { display: flex; align-items: center; gap: 18px; border: 1px dashed var(--line-strong); padding: 24px 28px; margin-top: 28px; border-radius: var(--r-12); }
+.nx .va-promotion-icon { display: grid; place-items: center; width: 42px; height: 42px; border-radius: var(--r-10); background: var(--card); color: var(--ink); flex-shrink: 0; --va-animation: va-stamp; }
+.nx .va-promotion > div { flex: 1; }
+.nx .va-promotion strong { font-size: 15px; line-height: 23px; font-weight: 600; display: block; margin: 4px 0; }
+.nx .va-promotion p { margin: 0; color: var(--muted); font-size: 12px; }
+.nx .va-promotion-label { color: var(--ink); background: var(--card); padding: 8px 12px; font-size: 11px; line-height: 18px; border-radius: var(--r-7); }
+.nx .va-promotion-ready { border-style: solid; }
+.nx .va-promotion-ready .va-promotion-icon { background: var(--ink); color: var(--card); }
+
+@keyframes va-arrive { from { opacity: .3; } to { opacity: 1; } }
+@keyframes va-focus { from { opacity: .5; } to { opacity: 1; } }
+@keyframes va-inspect { from { transform: translateX(12px); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+@keyframes va-shelf { from { transform: translateY(0); } to { transform: translateY(-12px); } }
+@keyframes va-directory-select { from { background: var(--card); } to { background: var(--paper); } }
+@keyframes va-stamp { from { transform: scale(.85); opacity: .3; } to { transform: scale(1); opacity: 1; } }
+
+@media (max-width: 980px) {
+ .nx .va-board { padding: 32px; }
+ .nx .va-inspector { gap: 24px; }
+ .nx .va-code-line { padding-left: 12px; padding-right: 12px; grid-template-columns: 20px minmax(0,1fr); gap: 8px; font-size: 11px; }
+ .nx .va-model-shelf { gap: 14px; padding-left: 0; padding-right: 0; }
+ .nx .va-model-cover { padding: 20px 15px; }
+ .nx .va-model-cover > strong { font-size: 22px; line-height: 29px; }
+ .nx .va-access { gap: 36px; }
+ .nx .va-directory-roster, .nx .va-role-map { padding: 24px; }
+}
+@media (max-width: 720px) {
+ .nx .va-board { padding: 25px 18px; }
+ .nx .va-inspector, .nx .va-directory, .nx .va-access, .nx .va-tune-workbench { grid-template-columns: minmax(0,1fr); gap: 26px; }
+ .nx .va-inspect-note { padding: 0 4px; }
+ .nx .va-inspect-note > strong { max-width: none; font-size: 23px; line-height: 30px; }
+ .nx .va-editor-chrome { padding: 14px; align-items: flex-start; }
+ .nx .va-editor-chrome > span:last-child { max-width: 70px; text-align: right; line-height: 17px; }
+ .nx .va-code { padding: 20px 0; }
+ .nx .va-code-line { padding: 7px 10px; font-size: 10px; line-height: 19px; grid-template-columns: 17px minmax(0,1fr); gap: 5px; }
+ .nx .va-line-number { font-size: 9px; padding-right: 3px; }
+ .nx .va-editor-foot { padding: 13px; font-size: 10px; }
+ .nx .va-model-brief { text-align: left; margin: 0 2px 25px; }
+ .nx .va-model-brief > strong { font-size: 22px; line-height: 29px; }
+ .nx .va-model-shelf { grid-template-columns: minmax(0,1fr); border-bottom: 0; padding: 0; gap: 13px; }
+ .nx .va-model { display: grid; grid-template-columns: 28px minmax(0,1fr); border-radius: var(--r-10); }
+ .nx .va-model-spine { padding: 16px 0; border-bottom: 0; border-right: 1px solid var(--line); justify-content: center; }
+ .nx .va-model-spine > span:first-child { display: none; }
+ .nx .va-model-cover { min-height: 0; padding: 17px 20px; }
+ .nx .va-model-cover > strong { font-size: 21px; line-height: 28px; margin: 4px 0 10px; }
+ .nx .va-model-cover ul { display: flex; flex-wrap: wrap; gap: 0 16px; margin-bottom: 14px; font-size: 11px; line-height: 21px; }
+ .nx .va-model-selected { transform: none; --va-animation: va-arrive; }
+ .nx .va-shelf-note { flex-direction: column; gap: 7px; margin: 22px 2px 0; }
+ .nx .va-shelf-note > span { flex-shrink: 1; }
+ .nx .va-directory { gap: 0; }
+ .nx .va-directory-roster { border-right: 0; border-bottom: 1px solid var(--line); padding: 22px 18px; }
+ .nx .va-role-map { padding: 25px 20px; }
+ .nx .va-role-head { gap: 14px; }
+ .nx .va-permissions li { gap: 8px; }
+ .nx .va-pilot-header { flex-direction: column; align-items: flex-start; gap: 16px; margin-bottom: 23px; }
+ .nx .va-pilot-header strong { font-size: 23px; line-height: 30px; }
+ .nx .va-cohort { padding: 20px; flex-direction: column; align-items: flex-start; gap: 14px; }
+ .nx .va-milestones { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 27px 13px; padding: 30px 0; }
+ .nx .va-milestone-seal { margin-bottom: 12px; }
+ .nx .va-pilot-decision { padding: 22px 20px; }
+ .nx .va-pilot-decision > strong { font-size: 18px; line-height: 25px; }
+ .nx .va-next-cohort { flex-direction: column; gap: 4px; }
+ .nx .va-access { gap: 32px; }
+ .nx .va-pass-header, .nx .va-pass-identity, .nx .va-pass-stub { padding: 20px; }
+ .nx .va-pass-header { align-items: flex-start; }
+ .nx .va-pass-header .va-small { max-width: 130px; }
+ .nx .va-pass-identity { gap: 12px; }
+ .nx .va-pass-identity strong { font-size: 19px; line-height: 26px; }
+ .nx .va-pass-key { margin: 0 20px 20px; padding: 19px; }
+ .nx .va-pass-key code { font-size: 17px; }
+ .nx .va-pass-scope { padding: 0 20px 23px; }
+ .nx .va-key-lifecycle { padding: 0 3px; }
+ .nx .va-key-lifecycle > strong { font-size: 23px; line-height: 30px; margin-bottom: 25px; }
+ .nx .va-sample-sheet, .nx .va-rubric-page { padding: 22px 20px; }
+ .nx .va-sample-sheet > strong, .nx .va-rubric-page > strong { font-size: 21px; line-height: 28px; }
+ .nx .va-sheet-top { gap: 12px; }
+ .nx .va-sample-answer { padding: 18px; }
+ .nx .va-promotion { display: grid; grid-template-columns: 38px minmax(0,1fr); gap: 14px; padding: 21px 18px; margin-top: 22px; }
+ .nx .va-promotion-icon { width: 38px; height: 38px; }
+ .nx .va-promotion-label { grid-column: 2; justify-self: start; }
+}
+@media (prefers-reduced-motion: reduce) {
+ .nx .va-scene[data-ex-entered] .ex-frame:not([hidden]) .va-motion { animation: none; }
+}

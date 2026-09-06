@@ -1,0 +1,243 @@
+/* Switch branding page. Exact identity geometry; website tokens and scoped layout. */
+.nx-branding .brand-hero { padding-top: 56px; padding-bottom: 70px; }
+.nx-branding .brand-hero .lede { max-width: 720px; }
+.nx-branding .brand-content { padding-bottom: 90px; }
+.nx-branding .playground { margin-top: -42px; position: relative; border: 1px solid var(--line); border-radius: var(--r-24); background: var(--card); overflow: hidden; }
+.nx-branding .playground-header { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 32px 36px 24px; }
+.nx-branding .playground-header h2 { font-size: 28px; line-height: 1.2; letter-spacing: -.03em; margin-top: 8px; }
+.nx-branding .motion-control { background: var(--paper); border: 1px solid var(--line); border-radius: var(--r-24); padding: 10px 18px; font: inherit; font-size: 12px; font-weight: 600; min-height: 44px; white-space: nowrap; cursor: pointer; }
+.nx-branding .motion-control:disabled { color: var(--muted); cursor: default; }
+.nx-branding .state-controls { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 6px; margin: 0 36px; padding: 6px; background: var(--paper); border-radius: var(--r-12); }
+.nx-branding .state-controls button { display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 52px; border: 0; border-radius: var(--r-8); background: transparent; font: inherit; font-size: 12px; font-weight: 600; cursor: pointer; color: var(--ink); }
+.nx-branding .state-controls button[aria-pressed=true] { background: var(--card); box-shadow: inset 0 0 0 1px var(--line); }
+.nx-branding .playground-body { display: grid; grid-template-columns: 1fr 1.05fr; padding: 34px 44px 36px; gap: 60px; }
+.nx-branding .inspector { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 14px 0; }
+.nx-branding .inspector-icon { height: 196px; display: flex; align-items: center; justify-content: center; }
+.nx-branding .state-description { text-align: center; margin-top: 14px; }
+.nx-branding .state-description h3 { font-size: 24px; letter-spacing: -.035em; }
+.nx-branding .state-description p { font-size: 13px; color: var(--muted); margin-top: 6px; }
+.nx-branding .caption { margin-top: 14px; }
+.nx-branding .real-sizes { display: flex; align-items: flex-end; justify-content: center; gap: 40px; min-height: 96px; margin-top: 12px; }
+.nx-branding .real-sizes > div { display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.nx-branding .real-sizes > div > span:last-child { font-size: 11px; color: var(--muted); }
+.nx-branding .contexts { padding: 16px 0; min-width: 0; }
+.nx-branding .context-head h3 { font-size: 16px; font-weight: 600; letter-spacing: -.02em; }
+.nx-branding .context-head p { font-size: 12px; color: var(--muted); margin-top: 5px; }
+.nx-branding .menu-bar { display: flex; align-items: center; gap: 18px; border-radius: var(--r-8); background: var(--paper); padding: 14px 18px; font-size: 11px; margin-top: 16px; }
+.nx-branding .dark { background: var(--ink); color: var(--card); }
+.nx-branding .spacer { flex: 1; }
+.nx-branding .browser-label { margin-top: 36px; }
+.nx-branding .browser { background: var(--paper); border: 1px solid var(--line); border-radius: var(--r-12); padding: 12px 12px 14px; margin-top: 18px; }
+.nx-branding .browser-tab { display: flex; align-items: center; gap: 10px; background: var(--card); border-radius: var(--r-8); padding: 12px; max-width: 280px; font-size: 11px; }
+.nx-branding .browser-tab > span:nth-child(2) { flex: 1; }
+.nx-branding .browser-address { display: block; font-size: 11px; color: var(--muted); padding: 14px 4px 0; }
+.nx-branding .context-note { font-size: 12px; line-height: 1.7; color: var(--muted); margin-top: 22px; max-width: 420px; }
+.nx-branding .context-note a, .nx-branding .brand-provenance a { display: inline-flex; align-items: center; min-height: 32px; }
+.nx-branding .colors, .nx-branding .states, .nx-branding .brand-usage { margin-top: 100px; }
+.nx-branding .section-heading { text-align: center; }
+.nx-branding .section-heading h2 { margin: 14px auto 18px; }
+.nx-branding .section-heading > p:last-child { font-size: 15px; color: var(--muted); }
+.nx-branding .colorway-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 20px; margin-top: 40px; }
+.nx-branding .colorway { border: 1px solid var(--line); border-radius: var(--r-16); overflow: hidden; }
+.nx-branding .app-stage { height: 244px; display: flex; align-items: center; justify-content: center; background: var(--paper); }
+.nx-branding .colorway-caption { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 20px 24px; }
+.nx-branding .colorway-caption h3 { font-size: 14px; }
+.nx-branding .colorway-caption a, .nx-branding .state-card > a { font-size: 12px; min-height: 44px; display: inline-flex; align-items: center; gap: 6px; }
+.nx-branding .wordmark-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+.nx-branding .wordmark-grid > div { border: 1px solid var(--line); border-radius: var(--r-16); min-height: 144px; display: flex; align-items: center; justify-content: center; padding: 32px; }
+.nx-branding .wordmark-grid img { max-width: 100%; height: auto; }
+.nx-branding .state-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 0; margin-top: 40px; border-top: 1px solid var(--line); }
+.nx-branding .state-card { padding: 32px 30px; border-bottom: 1px solid var(--line); }
+.nx-branding .state-card:nth-child(3n+2) { border-left: 1px solid var(--line); border-right: 1px solid var(--line); }
+.nx-branding .state-card h3 { font-size: 17px; margin-top: 22px; letter-spacing: -.025em; }
+.nx-branding .state-card p { font-size: 13px; line-height: 1.7; color: var(--muted); margin-top: 10px; max-width: 300px; min-height: 66px; }
+.nx-branding .state-card > span { display: block; font-size: 12px; color: var(--muted); margin-top: 16px; }
+.nx-branding .state-card > a { margin-top: 16px; }
+.nx-branding .motion-note { font-size: 12px; color: var(--muted); text-align: center; margin-top: 26px; line-height: 1.7; }
+.nx-branding .download-panel { background: var(--paper); border-radius: var(--r-24); margin-top: 80px; padding: 40px; display: flex; align-items: center; justify-content: space-between; gap: 28px; }
+.nx-branding .download-panel h2 { font-size: 26px; letter-spacing: -.035em; line-height: 1.25; }
+.nx-branding .download-panel p { font-size: 13px; color: var(--muted); margin-top: 10px; }
+.nx-branding .button { display: inline-flex; align-items: center; justify-content: center; gap: 12px; min-height: 44px; white-space: nowrap; background: var(--ink); color: var(--card); border-radius: var(--r-24); padding: 12px 20px; text-decoration: none; font-size: 13px; font-weight: 600; }
+.nx-branding .brand-rules { display: grid; grid-template-columns: 1fr 1fr; gap: 30px 48px; margin-top: 40px; }
+.nx-branding .brand-rules article { border-top: 1px solid var(--line); padding-top: 24px; }
+.nx-branding .brand-rules h3 { font-size: 18px; margin-bottom: 12px; }
+.nx-branding .brand-rules p { font-size: 14px; line-height: 1.8; color: var(--muted); }
+.nx-branding .brand-master-links { display: flex; flex-wrap: wrap; gap: 12px 32px; margin-top: 24px; }
+.nx-branding .brand-master-links a { display: inline-flex; align-items: center; min-height: 44px; font-size: 13px; }
+.nx-branding .brand-provenance { margin-top: 32px; color: var(--muted); font-size: 12px; line-height: 1.8; }
+.nx-branding .brand-reference-links { margin-top: 12px; }
+@media (max-width: 1100px) {
+  .nx-branding .playground-body { gap: 32px; padding: 28px; }
+  .nx-branding .colorway-caption { flex-wrap: wrap; gap: 6px; padding: 16px; }
+}
+@media (max-width: 720px) {
+  .nx-branding .brand-hero { padding-top: 38px; padding-bottom: 50px; }
+  .nx-branding .brand-content { padding-bottom: 60px; }
+  .nx-branding .playground { margin-top: -32px; border-radius: var(--r-16); }
+  .nx-branding .playground-header { padding: 24px 18px 20px; align-items: flex-start; gap: 12px; }
+  .nx-branding .playground-header h2 { font-size: 24px; }
+  .nx-branding .playground-header .eyebrow { font-size: 11px; }
+  .nx-branding .motion-control { font-size: 11px; padding: 8px 12px; }
+  .nx-branding .state-controls { margin: 0 12px; gap: 4px; padding: 4px; }
+  .nx-branding .state-controls button { font-size: 11px; line-height: 1.4; gap: 6px; flex-direction: column; min-height: 76px; padding: 5px; }
+  .nx-branding .playground-body { grid-template-columns: 1fr; gap: 28px; padding: 20px; }
+  .nx-branding .inspector { padding: 8px 0 12px; }
+  .nx-branding .inspector-icon { height: 174px; }
+  .nx-branding .inspector-icon .switch-mark { width: 144px; height: 144px; }
+  .nx-branding .contexts { padding-top: 22px; border-top: 1px solid var(--line); }
+  .nx-branding .menu-bar { padding: 14px 12px; gap: 12px; font-size: 10px; }
+  .nx-branding .colors, .nx-branding .states, .nx-branding .brand-usage { margin-top: 72px; }
+  .nx-branding .section-heading h2 { margin: 14px auto 18px; }
+  .nx-branding .colorway-grid, .nx-branding .wordmark-grid, .nx-branding .brand-rules { grid-template-columns: 1fr; gap: 12px; }
+  .nx-branding .colorway-grid { margin-top: 28px; }
+  .nx-branding .app-stage { height: 210px; }
+  .nx-branding .colorway-caption { padding: 16px 24px; }
+  .nx-branding .wordmark-grid > div { min-height: 130px; }
+  .nx-branding .state-grid { grid-template-columns: 1fr; margin-top: 30px; }
+  .nx-branding .state-card { padding: 26px 12px; display: grid; grid-template-columns: 48px 1fr; column-gap: 20px; }
+  .nx-branding .state-card:nth-child(3n+2) { border-left: 0; border-right: 0; }
+  .nx-branding .state-card > .switch-mark { grid-row: 1/5; }
+  .nx-branding .state-card h3 { margin: 0; }
+  .nx-branding .state-card p { min-height: 0; margin-top: 8px; }
+  .nx-branding .state-card > span, .nx-branding .state-card > a { grid-column: 2; }
+  .nx-branding .download-panel { flex-direction: column; align-items: stretch; gap: 22px; margin-top: 64px; padding: 24px; }
+  .nx-branding .button { white-space: normal; }
+}
+/* The canonical state treatment from design/switch-system/switch-state.css. */
+.nx-branding .switch-mark { display: block; overflow: visible; flex-shrink: 0; --mark-color: var(--ink); --attention-color: var(--amber); }
+.nx-branding .switch-mark .gate, .nx-branding .switch-mark .state-pause, .nx-branding .switch-mark .state-managed { fill: var(--mark-color); }
+.nx-branding .switch-mark .state-pause, .nx-branding .switch-mark .state-managed, .nx-branding .switch-mark .state-attention { display: none; }
+.nx-branding .switch-mark[data-state=protected] .gate { animation: brand-switch-settle .6s cubic-bezier(.2,.7,.3,1) both; }
+.nx-branding .switch-mark[data-state=reconnecting] .gate { animation: brand-switch-wave 1.5s ease-in-out infinite; }
+.nx-branding .switch-mark[data-state=reconnecting] .gate-b { animation-delay: .18s; }
+.nx-branding .switch-mark[data-state=paused] .gate { opacity: .4; }
+.nx-branding .switch-mark[data-state=paused] .state-pause { display: block; }
+.nx-branding .switch-mark[data-state=attention] .gate-b { fill: var(--attention-color); animation: brand-switch-attention 1.8s ease-in-out infinite; }
+.nx-branding .switch-mark[data-state=attention] .state-attention { display: block; fill: var(--attention-color); }
+.nx-branding .switch-mark[data-state=managed] .state-managed { display: block; }
+.nx-branding .switch-mark[data-state=signedOut] .gate { fill: none; stroke: var(--mark-color); stroke-width: 1.5; opacity: .65; }
+.nx-branding .dark .switch-mark { --mark-color: var(--card); --attention-color: var(--amber-soft); }
+.nx-branding .state-controls .switch-mark *, .nx-branding .state-grid .switch-mark *, .nx-branding.motion-off .switch-mark *, .nx-branding .browser-tab .switch-mark * { animation: none !important; }
+@keyframes brand-switch-settle { from { opacity: .2; transform: translateY(3px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes brand-switch-wave { 0%,70%,100% { opacity: 1; } 30% { opacity: .24; } }
+@keyframes brand-switch-attention { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+@media (prefers-reduced-motion: reduce) { .nx-branding .switch-mark * { animation: none !important; } }
+
+.nx-branding .brand-palette { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 24px; margin-top: 36px; }
+.nx-branding .brand-palette > div { display: flex; flex-direction: column; gap: 8px; font-size: 13px; }
+.nx-branding .brand-palette > div > span:last-child { color: var(--muted); font-size: 12px; }
+.nx-branding .brand-swatch { display: block; height: 70px; border-radius: var(--r-8); border: 1px solid var(--line); }
+.nx-branding .swatch-ink { background: var(--ink); }
+.nx-branding .swatch-white { background: var(--card); }
+.nx-branding .swatch-yellow { background: var(--yellow); }
+.nx-branding .swatch-paper { background: var(--paper); }
+.nx-branding .swatch-muted { background: var(--muted); }
+.nx-branding .swatch-amber { background: var(--amber); }
+.nx-branding .brand-color-note { margin-top: 24px; color: var(--muted); font-size: 13px; line-height: 1.8; max-width: 850px; }
+.nx-branding .brand-type { margin-top: 100px; }
+.nx-branding .brand-type-samples { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); margin-top: 40px; gap: 0 32px; }
+.nx-branding .brand-type-example { padding: 24px 0; border-top: 1px solid var(--line); }
+.nx-branding .brand-type-label { display: block; margin-bottom: 14px; font-size: 12px; color: var(--muted); }
+.nx-branding .brand-type-example p { font-size: 18px; line-height: 1.5; }
+.nx-branding .type-semibold { font-weight: 600; }
+.nx-branding .type-row { font-weight: 650; }
+.nx-branding .type-bold { font-weight: 700; }
+.nx-branding .type-wordmark { font-weight: 800; }
+.nx-branding .brand-type-example .type-code { font-family: var(--mono); font-size: 15px; }
+.nx-branding .brand-type-rules { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 22px; }
+.nx-branding .brand-type-rules p { font-size: 13px; line-height: 1.8; color: var(--muted); }
+@media (max-width: 720px) {
+  .nx-branding .brand-palette { grid-template-columns: 1fr 1fr; gap: 24px 16px; }
+  .nx-branding .brand-type { margin-top: 72px; }
+  .nx-branding .brand-type-samples, .nx-branding .brand-type-rules { grid-template-columns: 1fr; gap: 16px; }
+}
+
+.nx-branding .brand-scale { margin-top: 24px; }
+.nx-branding .brand-scale table { border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; line-height: 1.6; }
+.nx-branding .brand-scale caption { text-align: left; color: var(--muted); font-size: 12px; padding-bottom: 16px; }
+.nx-branding .brand-scale th, .nx-branding .brand-scale td { padding: 14px 12px; text-align: left; border-bottom: 1px solid var(--line); overflow-wrap: break-word; }
+.nx-branding .brand-scale th { font-weight: 600; }
+.nx-branding .brand-scale td { color: var(--muted); }
+.nx-branding .brand-scale thead { background: var(--paper); }
+@media (max-width: 720px) {
+  .nx-branding .brand-scale table { font-size: 12px; }
+  .nx-branding .brand-scale th, .nx-branding .brand-scale td { padding: 12px 6px; }
+}
+
+/* Motion gallery: one selected demonstration, shared identity and finite motion. */
+.nx-branding .brand-motion { margin-top: 100px; }
+.nx-branding .bm-gallery { margin-top: 40px; }
+.nx-branding .bm-gallery.is-enhanced { display: grid; grid-template-columns: 230px minmax(0, 1fr); gap: 32px; }
+.nx-branding .bm-choices { align-self: start; }
+.nx-branding .bm-choices button { display: flex; align-items: center; gap: 12px; width: 100%; min-height: 60px; padding: 14px 12px; background: none; border: 0; border-bottom: 1px solid var(--line); color: var(--muted); font: inherit; font-size: 13px; text-align: left; cursor: pointer; }
+.nx-branding .bm-choices button[aria-pressed=true] { color: var(--ink); font-weight: 600; background: var(--paper); border-radius: var(--r-8); }
+.nx-branding .bm-index { font-size: 11px; font-variant-numeric: tabular-nums; }
+.nx-branding .bm-selection { margin-left: auto; visibility: hidden; }
+.nx-branding .bm-choices button[aria-pressed=true] .bm-selection { visibility: visible; }
+.nx-branding .bm-pattern + .bm-pattern { margin-top: 28px; }
+.nx-branding .is-enhanced .bm-pattern { margin-top: 0; }
+.nx-branding .bm-pattern[hidden], .nx-branding .bm-choices[hidden], .nx-branding .bm-toolbar[hidden] { display: none; }
+.nx-branding .bm-scene { background: var(--paper); border-radius: var(--r-16); min-height: 360px; display: flex; align-items: center; justify-content: center; padding: 36px; }
+.nx-branding .bm-scene .switch-mark * { animation: none !important; }
+.nx-branding .bm-page, .nx-branding .bm-action-card, .nx-branding .bm-inline-card, .nx-branding .bm-progress-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--r-12); width: 100%; max-width: 450px; padding: 28px; }
+.nx-branding .bm-page { padding: 0; }
+.nx-branding .bm-scene-label { display: block; font-size: 11px; line-height: 1.6; color: var(--muted); }
+.nx-branding .bm-page > .bm-scene-label { padding: 12px 18px; border-bottom: 1px solid var(--line); }
+.nx-branding .bm-page-body { display: flex; flex-direction: column; align-items: center; gap: 12px; padding: 20px 16px; text-align: center; }
+.nx-branding .bm-scene strong { display: block; font-size: 15px; line-height: 1.5; font-weight: 600; }
+.nx-branding .bm-page-body > span, .nx-branding .bm-scene p { font-size: 12px; line-height: 1.7; color: var(--muted); }
+.nx-branding .bm-page-body > span { min-height: 40px; }
+.nx-branding .bm-page-footer { padding: 12px 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 11px; }
+.nx-branding .bm-setting { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin: 24px 0; padding-bottom: 20px; border-bottom: 1px solid var(--line); font-size: 12px; }
+.nx-branding .bm-setting strong { font-size: 12px; }
+.nx-branding .bm-demo-button { display: flex; align-items: center; justify-content: center; gap: 10px; width: 200px; max-width: 100%; min-height: 48px; border-radius: var(--r-24); background: var(--ink); color: var(--card); font-size: 13px; font-weight: 600; margin: 0 auto; }
+.nx-branding .bm-demo-button .switch-mark { --mark-color: var(--card); }
+.nx-branding .bm-action-card > p { text-align: center; margin-top: 18px; }
+.nx-branding .bm-inline-state { display: flex; align-items: center; gap: 18px; min-height: 96px; }
+.nx-branding .bm-inline-state > div { min-width: 0; }
+.nx-branding .bm-small-note { display: block; font-size: 11px; line-height: 1.7; color: var(--muted); }
+.nx-branding .bm-result-card { text-align: center; max-width: 350px; }
+.nx-branding .bm-result-card > .switch-mark { margin: 0 auto 20px; }
+.nx-branding .bm-result-card > strong { margin: 10px 0; font-size: 24px; letter-spacing: -.025em; }
+.nx-branding .bm-progress-card progress { display: block; width: 100%; height: 6px; appearance: none; border: 0; border-radius: var(--r-7); overflow: hidden; background: var(--stage); }
+.nx-branding .bm-progress-card progress::-webkit-progress-bar { background: var(--stage); }
+.nx-branding .bm-progress-card progress::-webkit-progress-value { background: var(--ink); }
+.nx-branding .bm-progress-card progress::-moz-progress-bar { background: var(--ink); }
+.nx-branding .bm-progress-card label { display: block; font-size: 12px; margin-top: 24px; }
+.nx-branding .bm-progress-card input { display: block; width: 100%; min-height: 44px; margin: 0; accent-color: var(--ink); }
+.nx-branding .bm-caption { display: grid; grid-template-columns: 1.35fr 1fr; gap: 36px; margin-top: 26px; min-height: 150px; }
+.nx-branding .bm-caption h3 { font-size: 20px; line-height: 1.35; letter-spacing: -.025em; }
+.nx-branding .bm-caption p { font-size: 13px; line-height: 1.8; color: var(--muted); margin-top: 10px; }
+.nx-branding .bm-caption dl { margin: 0; font-size: 12px; line-height: 1.7; }
+.nx-branding .bm-caption dl > div + div { margin-top: 12px; }
+.nx-branding .bm-caption dt { color: var(--muted); }
+.nx-branding .bm-caption dd { margin: 2px 0 0; }
+.nx-branding .bm-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 20px; border-top: 1px solid var(--line); padding-top: 22px; margin: 18px 0 0 262px; }
+.nx-branding .bm-toolbar > p { font-size: 12px; line-height: 1.7; color: var(--muted); }
+.nx-branding .bm-toolbar > div { display: flex; gap: 8px; flex-shrink: 0; }
+.nx-branding .bm-disclosure { font-size: 12px; line-height: 1.8; color: var(--muted); margin: 24px 0 0 262px; }
+.nx-branding .brand-motion button:focus-visible, .nx-branding .brand-motion input:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+@media (max-width: 1100px) {
+  .nx-branding .bm-gallery.is-enhanced { grid-template-columns: 200px minmax(0,1fr); gap: 24px; }
+  .nx-branding .bm-caption { grid-template-columns: 1fr; gap: 20px; min-height: 210px; }
+  .nx-branding .bm-caption dl { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .nx-branding .bm-caption dl > div + div { margin-top: 0; }
+  .nx-branding .bm-toolbar, .nx-branding .bm-disclosure { margin-left: 224px; }
+}
+@media (max-width: 720px) {
+  .nx-branding .brand-motion { margin-top: 72px; }
+  .nx-branding .bm-gallery.is-enhanced { grid-template-columns: 1fr; gap: 20px; margin-top: 28px; }
+  .nx-branding .bm-choices { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; }
+  .nx-branding .bm-choices button { padding: 12px 8px; gap: 8px; min-height: 54px; font-size: 12px; }
+  .nx-branding .bm-scene { padding: 18px; min-height: 364px; }
+  .nx-branding .bm-page, .nx-branding .bm-action-card, .nx-branding .bm-inline-card, .nx-branding .bm-progress-card { padding: 20px; }
+  .nx-branding .bm-page { padding: 0; }
+  .nx-branding .bm-inline-state { gap: 12px; }
+  .nx-branding .bm-caption { min-height: 220px; gap: 18px; }
+  .nx-branding .bm-caption dl { font-size: 11px; gap: 16px; }
+  .nx-branding .bm-toolbar { margin-left: 0; flex-wrap: wrap; gap: 12px; }
+  .nx-branding .bm-toolbar > p { min-height: 40px; }
+  .nx-branding .bm-toolbar > div { width: 100%; }
+  .nx-branding .bm-toolbar button { flex: 1; }
+  .nx-branding .bm-disclosure { margin-left: 0; }
+}
