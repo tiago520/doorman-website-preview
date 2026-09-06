@@ -1,0 +1,228 @@
+{
+  "capturedAt": "2026-09-06T01:43:51.720Z",
+  "records": [
+    {
+      "id": "budgets",
+      "version": "before",
+      "route": "/budgets",
+      "verifiedButton": "Count caps",
+      "buttonCount": 0,
+      "errors": [],
+      "sampleOnly": true,
+      "crop": {
+        "x": 280,
+        "y": 85,
+        "width": 1140,
+        "height": 700
+      },
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "deviceScaleFactor": 2
+    },
+    {
+      "id": "budgets",
+      "version": "after",
+      "route": "/budgets",
+      "verifiedButton": "Count caps",
+      "buttonCount": 5,
+      "errors": [],
+      "sampleOnly": true,
+      "crop": {
+        "x": 280,
+        "y": 85,
+        "width": 1140,
+        "height": 700
+      },
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "deviceScaleFactor": 2
+    },
+    {
+      "id": "routing",
+      "version": "before",
+      "route": "/routing",
+      "verifiedButton": "Add window",
+      "buttonCount": 0,
+      "errors": [],
+      "sampleOnly": true,
+      "crop": {
+        "x": 280,
+        "y": 85,
+        "width": 1140,
+        "height": 700
+      },
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "deviceScaleFactor": 2
+    },
+    {
+      "id": "routing",
+      "version": "after",
+      "route": "/routing",
+      "verifiedButton": "Add window",
+      "buttonCount": 1,
+      "errors": [],
+      "sampleOnly": true,
+      "crop": {
+        "x": 280,
+        "y": 85,
+        "width": 1140,
+        "height": 700
+      },
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "deviceScaleFactor": 2
+    },
+    {
+      "id": "tools",
+      "version": "before",
+      "route": "/guardrails/agents?tab=tools",
+      "verifiedButton": "Create policy",
+      "buttonCount": 0,
+      "errors": [],
+      "sampleOnly": true,
+      "crop": {
+        "x": 280,
+        "y": 85,
+        "width": 1140,
+        "height": 700
+      },
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "deviceScaleFactor": 2
+    },
+    {
+      "id": "tools",
+      "version": "after",
+      "route": "/guardrails/agents?tab=tools",
+      "verifiedButton": "Create policy",
+      "buttonCount": 1,
+      "errors": [],
+      "sampleOnly": true,
+      "crop": {
+        "x": 280,
+        "y": 85,
+        "width": 1140,
+        "height": 700
+      },
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "deviceScaleFactor": 2
+    },
+    {
+      "id": "approvals",
+      "version": "before",
+      "route": "/guardrails/agents?tab=autonomy",
+      "verifiedButton": "Approve",
+      "buttonCount": 0,
+      "errors": [],
+      "sampleOnly": true,
+      "crop": "relevant card",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "deviceScaleFactor": 2
+    },
+    {
+      "id": "approvals",
+      "version": "after",
+      "route": "/guardrails/agents?tab=autonomy",
+      "verifiedButton": "Approve",
+      "buttonCount": 2,
+      "errors": [],
+      "sampleOnly": true,
+      "crop": "relevant card",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "deviceScaleFactor": 2
+    },
+    {
+      "id": "audit",
+      "version": "before",
+      "route": "/compliance/audit",
+      "verifiedButton": "Inspect change",
+      "buttonCount": 0,
+      "errors": [],
+      "sampleOnly": true,
+      "crop": {
+        "x": 280,
+        "y": 85,
+        "width": 1140,
+        "height": 700
+      },
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "deviceScaleFactor": 2
+    },
+    {
+      "id": "audit",
+      "version": "after",
+      "route": "/compliance/audit",
+      "verifiedButton": "Inspect change",
+      "buttonCount": 34,
+      "errors": [],
+      "sampleOnly": true,
+      "crop": {
+        "x": 280,
+        "y": 85,
+        "width": 1140,
+        "height": 700
+      },
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "deviceScaleFactor": 2
+    }
+  ],
+  "violations": [],
+  "sources": {
+    "before": {
+      "path": "https://tiago520.github.io/doorman-website-preview/console/",
+      "sourceCommit": null,
+      "compiledAssets": {
+        "index-CVwroSg3.js": "c755d1ffa5a5ca57ff51fc8e31505bd0fda64d0a79484b8a593ee344a5f2d05a",
+        "index-DwXOER6q.css": "362070ed5ad720c691624401de680c66a629b22ea413ee1ef1796e145419657d"
+      },
+      "sampleOnly": true
+    },
+    "after": {
+      "path": "https://tiago520.github.io/doorman-website-preview/console-precision/",
+      "sourceCommit": "563280812adfb9b10bf73944a0cafeaac0bfbd1f",
+      "compiledAssets": {
+        "index-DPP7RgxH.js": "ae0f9aa83a1b2568dc04caa09ac26d47ca77c6aa88ae7b7bb859f6683230ec54",
+        "index-in2kQ6BF.css": "f4c9f6c487c486dd9a855a7337be02403b6518d543f74191ed0382e921af3b77"
+      },
+      "sampleOnly": true
+    }
+  },
+  "imageSha256": {
+    "approvals-before.png": "920d25e1c07e5cf77804baaa27ab3ceb795be59a85550d70d2a9cdc630459b23",
+    "audit-before.png": "383981a288b3b066c514a5af116128eb39875d98ac7d763dbe7752d138ef73ba",
+    "budgets-before.png": "4aa523983ef7202a2ff599984395ea98cbfb7235e3ef134d232c63555968d59c",
+    "routing-before.png": "c8a639ac4f338e5f2c2df10892b3fd3771da91ce444e909905aa04f9ce3aaace",
+    "tools-before.png": "59c27ad0794e88df5eae1c7ae90dd72610eb7d6f3f5cce77787bd215159f02e0",
+    "approvals-after.png": "d5477bd361a6d4a302bdef0989be3dfc54f7d58c1afce35e4782ec14a437d26b",
+    "audit-after.png": "bd388ba8df0b31b9bea4cb6ad869147183aa5fd67c962b2fc9d7c94e3f4452d7",
+    "budgets-after.png": "66edfa83e133221e6d810c47ff2e9cdb433b78fc6adee4a48284c6169637f6a9",
+    "routing-after.png": "7bd09c26cf56c359d47a0109feba68d448ac051d71671beec13d392f54c01e68",
+    "tools-after.png": "bdbfffe360432a9234d41c14b9937050bf59fdddfb6cd55f03ba6d38ef8208fa"
+  }
+}

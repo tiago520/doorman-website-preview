@@ -1,0 +1,50 @@
+/* Doorman web design system — tokens. Source of truth: DESIGN.md §2–§3.
+   Every color on the site MUST be one of these. qa/checks/tokens.mjs enforces it. */
+:root {
+  --ink: #18201b;
+  --muted: #69746c;
+  --faint: #68736c;   /* 4.7:1 on white, 4.5:1 on paper — AA. The app uses #8c958f for 10px meta; web text must pass contrast (QA enforces) */
+  --line: rgba(24, 32, 27, .11);
+  --line-soft: rgba(24, 32, 27, .08);
+  --line-strong: rgba(24, 32, 27, .18);
+  --paper: #f7f7f3;
+  --stage: #e9ece7;
+  --card: #ffffff;
+  --forest: #193d2b;
+  --forest-2: #245c3e;
+  --on-forest: #eaf7ef;
+  --green: #1e8a55;        /* graphic green: dots, glyph door, checks, arrows */
+  --green-text: #1a8050;   /* text green: 4.6:1 on white (AA) — use for any green TEXT */
+  --green-soft: #e5f4eb;
+  --amber: #9a5a0e;        /* text amber, 4.9:1 on paper; the app dot uses #b66a10 */
+  --amber-soft: #fff1dc;
+  --red: #bd3e35;
+  /* the header band — DESIGN.md §2b (owner decision 2026-09-01). Yellow is a FIELD, never a text color. */
+  --yellow: #ffe600;
+  --yellow-pressed: #f0d800;
+  --band-ink: #111311;      /* 16.9:1 on yellow */
+  --band-ink-2: #3a3d38;    /* 8.7:1 */
+  --band-ink-3: #5d615c;    /* 5.2:1 — captions */
+  --band-line: rgba(17, 19, 17, .12);
+  --band-ring: rgba(17, 19, 17, .35);
+
+  --code-fg: #dfe7e2;
+  --code-comment: #7ea893;
+
+  --shadow-pop: 0 18px 55px rgba(17, 30, 21, .13), 0 2px 8px rgba(17, 30, 21, .07), inset 0 0 0 1px rgba(24, 32, 27, .08);
+  --shadow-card: 0 2px 8px rgba(17, 30, 21, .06), inset 0 0 0 1px rgba(24, 32, 27, .08);
+  --shadow-forest: 0 8px 24px rgba(25, 61, 43, .25);
+
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", Inter, "Segoe UI", "Helvetica Neue", sans-serif;
+  --mono: "SF Mono", ui-monospace, Menlo, monospace;
+
+  --r-7: 7px; --r-8: 8px; --r-10: 10px; --r-12: 12px; --r-14: 14px; --r-16: 16px; --r-24: 24px;
+
+  --max: 1440px;
+  --gutter: 48px;
+  --narrow: 200px;
+  --sec-gap: 150px;
+}
+@media (max-width: 720px) {
+  :root { --gutter: 20px; --narrow: 20px; --sec-gap: 96px; }
+}

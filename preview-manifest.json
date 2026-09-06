@@ -206,7 +206,7 @@
     "brand/switch/switch-system@2x.png": "f0c92d77074b7ff6a23b2c6ddaa07a0234af101eaf49d6621f64a03198fed4a4",
     "brand/switch/verification.json": "f6a6defb2d94e7cc8afd9605d8738298159f7b4cfdc11df1582619a393115a8f",
     "changelog.html": "74441e64e3b2f9928216163bdfd3d96b4ccfe8e5c015b49637f2bf6752efb533",
-    "compare.html": "fdf25940d20bc8accd4ea817e50664ed5b1f3971130f9c0cfbdc5057d1b760d0",
+    "compare.html": "7cf7e3134e1aaca00f103bdd11cc30d6b2963a098285dc9deca017cfdb2ac527",
     "console/assets/index-CVwroSg3.js": "c755d1ffa5a5ca57ff51fc8e31505bd0fda64d0a79484b8a593ee344a5f2d05a",
     "console/assets/index-DwXOER6q.css": "362070ed5ad720c691624401de680c66a629b22ea413ee1ef1796e145419657d",
     "console/brand/icon-finalists.png": "6effe5165d3638dfad13ee32b1f39a2d5f041e66f7ceeae166f01633c5977e5e",
@@ -483,12 +483,37 @@
     "console-precision/fonts/sources.json": "47706199851bdd12f2500759fc2accd3194d80c20a04698f0319656e35461f6f",
     "console-precision/fonts/inter.css": "147e5aa69b8d20ab8b2b3a7b56a3483578739084500463a9d319a7227fd07950",
     "console-precision/downloads/switchyard-install.sh": "6ec83e30886e99b26d946dde4aee68cfcf08f90b47f085ce4185ab965aa81c62",
-    "console-precision/downloads/doorman-install.sh": "c47d78143e190ffb6543895d08c75e93b3b392046f512759aed07682cbff7b26"
+    "console-precision/downloads/doorman-install.sh": "c47d78143e190ffb6543895d08c75e93b3b392046f512759aed07682cbff7b26",
+    "console-changes/audit-after.png": "bd388ba8df0b31b9bea4cb6ad869147183aa5fd67c962b2fc9d7c94e3f4452d7",
+    "console-changes/index.html": "48fefb42f229df2681f2328fdd3e67344741ca1d68a7609f5769329394bc1216",
+    "console-changes/routing-after.png": "7bd09c26cf56c359d47a0109feba68d448ac051d71671beec13d392f54c01e68",
+    "console-changes/budgets-after.png": "66edfa83e133221e6d810c47ff2e9cdb433b78fc6adee4a48284c6169637f6a9",
+    "console-changes/tools-after.png": "bdbfffe360432a9234d41c14b9937050bf59fdddfb6cd55f03ba6d38ef8208fa",
+    "console-changes/captures.json": "59050f2d0c398b02893ed1cba929957c3776e63339d1d33f173bd2bb7ab0c98e",
+    "console-changes/tour.css": "33462b9c76d5397cd69e8ef63a69f63041bc57771420ca1198f19a155344a1a9",
+    "console-changes/routing-before.png": "c8a639ac4f338e5f2c2df10892b3fd3771da91ce444e909905aa04f9ce3aaace",
+    "console-changes/budgets-before.png": "4aa523983ef7202a2ff599984395ea98cbfb7235e3ef134d232c63555968d59c",
+    "console-changes/audit-before.png": "383981a288b3b066c514a5af116128eb39875d98ac7d763dbe7752d138ef73ba",
+    "console-changes/tools-before.png": "59c27ad0794e88df5eae1c7ae90dd72610eb7d6f3f5cce77787bd215159f02e0",
+    "console-changes/approvals-before.png": "920d25e1c07e5cf77804baaa27ab3ceb795be59a85550d70d2a9cdc630459b23",
+    "console-changes/approvals-after.png": "d5477bd361a6d4a302bdef0989be3dfc54f7d58c1afce35e4782ec14a437d26b",
+    "console-changes/assets/inter-latin-variable.woff2": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+    "console-changes/assets/OFL.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+    "console-changes/assets/tokens.css": "838f5606e3684cb3f17a28e3f4c0d4a71a3ecc78b0e1b6848b2305ec0e027d64",
+    "console-changes/assets/switch.svg": "34f4e2bca1684fe014c8fdf5b23096dae00f25e4dc83e52dfb34589048824059"
   },
   "variants": {
     "console-precision": {
       "sourceCommit": "563280812adfb9b10bf73944a0cafeaac0bfbd1f",
       "provenance": "console-precision/provenance.json"
     }
+  },
+  "consoleChangeTour": {
+    "path": "console-changes/",
+    "evidence": "console-changes/captures.json",
+    "compares": [
+      "console/",
+      "console-precision/"
+    ]
   }
 }
