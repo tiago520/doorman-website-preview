@@ -3,7 +3,7 @@
   "base": "/doorman-website-preview/complete/",
   "source": {
     "repository": "DoormanAI/doorman-site",
-    "commit": "de9bb9062e82ef5fffe8d8357821e62a5435ac3f",
+    "commit": "ef14cee765bd7813c472bbd6c042961217f4fd56",
     "workingTreeDirty": false
   },
   "sourceFiles": {
