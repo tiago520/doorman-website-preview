@@ -1,0 +1,62 @@
+{
+  "base": "http://127.0.0.1:5355",
+  "startedAt": "2026-09-06T00:00:53.489Z",
+  "passed": true,
+  "sourceCommit": "563280812adfb9b10bf73944a0cafeaac0bfbd1f",
+  "sourceDirty": false,
+  "checks": [
+    {
+      "name": "Styles: money, labels, controls and contrast",
+      "passed": true
+    },
+    {
+      "name": "Organization roles and invitations",
+      "passed": true
+    },
+    {
+      "name": "Webhook delivery, secrets and key replay",
+      "passed": true
+    },
+    {
+      "name": "Budget scopes, count limits and usage preservation",
+      "passed": true
+    },
+    {
+      "name": "Metrics credentials stay in memory",
+      "passed": true
+    },
+    {
+      "name": "Evals watcher, report windows and role gates",
+      "passed": true
+    },
+    {
+      "name": "Private models and routing schedules",
+      "passed": true
+    },
+    {
+      "name": "Audit details, filters, pagination and export",
+      "passed": true
+    },
+    {
+      "name": "Tool policy lifecycle and dry run",
+      "passed": true
+    },
+    {
+      "name": "Approvals, enrollment, evidence, chargeback and savings",
+      "passed": true
+    },
+    {
+      "name": "Public status never substitutes sample health",
+      "passed": true
+    },
+    {
+      "name": "Onboarding uses explicit keys and real invitations",
+      "passed": true
+    }
+  ],
+  "compiledAssets": {
+    "index-DPP7RgxH.js": "ae0f9aa83a1b2568dc04caa09ac26d47ca77c6aa88ae7b7bb859f6683230ec54",
+    "index-in2kQ6BF.css": "f4c9f6c487c486dd9a855a7337be02403b6518d543f74191ed0382e921af3b77"
+  },
+  "completedAt": "2026-09-06T00:02:46.796Z"
+}
