@@ -1,0 +1,782 @@
+{
+  "checkedAt": "2026-09-06T06:35:30.576Z",
+  "scope": "HTML mockups only; not a native app test",
+  "renderCases": 44,
+  "renders": [
+    {
+      "width": 1440,
+      "appearance": "light",
+      "view": "overview",
+      "query": "",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "AI apps on this Mac mockup",
+          "inside": true
+        },
+        {
+          "label": "Protected menu bar mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "view": "menubar",
+      "query": "state=attention",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "Needs attention menu bar mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "view": "menubar",
+      "query": "state=paused",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "Paused menu bar mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "view": "menubar",
+      "query": "state=signedOut",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "Signed out menu bar mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "view": "setup",
+      "query": "step=0",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "First run sign in mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "view": "setup",
+      "query": "step=1",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "First run allow mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "view": "setup",
+      "query": "step=2",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "First run done mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "view": "settings",
+      "query": "panel=settings",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "Doorman settings mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "view": "settings",
+      "query": "panel=apps",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "AI apps on this Mac mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "view": "settings",
+      "query": "panel=doctor",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "Check this Mac mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "view": "states",
+      "query": "",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "Protected menu bar mockup",
+          "inside": true
+        },
+        {
+          "label": "Reconnecting menu bar mockup",
+          "inside": true
+        },
+        {
+          "label": "Paused menu bar mockup",
+          "inside": true
+        },
+        {
+          "label": "Needs attention menu bar mockup",
+          "inside": true
+        },
+        {
+          "label": "Managed menu bar mockup",
+          "inside": true
+        },
+        {
+          "label": "Signed out menu bar mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "view": "overview",
+      "query": "",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "AI apps on this Mac mockup",
+          "inside": true
+        },
+        {
+          "label": "Protected menu bar mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "view": "menubar",
+      "query": "state=attention",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "Needs attention menu bar mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "view": "menubar",
+      "query": "state=paused",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "Paused menu bar mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "view": "menubar",
+      "query": "state=signedOut",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "Signed out menu bar mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "view": "setup",
+      "query": "step=0",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "First run sign in mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "view": "setup",
+      "query": "step=1",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "First run allow mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "view": "setup",
+      "query": "step=2",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "First run done mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "view": "settings",
+      "query": "panel=settings",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "Doorman settings mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "view": "settings",
+      "query": "panel=apps",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "AI apps on this Mac mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "view": "settings",
+      "query": "panel=doctor",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "Check this Mac mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "view": "states",
+      "query": "",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "Protected menu bar mockup",
+          "inside": true
+        },
+        {
+          "label": "Reconnecting menu bar mockup",
+          "inside": true
+        },
+        {
+          "label": "Paused menu bar mockup",
+          "inside": true
+        },
+        {
+          "label": "Needs attention menu bar mockup",
+          "inside": true
+        },
+        {
+          "label": "Managed menu bar mockup",
+          "inside": true
+        },
+        {
+          "label": "Signed out menu bar mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "view": "overview",
+      "query": "",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "AI apps on this Mac mockup",
+          "inside": true
+        },
+        {
+          "label": "Protected menu bar mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "view": "menubar",
+      "query": "state=attention",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "Needs attention menu bar mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "view": "menubar",
+      "query": "state=paused",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "Paused menu bar mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "view": "menubar",
+      "query": "state=signedOut",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "Signed out menu bar mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "view": "setup",
+      "query": "step=0",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "First run sign in mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "view": "setup",
+      "query": "step=1",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "First run allow mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "view": "setup",
+      "query": "step=2",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "First run done mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "view": "settings",
+      "query": "panel=settings",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "Doorman settings mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "view": "settings",
+      "query": "panel=apps",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "AI apps on this Mac mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "view": "settings",
+      "query": "panel=doctor",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "Check this Mac mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "view": "states",
+      "query": "",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "Protected menu bar mockup",
+          "inside": true
+        },
+        {
+          "label": "Reconnecting menu bar mockup",
+          "inside": true
+        },
+        {
+          "label": "Paused menu bar mockup",
+          "inside": true
+        },
+        {
+          "label": "Needs attention menu bar mockup",
+          "inside": true
+        },
+        {
+          "label": "Managed menu bar mockup",
+          "inside": true
+        },
+        {
+          "label": "Signed out menu bar mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "view": "overview",
+      "query": "",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "AI apps on this Mac mockup",
+          "inside": true
+        },
+        {
+          "label": "Protected menu bar mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "view": "menubar",
+      "query": "state=attention",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "Needs attention menu bar mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "view": "menubar",
+      "query": "state=paused",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "Paused menu bar mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "view": "menubar",
+      "query": "state=signedOut",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "Signed out menu bar mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "view": "setup",
+      "query": "step=0",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "First run sign in mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "view": "setup",
+      "query": "step=1",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "First run allow mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "view": "setup",
+      "query": "step=2",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "First run done mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "view": "settings",
+      "query": "panel=settings",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "Doorman settings mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "view": "settings",
+      "query": "panel=apps",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "AI apps on this Mac mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "view": "settings",
+      "query": "panel=doctor",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "Check this Mac mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "view": "states",
+      "query": "",
+      "overflow": 0,
+      "objects": [
+        {
+          "label": "Protected menu bar mockup",
+          "inside": true
+        },
+        {
+          "label": "Reconnecting menu bar mockup",
+          "inside": true
+        },
+        {
+          "label": "Paused menu bar mockup",
+          "inside": true
+        },
+        {
+          "label": "Needs attention menu bar mockup",
+          "inside": true
+        },
+        {
+          "label": "Managed menu bar mockup",
+          "inside": true
+        },
+        {
+          "label": "Signed out menu bar mockup",
+          "inside": true
+        }
+      ],
+      "brokenImages": [],
+      "axeViolations": []
+    }
+  ],
+  "interactionChecks": [
+    "Pause changes the status and shows Resume",
+    "Resume restores the protected fixture",
+    "Repair requires a simulated approval and passes through reconnecting",
+    "Managed state does not expose Pause",
+    "All three setup steps complete through simulated browser/system approvals",
+    "Observe mode updates the explanation",
+    "Launch at login toggle is exposed as an accessible switch",
+    "Gateway input validates and saves only in memory",
+    "Coverage and diagnostics preserve pending results; Escape dismisses the sheet",
+    "Sign out moves to the signed-out mockup",
+    "State-library actions retain the selected specimen state",
+    "Reduced motion stops all state animation"
+  ],
+  "browserErrors": [],
+  "failedRequests": [],
+  "externalRequestsOnLoad": [],
+  "passed": true,
+  "finalReview": "Stage caption contrast corrected and both overview appearances rechecked. PNGs and PDF visually inspected."
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Interactive Doorman macOS design mockups using the approved Switch identity. Example data only."
+    />
+    <title>Doorman for macOS — Switch mockups</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="mockups.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#preview">Skip to mockups</a>
+    <header class="brand-bar">
+      <a
+        class="brand-lockup"
+        href="#overview"
+        aria-label="Doorman mockup overview"
+        ><svg
+          width="28"
+          height="28"
+          viewBox="0 0 32 32"
+          aria-hidden="true"
+          fill="currentColor"
+        >
+          <path d="M5 5h16v6H11v9H5V5Z" />
+          <path d="M27 27H11v-6h10v-9h6v15Z" /></svg
+        ><span>doorman</span></a
+      >
+      <span class="brand-divider"></span
+      ><span class="brand-context">Made for your Mac.</span>
+      <a
+        class="guide-link"
+        href="https://tiago520.github.io/doorman-website-preview/next/branding.html"
+        target="_blank"
+        rel="noreferrer"
+        >Brand guidelines <span aria-hidden="true">↗</span></a
+      >
+    </header>
+    <main>
+      <div class="intro">
+        <div>
+          <p class="eyebrow">Doorman for macOS</p>
+          <h1>Your AI. At home on Mac.</h1>
+          <p class="intro-copy">
+            The Switch identity, brought into the everyday.
+          </p>
+        </div>
+        <div class="concept-label">
+          <span class="concept-dot"></span>Design mockups · Example data<span
+            class="concept-date"
+            >September 2026 / Concept 01</span
+          >
+        </div>
+      </div>
+      <div class="review-toolbar">
+        <nav class="view-tabs" aria-label="Mockup views">
+          <a href="#overview" data-view="overview" aria-current="page"
+            >Overview</a
+          >
+          <a href="#menubar" data-view="menubar">Menu bar</a>
+          <a href="#setup" data-view="setup">First run</a>
+          <a href="#settings" data-view="settings">Settings & apps</a>
+          <a href="#states" data-view="states">State library</a>
+        </nav>
+        <div class="appearance-controls">
+          <div
+            class="segmented theme-switch"
+            role="group"
+            aria-label="Preview appearance"
+          >
+            <button data-theme="light" aria-pressed="true">Light</button
+            ><button data-theme="dark" aria-pressed="false">Dark</button>
+          </div>
+          <button
+            class="motion-control"
+            id="motion-control"
+            aria-pressed="false"
+          >
+            Motion off
+          </button>
+        </div>
+      </div>
+      <div
+        id="view-options"
+        class="view-options"
+        aria-label="Mockup options"
+      ></div>
+      <section
+        id="preview"
+        class="preview"
+        tabindex="-1"
+        aria-label="Interactive macOS mockups"
+      ></section>
+      <div class="review-caption" id="review-caption"></div>
+      <div class="principles">
+        <div>
+          <span class="principle-number">01</span>
+          <div>
+            <h2>A familiar signature.</h2>
+            <p>
+              The approved Switch mark. Yellow app artwork. Native San Francisco
+              on Mac.
+            </p>
+          </div>
+        </div>
+        <div>
+          <span class="principle-number">02</span>
+          <div>
+            <h2>Room to focus.</h2>
+            <p>
+              White and paper surfaces, fine dividers, and compact controls that
+              stay out of the way.
+            </p>
+          </div>
+        </div>
+        <div>
+          <span class="principle-number">03</span>
+          <div>
+            <h2>Status with meaning.</h2>
+            <p>
+              Every state has a label and a shape cue. Amber asks for attention;
+              yellow is the identity.
+            </p>
+          </div>
+        </div>
+      </div>
+      <footer class="review-footer">
+        <span>HTML design study · All actions are simulated</span
+        ><a href="README.md"
+          >Design notes & source references <span aria-hidden="true">↗</span></a
+        >
+      </footer>
+    </main>
+    <dialog id="detail-dialog" aria-labelledby="dialog-title"
+      ><div id="dialog-content"></div
+    ></dialog>
+    <div class="toast" role="status" aria-live="polite" id="toast"></div>
+    <noscript
+      ><p class="no-script">
+        Enable JavaScript to explore the mockups, or open the images in the
+        <a href="exports/">exports folder</a>.
+      </p></noscript
+    >
+  </body>
+</html>
