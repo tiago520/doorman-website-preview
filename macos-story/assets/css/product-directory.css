@@ -20,6 +20,18 @@
 .nx .pd-product p { font-size: 13px; line-height: 21px; color: var(--muted); margin-top: 7px; }
 .nx .pd-product .pd-capabilities { margin-top: 0; }
 .nx .pd-product .link { display: inline-flex; align-items: center; min-height: 32px; margin-top: 7px; font-size: 12px; }
+.nx .pd-feature-details { grid-column: 1/-1; margin-top: -14px; }
+.nx .pd-feature-details summary { cursor: pointer; width: fit-content; min-height: 44px; padding: 12px 0; font-size: 13px; font-weight: 600; }
+.nx .pd-feature-list { list-style: none; margin: 4px 0 0; padding: 0; display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 20px 32px; }
+.nx .pd-feature-list li { min-width: 0; border-top: 1px solid var(--line); padding-top: 10px; scroll-margin-top: 110px; }
+.nx .pd-feature-list li[hidden], .nx #pd-reset[hidden] { display: none; }
+.nx .pd-feature-list h4 { font-size: 14px; line-height: 21px; font-weight: 600; }
+.nx .pd-feature-list a { min-height: 44px; display: inline-flex; align-items: center; gap: 8px; }
+.nx .pd-feature-list p { margin-top: 0; }
+.nx .pd-search-meta { grid-column: 1/-1; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 20px; }
+.nx .pd-counts { display: flex; flex-wrap: wrap; gap: 10px 20px; }
+.nx .pd-search-meta #pd-count, .nx #pd-capability-count { color: var(--muted); font-size: 12px; }
+.nx #pd-reset { appearance: none; border: 0; padding: 8px 4px; background: transparent; color: var(--ink); font-family: inherit; font-weight: 600; cursor: pointer; min-height: 44px; font-size: 13px; text-decoration: underline; text-underline-offset: 4px; }
 .nx .pd-walkthrough { margin-top: 50px; }
 .nx .pd-walkthrough > p { color: var(--muted); font-size: 15px; line-height: 24px; margin: 15px auto 32px; max-width: 660px; text-align: center; }
 .nx .pd-step { display: grid; grid-template-columns: 60px minmax(0,1fr) minmax(0,.85fr); gap: 28px; padding: 30px 0; border-top: 1px solid var(--line); align-items: start; }
@@ -40,6 +52,7 @@
 .nx .pd-map span { color: var(--muted); font-size: 13px; line-height: 22px; }
 @media (max-width: 900px) { .nx .pd-directory { grid-template-columns: 180px minmax(0,1fr); gap: 22px; } .nx .pd-product { grid-template-columns: 1fr; gap: 12px; } }
 @media (max-width: 720px) {
+ .nx .pd-feature-list { grid-template-columns: 1fr; gap: 12px; }
  .nx .pd-search, .nx .pd-directory, .nx .pd-related, .nx .pd-map { grid-template-columns: 1fr; }
  .nx .pd-search { gap: 16px; padding-top: 28px; }
  .nx .pd-directory { padding-top: 24px; }
