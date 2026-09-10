@@ -1,0 +1,31 @@
+{
+  "rendering": "Actual preview SwiftUI views raster-captured from NSHostingView on an ephemeral macOS Retina display at native 2x backing scale, including native controls; view content without desktop window chrome",
+  "fixture_data": true,
+  "fixture": "stub/helper-stub.mjs",
+  "production_base_sha": "e7b4987",
+  "capture_commit": "abb97640c3c481e8ef0c3a3a1d7fee9d2fc1eec8",
+  "os": "macOS-15.7.9-arm64-arm-64bit-Mach-O",
+  "run_id": "34018727806",
+  "limitations": [
+    "Native Switch UI is built on the real Go control-loop branch; this candidate is not a signed production release.",
+    "Coverage, money, model names and account data are bundled fixture examples, not observed customer activity.",
+    "No installation, certificate trust, provider connection or traffic routing was performed."
+  ],
+  "images": {
+    "setup-0-light@2x.png": {
+      "width": 1040,
+      "height": 858,
+      "sha256": "001208f8c0b1be87585c9433c4919136816b3c8c5403f6b0a134e7bcf1bfdff5"
+    },
+    "doctor-light@2x.png": {
+      "width": 932,
+      "height": 1082,
+      "sha256": "3de099c4b9b5eb73308bdb7b396a40a82a98a84ddc2d31db9d30597220e286d2"
+    },
+    "supported-apps-light@2x.png": {
+      "width": 1200,
+      "height": 1676,
+      "sha256": "32baf9f6f1f4cf10e9d68b7012c966100383fcee46f0994f09897e821a7f4d43"
+    }
+  }
+}

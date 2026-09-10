@@ -1,0 +1,142 @@
+{
+  "apps-dark": {
+    "width": 1424,
+    "height": 1818,
+    "sha256": "1bc32ac1d59cbc6dfdb853b60fe5e0851c23732c554533340caeaf2e9848a16e"
+  },
+  "apps-light": {
+    "width": 1424,
+    "height": 1818,
+    "sha256": "2df25f107eb4bdb028cf6694d076c71a2f843f226483b87da77cc6e619bcdf7f"
+  },
+  "doctor-dark": {
+    "width": 1156,
+    "height": 1712,
+    "sha256": "3bb52d70deb882f698c6a059b1696431a90434355235a08f04628b5b89b1a613"
+  },
+  "doctor-light": {
+    "width": 1156,
+    "height": 1712,
+    "sha256": "0a806ef33814be1475faa9e2ead3aa1820c324dd2b1d9a5bbf687cdcd2fd0803"
+  },
+  "menubar-attention-dark": {
+    "width": 960,
+    "height": 1282,
+    "sha256": "f376088cd0fef11c5c794ec843682353aa265b98f2ac74bf4288d0499db81e39"
+  },
+  "menubar-attention-light": {
+    "width": 960,
+    "height": 1282,
+    "sha256": "6a3f7e150acfc66f405c31bcd0ef3dc8851306b1214c6e676c30aa9da7c0c6c0"
+  },
+  "menubar-managed-dark": {
+    "width": 960,
+    "height": 1360,
+    "sha256": "29df8562bcc7b2f0d532e76bf5952d4b4f932158359ff61a204e5098eac3c130"
+  },
+  "menubar-managed-light": {
+    "width": 960,
+    "height": 1360,
+    "sha256": "3fc7707f9bfc1d6d881672b69f06a3a7c49dd634e34459d2d28b63d297c2a96a"
+  },
+  "menubar-paused-dark": {
+    "width": 960,
+    "height": 1408,
+    "sha256": "f8320518d87d0b2e80d64031d1f1a30a1328961381fa14837b5de75a8340fb9e"
+  },
+  "menubar-paused-light": {
+    "width": 960,
+    "height": 1408,
+    "sha256": "3b8b63f0b587b685c4c62fc8fd02ba55fa3ce99448188b1edd3de7006a3e3728"
+  },
+  "menubar-protected-dark": {
+    "width": 960,
+    "height": 1360,
+    "sha256": "4c1dd6f65c6c106981bdf419ea644f32cfb8af3c00e03f6c41cee0562cdd8571"
+  },
+  "menubar-protected-light": {
+    "width": 960,
+    "height": 1360,
+    "sha256": "3e0bc686842a95a7b5a7ed177e31f3d202cefae8fe46b4f5dd1fcc95c7d613cc"
+  },
+  "menubar-reconnecting-dark": {
+    "width": 960,
+    "height": 1360,
+    "sha256": "54e154826ebd685af1a80c2d04e7a7047b544667a5f6375aa97f45071d467b4d"
+  },
+  "menubar-reconnecting-light": {
+    "width": 960,
+    "height": 1360,
+    "sha256": "4beb83c6d7b8e0eb26da1a316426d7086cdbcecbfe78f106fb66a443fb5d695e"
+  },
+  "menubar-signedOut-dark": {
+    "width": 960,
+    "height": 1214,
+    "sha256": "c3d8a70a856d7f02d296e5957d04264b0ee70bdf7edc5e12df703718bf67a985"
+  },
+  "menubar-signedOut-light": {
+    "width": 960,
+    "height": 1214,
+    "sha256": "e6e666a46455d6809e60f32aa2d7cd790c5fa324efb21722f735436143147691"
+  },
+  "overview-dark": {
+    "width": 2688,
+    "height": 1482,
+    "sha256": "4fa824e75aa1b449ce4fc505d52cb3507b8eda77277a855e3dcb12e91c33e99f"
+  },
+  "overview-light": {
+    "width": 2688,
+    "height": 1482,
+    "sha256": "819d390419c1f3dd417398cc96a6980030be0829b34d25a77f557ee13c6f884b"
+  },
+  "settings-dark": {
+    "width": 1260,
+    "height": 1742,
+    "sha256": "e04b700cf643109fd42f619b4ff8fa65037fab8aae9a6f13fc3c2e84d0880f8a"
+  },
+  "settings-light": {
+    "width": 1260,
+    "height": 1742,
+    "sha256": "67de936575ba07b8b7a64bbf85747120b517a8f9bf30549134b39dfd994ff4ec"
+  },
+  "setup-1-dark": {
+    "width": 1264,
+    "height": 1554,
+    "sha256": "32cf341f9edc0da78b3011fa2c92f1b527910524a54ddf6e380572b881a49ea6"
+  },
+  "setup-1-light": {
+    "width": 1264,
+    "height": 1554,
+    "sha256": "88f7d5791ffe469b0e6202275a7a3dd7e85ca850e5af66337d613da662b93ff6"
+  },
+  "setup-2-dark": {
+    "width": 1264,
+    "height": 1608,
+    "sha256": "cf2d4c595977ffe752853f4fa6b105ef5c095b23e8b056d70d08af044bcffc1a"
+  },
+  "setup-2-light": {
+    "width": 1264,
+    "height": 1608,
+    "sha256": "3cf1a332e3b182b040b225c0ea450a7c9006af743c57c17a16fcd96467bfc3fe"
+  },
+  "setup-3-dark": {
+    "width": 1264,
+    "height": 1544,
+    "sha256": "f6d81ffdbcbeea437986f06dffb02ee0070019312e7b8fc04e841d1aa16f5317"
+  },
+  "setup-3-light": {
+    "width": 1264,
+    "height": 1544,
+    "sha256": "a77c5642610a34f1bb725cac573327ad52024961dc66269d54e74ba14b04f28d"
+  },
+  "states-dark": {
+    "width": 2688,
+    "height": 2064,
+    "sha256": "c6a3f1bfe8b8e7b10705d1ce24b6e7997786372ba88c30369393cf11372f44b8"
+  },
+  "states-light": {
+    "width": 2688,
+    "height": 2064,
+    "sha256": "90389760297ae75fdbbe199f7e86c1a819ba69e03201b23193e61dea0bccc968"
+  }
+}

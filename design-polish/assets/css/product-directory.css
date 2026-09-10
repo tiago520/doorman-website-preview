@@ -1,0 +1,70 @@
+/* Product discovery and guided walkthroughs use the approved comparison tokens. */
+.nx .nx-mega .pd-menu-all { grid-column: 1/-1; min-height: 44px; justify-content: space-between; align-items: center; border-top: 1px solid var(--line); border-radius: 0; padding-top: 20px; font-size: 13px; font-weight: 600; }
+.nx .nx-page-cta > .link { display: inline-flex; align-items: center; margin-top: 22px; min-height: 44px; font-size: 13px; }
+.nx .pd-search { display: grid; grid-template-columns: minmax(0,2fr) minmax(0,1fr); gap: 18px 28px; padding-top: 42px; }
+.nx .pd-search[hidden], .nx .pd-product[hidden], .nx .pd-group[hidden], .nx .pd-index a[hidden], .nx #pd-empty[hidden] { display: none; }
+.nx .pd-search label { display: block; font-size: 12px; margin-bottom: 9px; color: var(--muted); }
+.nx .pd-search input, .nx .pd-search select { width: 100%; min-height: 48px; border: 1px solid var(--line-strong); border-radius: var(--r-10); padding: 12px 16px; background: var(--card); color: var(--ink); font: inherit; font-size: 14px; }
+.nx #pd-count { grid-column: 1/-1; color: var(--muted); font-size: 12px; }
+.nx .pd-directory { display: grid; grid-template-columns: 220px minmax(0,1fr); gap: 54px; padding-top: 44px; }
+.nx .pd-index { position: sticky; top: 98px; align-self: start; display: flex; flex-direction: column; gap: 4px; }
+.nx .pd-index a { padding: 11px 12px; min-height: 44px; font-size: 13px; line-height: 20px; color: var(--muted); border-radius: var(--r-7); text-decoration: none; }
+.nx .pd-index a:hover { background: var(--paper); color: var(--ink); }
+.nx .pd-group { margin-bottom: 56px; scroll-margin-top: 110px; }
+.nx .pd-group-head { padding: 22px 26px; border-radius: var(--r-12); background: var(--paper); margin-bottom: 10px; }
+.nx .pd-group-head h2 { font-size: 26px; line-height: 32px; letter-spacing: -.025em; }
+.nx .pd-group-head p { font-size: 13px; line-height: 21px; color: var(--muted); margin-top: 8px; }
+.nx .pd-product { display: grid; grid-template-columns: 1fr 1.1fr; gap: 30px; padding: 28px 26px; border-bottom: 1px solid var(--line); }
+.nx .pd-product h3 { font-size: 17px; line-height: 24px; letter-spacing: -.01em; }
+.nx .pd-product h3 a { display: inline-flex; align-items: center; min-height: 32px; color: var(--ink); }
+.nx .pd-product p { font-size: 13px; line-height: 21px; color: var(--muted); margin-top: 7px; }
+.nx .pd-product .pd-capabilities { margin-top: 0; }
+.nx .pd-product .link { display: inline-flex; align-items: center; min-height: 32px; margin-top: 7px; font-size: 12px; }
+.nx .pd-feature-details { grid-column: 1/-1; margin-top: -14px; }
+.nx .pd-feature-details summary { cursor: pointer; width: fit-content; min-height: 44px; padding: 12px 0; font-size: 13px; font-weight: 600; }
+.nx .pd-feature-list { list-style: none; margin: 4px 0 0; padding: 0; display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 20px 32px; }
+.nx .pd-feature-list li { min-width: 0; border-top: 1px solid var(--line); padding-top: 10px; scroll-margin-top: 110px; }
+.nx .pd-feature-list li[hidden], .nx #pd-reset[hidden] { display: none; }
+.nx .pd-feature-list h4 { font-size: 14px; line-height: 21px; font-weight: 600; }
+.nx .pd-feature-list a { min-height: 44px; display: inline-flex; align-items: center; gap: 8px; }
+.nx .pd-feature-list p { margin-top: 0; }
+.nx .pd-search-meta { grid-column: 1/-1; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 20px; }
+.nx .pd-counts { display: flex; flex-wrap: wrap; gap: 10px 20px; }
+.nx .pd-search-meta #pd-count, .nx #pd-capability-count { color: var(--muted); font-size: 12px; }
+.nx #pd-reset { appearance: none; border: 0; padding: 8px 4px; background: transparent; color: var(--ink); font-family: inherit; font-weight: 600; cursor: pointer; min-height: 44px; font-size: 13px; text-decoration: underline; text-underline-offset: 4px; }
+.nx .pd-walkthrough { margin-top: 50px; }
+.nx .pd-walkthrough > p { color: var(--muted); font-size: 15px; line-height: 24px; margin: 15px auto 32px; max-width: 660px; text-align: center; }
+.nx .pd-step { display: grid; grid-template-columns: 60px minmax(0,1fr) minmax(0,.85fr); gap: 28px; padding: 30px 0; border-top: 1px solid var(--line); align-items: start; }
+.nx .pd-step-number { color: var(--faint); font-size: 13px; padding-top: 5px; }
+.nx .pd-step h3 { font-size: 22px; line-height: 28px; letter-spacing: -.02em; margin-bottom: 12px; }
+.nx .pd-step p { font-size: 14px; line-height: 23px; color: var(--muted); }
+.nx .pd-step a { display: inline-flex; align-items: center; min-height: 36px; margin-top: 10px; font-size: 13px; }
+.nx .pd-step-outcome { padding: 20px 24px; border: 1px solid var(--line); border-radius: var(--r-12); background: var(--paper); }
+.nx .pd-step-outcome span { display: block; margin-bottom: 8px; color: var(--faint); font-size: 12px; }
+.nx .pd-step-outcome p { color: var(--ink); }
+.nx .pd-related { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 24px; margin-top: 28px; }
+.nx .pd-related a { display: flex; flex-direction: column; gap: 10px; padding: 24px 0; border-top: 1px solid var(--line); color: var(--ink); font-size: 16px; text-decoration: none; }
+.nx .pd-related small { font-size: 13px; line-height: 21px; color: var(--muted); }
+.nx .pd-map { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); margin-top: 36px; border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.nx .pd-map a { min-width: 0; min-height: 144px; display: flex; flex-direction: column; gap: 12px; padding: 26px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); color: var(--ink); text-decoration: none; }
+.nx .pd-map a:hover { background: var(--paper); }
+.nx .pd-map strong { font-size: 18px; line-height: 25px; }
+.nx .pd-map span { color: var(--muted); font-size: 13px; line-height: 22px; }
+@media (max-width: 900px) { .nx .pd-directory { grid-template-columns: 180px minmax(0,1fr); gap: 22px; } .nx .pd-product { grid-template-columns: 1fr; gap: 12px; } }
+@media (max-width: 720px) {
+ .nx .pd-feature-list { grid-template-columns: 1fr; gap: 12px; }
+ .nx .pd-search, .nx .pd-directory, .nx .pd-related, .nx .pd-map { grid-template-columns: 1fr; }
+ .nx .pd-search { gap: 16px; padding-top: 28px; }
+ .nx .pd-directory { padding-top: 24px; }
+ .nx .pd-index { position: static; display: grid; grid-template-columns: 1fr 1fr; gap: 4px; }
+ .nx .pd-index a { padding: 10px 8px; font-size: 12px; }
+ .nx .pd-group { margin-bottom: 36px; }
+ .nx .pd-group-head, .nx .pd-product { padding: 22px 18px; }
+ .nx .pd-group-head h2 { font-size: 23px; line-height: 29px; }
+ .nx .pd-step { grid-template-columns: 28px minmax(0,1fr); gap: 16px; }
+ .nx .pd-step-outcome { grid-column: 2; padding: 18px; }
+ .nx .pd-step a, .nx .pd-product .link { min-height: 44px; }
+ .nx .pd-related { gap: 0; }
+ .nx .pd-map { border-left: 0; }
+ .nx .pd-map a { min-height: 112px; border-right: 0; padding: 24px 10px; }
+}

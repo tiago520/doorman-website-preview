@@ -1,0 +1,60 @@
+{
+  "schema": "doorman.console-preview.v1",
+  "base": "/doorman-website-preview/console-polish/",
+  "source": {
+    "repository": "DoormanAI/doorman-gateway",
+    "commit": "e246e043b84aa1e8c5d909f58f1655a5ad02ee64",
+    "workingTreeDirty": false
+  },
+  "sampleOnly": true,
+  "acceptance": {
+    "workflow": "https://github.com/DoormanAI/doorman-gateway/actions/runs/34412460460",
+    "headCommit": "e246e043b84aa1e8c5d909f58f1655a5ad02ee64",
+    "mergeCommit": "8dd2b339c6c6dfb21f70f9e835948976868cdd83",
+    "conclusion": "success"
+  },
+  "publicationTransforms": [
+    "Existing static sample bootstrap; exit returns to the new website login handoff.",
+    "Open Graph and social-image URLs use this console path."
+  ],
+  "testedCompiledAssets": {
+    "index-BdLuTzht.css": "b6fe8ba2de823116d5191a25c57ea8d276875648a3215bdb8139b935fc9c9ad1",
+    "index-D4AAD3vf.js": "046127485fb6861a496a274cb687e6d00e3cace6a4e60b2f1c99e5b2ba318908"
+  },
+  "files": {
+    "assets/index-BdLuTzht.css": "b6fe8ba2de823116d5191a25c57ea8d276875648a3215bdb8139b935fc9c9ad1",
+    "assets/index-D4AAD3vf.js": "046127485fb6861a496a274cb687e6d00e3cace6a4e60b2f1c99e5b2ba318908",
+    "brand/icon-finalists.png": "6effe5165d3638dfad13ee32b1f39a2d5f041e66f7ceeae166f01633c5977e5e",
+    "brand/icon-grid.png": "d8bf786f9b1ab67a733a0de46bd578ef18a8b2c80ca86e5a054c102f8625b555",
+    "brand/icon-lockups.png": "4b978c953f98be50e59c8cdd447aa8cdf4b4aa0c831d540b9538a8ae66263264",
+    "brand/icon-round2.png": "47be2f85cbe5612a34d01b0165db00bf5e5e0d5fae84499b32a2672ce04c135c",
+    "downloads/doorman-install.sh": "c47d78143e190ffb6543895d08c75e93b3b392046f512759aed07682cbff7b26",
+    "downloads/switchyard-install.sh": "6ec83e30886e99b26d946dde4aee68cfcf08f90b47f085ce4185ab965aa81c62",
+    "fonts/OFL.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+    "fonts/README.md": "3cf26263fb2e7a0bccf255280871f769c2634011e4cd97bc1df75b16c791cdff",
+    "fonts/inter-cyrillic-ext-variable.woff2": "ca157063339ac4ad418f214f3abfed119b0798ab4d377386ce5c9e5a7a435ebd",
+    "fonts/inter-cyrillic-variable.woff2": "71d5ee93cc1e9f1d520a3a8b66456de18c7879d8df09d57fcd2eaff75fef0075",
+    "fonts/inter-greek-ext-variable.woff2": "6e9e020a25f9b56d418f2c085b1d3c09725a4da23fe693a5b463064606732190",
+    "fonts/inter-greek-variable.woff2": "1be3448e292fbf05ffe176fe1e43f135013d50b1e7d324ad1a558f623d3bb6f6",
+    "fonts/inter-latin-ext-variable.woff2": "34b9c504cab7a73e37b746343a449132e56cf7b5481af2cb81dc74dcff25c956",
+    "fonts/inter-latin-variable.woff2": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+    "fonts/inter-vietnamese-variable.woff2": "5c66f9e07e90c6d4ac4922cc68d60de26c17b1858e677fb5e603fce3952b3ff2",
+    "fonts/inter.css": "147e5aa69b8d20ab8b2b3a7b56a3483578739084500463a9d319a7227fd07950",
+    "fonts/sources.json": "47706199851bdd12f2500759fc2accd3194d80c20a04698f0319656e35461f6f",
+    "index.html": "27d298ab87a5441f07aab16149ca8787f6943b0c18dd660ab1e5309ce44662bb",
+    "preview-bootstrap.js": "d6e0869788dc3c05fa53861080ad4dad45d0ce5fc6ce94967fa61a42d7917cd2",
+    "shots/control-room-day.png": "d9b15ce835248303c0536b66e115725fffa4247a3e473b416afa37d5e9a2ef51",
+    "shots/control-room-night.png": "4c1ef5adb26cf0b95a04d22d6b30393abbbced38bec0877e5a8c5bc887d2b6f7",
+    "shots/crop-attention-day.png": "2721d6c40c80870fb8c37ead91cc7013e24500445f92ebf10fef0bb5bb14752c",
+    "shots/crop-attention.png": "2721d6c40c80870fb8c37ead91cc7013e24500445f92ebf10fef0bb5bb14752c",
+    "shots/crop-budgets-day.png": "0d2e74ec6abb8ae059c6e08a5c6ebcf257d3eb1293efdb80215d6e3058fe4dd3",
+    "shots/crop-budgets.png": "0d2e74ec6abb8ae059c6e08a5c6ebcf257d3eb1293efdb80215d6e3058fe4dd3",
+    "shots/crop-savings-day.png": "8f12bea8daefe48180d2ffed604fcac1fef9992379a4399139fc0a1037b54c59",
+    "shots/crop-savings.png": "8f12bea8daefe48180d2ffed604fcac1fef9992379a4399139fc0a1037b54c59",
+    "shots/crop-team-day.png": "e0caf40b71e7efb5509ba5006de3a39a3570d3b4e0066817b362eeee152c97f7",
+    "shots/precision-captures.json": "b06507f0724fb15bc7fbcc029df5b05a7215d042eb9bbb4c2d31b7221fa16f01",
+    "shots/requests-day.png": "644933efa7549e0d338284167e0cbe78c1a1fc86364799920a4a4dd351917aaa",
+    "shots/requests-night.png": "f7c33ed3b571417281b644dbb5aa0e70d0d390690715268ec59184f27066f74f",
+    "switch-favicon.svg": "4db8a80b136f087790fd0c2cc3fa70955d919545ab24771a6ea0340a2f22c1a5"
+  }
+}

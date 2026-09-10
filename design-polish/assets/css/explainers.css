@@ -1,0 +1,231 @@
+/* Purpose-built explanatory diagrams. Illustrative, never a replica of the console. */
+.nx .ex-section { padding-top: 58px; padding-bottom: 18px; }
+.nx .ex-heading { max-width: 860px; margin: 0 auto 32px; text-align: center; }
+.nx .ex-heading h2 { margin: 12px auto 16px; }
+.nx .ex-heading > p { max-width: 660px; margin: auto; font-size: 15px; line-height: 22px; color: var(--muted); }
+.nx .ex-scene { position: relative; margin: 0; background: var(--card); box-shadow: var(--shadow-pop); border-radius: var(--r-24); overflow: hidden; }
+.nx .ex-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 20px 28px; border-bottom: 1px solid var(--line); }
+.nx .ex-label { font-size: 12px; color: var(--faint); }
+.nx .ex-controls { display: flex; gap: 4px; padding: 4px; background: var(--paper); border-radius: var(--r-10); }
+.nx .ex-controls[hidden], .nx .ex-frame[hidden] { display: none; }
+.nx .ex-controls button { border: 0; background: transparent; color: var(--muted); padding: 10px 14px; min-height: 40px; font: inherit; font-size: 13px; font-weight: 600; line-height: 18px; border-radius: var(--r-7); cursor: pointer; }
+.nx .ex-controls button[aria-pressed="true"] { background: var(--card); color: var(--ink); box-shadow: var(--shadow-card); }
+.nx .ex-controls button:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.nx .ex-frame-title { font-size: 15px; font-weight: 600; color: var(--ink); margin: 24px 28px 0; }
+.nx .ex-scene[data-ex-ready] .ex-frame-title { display: none; }
+.nx .ex-board { background: var(--paper); padding: 48px; min-height: 292px; display: grid; align-items: center; }
+.nx .ex-flow { display: grid; grid-template-columns: minmax(0, 1fr) 70px minmax(0, 1.05fr) 70px minmax(0, 1fr); align-items: center; max-width: 1060px; width: 100%; margin: auto; }
+.nx .ex-node { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; gap: 12px; background: var(--card); box-shadow: var(--shadow-card); border-radius: var(--r-16); min-height: 164px; padding: 24px; min-width: 0; }
+.nx .ex-node strong { font-size: 20px; line-height: 26px; letter-spacing: -.025em; color: var(--ink); overflow-wrap: anywhere; }
+.nx .ex-kicker { font-size: 12px; line-height: 18px; color: var(--faint); }
+.nx .ex-node > span:last-child { color: var(--muted); font-size: 13px; line-height: 19px; }
+.nx .ex-gateway { background: var(--ink); box-shadow: var(--shadow-pop); min-height: 194px; }
+.nx .ex-gateway strong, .nx .ex-gateway svg { color: var(--card); }
+.nx .ex-gateway > span, .nx .ex-gateway > span:last-child { color: var(--code-fg); }
+.nx .ex-gateway svg { width: 28px; height: 28px; margin-bottom: 2px; }
+.nx .ex-wire { height: 1px; position: relative; background: var(--line-strong); }
+.nx .ex-wire > span { position: absolute; right: -1px; top: -13px; color: var(--muted); font-size: 18px; }
+.nx .ex-wire i { width: 7px; height: 7px; position: absolute; top: -3px; left: 0; background: var(--ink); border-radius: var(--r-7); }
+.nx .ex-scene[data-ex-entered] .ex-frame:not([hidden]) .ex-wire i { animation: ex-packet 2.8s ease-in-out 1; }
+.nx .ex-scene[data-ex-entered] .ex-frame:not([hidden]) .ex-wire:nth-child(4) i { animation-delay: .35s; }
+.nx .ex-result { margin: 0; padding: 22px 28px; max-width: 940px; font-size: 13px; line-height: 21px; color: var(--muted); }
+.nx .ex-scene > figcaption { margin: 0; padding: 18px 28px; border-top: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between; gap: 16px; font-size: 12px; line-height: 19px; color: var(--faint); }
+.nx .ex-scene > figcaption .link { font-size: 13px; }
+/* Keep live text in the accessibility tree without a one-pixel overflow box. */
+.nx .ex-announcement { position: absolute; inset: 0; margin: 0; clip-path: inset(50%); pointer-events: none; }
+.nx .ex-split { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; width: 100%; }
+.nx .ex-message { padding: 26px; background: var(--card); border-radius: var(--r-16); box-shadow: var(--shadow-card); display: flex; flex-direction: column; gap: 24px; min-width: 0; }
+.nx .ex-message code { display: block; font-family: var(--mono); font-size: 18px; line-height: 32px; overflow-wrap: anywhere; color: var(--ink); }
+.nx .ex-message em, .nx .ex-message mark { font-style: normal; background: var(--stage); color: var(--ink); padding: 2px 4px; border-radius: var(--r-7); }
+.nx .ex-message mark { background: var(--ink); color: var(--card); }
+.nx .ex-return { display: flex; align-items: center; justify-content: center; gap: 14px; margin: 24px auto 0; color: var(--muted); font-size: 13px; line-height: 20px; }
+.nx .ex-return > span { font-size: 24px; color: var(--ink); }
+.nx .ex-budget { width: 100%; max-width: 800px; margin: auto; }
+.nx .ex-budget-head { display: flex; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 24px; color: var(--muted); font-size: 13px; }
+.nx .ex-budget-head > strong { color: var(--ink); font-size: 40px; letter-spacing: -.035em; font-weight: 700; font-variant-numeric: tabular-nums; }
+.nx .ex-budget-head small { font-size: 20px; color: var(--muted); font-weight: 400; }
+.nx .ex-meter { height: 12px; border-radius: var(--r-7); background: var(--stage); overflow: hidden; }
+.nx .ex-meter i { display: block; height: 100%; background: var(--ink); transform-origin: left; }
+.nx .ex-scene[data-ex-entered] .ex-frame:not([hidden]) .ex-meter i { animation: ex-fill 1.2s ease-out 1; }
+.nx .ex-budget-scopes { margin-top: 24px; }
+.nx .ex-row { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 14px 0; border-bottom: 1px solid var(--line); font-size: 13px; line-height: 20px; color: var(--muted); }
+.nx .ex-row:last-child { border-bottom: 0; }
+.nx .ex-row strong { color: var(--ink); font-weight: 600; text-align: right; }
+.nx .ex-bars { display: flex; flex-direction: column; justify-content: center; gap: 32px; padding: 22px 0; }
+.nx .ex-bars > div { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; font-size: 13px; color: var(--muted); }
+.nx .ex-bars strong { grid-column: 2; grid-row: 2; color: var(--ink); font-variant-numeric: tabular-nums; }
+.nx .ex-bar { display: block; grid-column: 1; grid-row: 2; height: 26px; border-radius: var(--r-7); background: var(--ink); transform-origin: left; }
+.nx .ex-bar-short { width: 40%; }
+.nx .ex-bar-full { width: 100%; background: var(--muted); }
+.nx .ex-scene[data-ex-entered] .ex-frame:not([hidden]) .ex-bar { animation: ex-fill 1.2s ease-out 1; }
+.nx .ex-receipt { padding: 20px 26px; background: var(--card); border-radius: var(--r-16); box-shadow: var(--shadow-card); }
+.nx .ex-total { display: flex; justify-content: space-between; align-items: center; gap: 20px; margin-top: 20px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 13px; color: var(--ink); }
+.nx .ex-total strong { font-size: 40px; line-height: 1; font-weight: 700; letter-spacing: -.035em; font-variant-numeric: tabular-nums; }
+.nx .ex-policy { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: 56px; max-width: 900px; width: 100%; margin: auto; align-items: center; }
+.nx .ex-scope { display: flex; flex-direction: column; align-items: flex-start; gap: 14px; padding: 26px; border-radius: var(--r-16); background: var(--ink); color: var(--card); }
+.nx .ex-scope span { font-size: 12px; color: var(--code-fg); }
+.nx .ex-scope strong { font-size: 24px; line-height: 30px; letter-spacing: -.025em; }
+@keyframes ex-packet { 0% { left: 0; opacity: 0; } 15%, 75% { opacity: 1; } 100% { left: calc(100% - 7px); opacity: 0; } }
+@keyframes ex-fill { from { transform: scaleX(.1); } to { transform: scaleX(1); } }
+@media (max-width: 980px) {
+ .nx .ex-board { padding: 32px; }
+ .nx .ex-flow { grid-template-columns: minmax(0, 1fr) 32px minmax(0, 1fr) 32px minmax(0, 1fr); }
+ .nx .ex-node { padding: 20px; }
+ .nx .ex-node strong { font-size: 18px; line-height: 24px; }
+}
+@media (max-width: 720px) {
+ .nx .ex-section { padding-top: 38px; padding-bottom: 0; }
+ .nx .ex-heading { margin-bottom: 24px; }
+ .nx .ex-toolbar { padding: 18px; flex-direction: column; align-items: stretch; gap: 12px; }
+ .nx .ex-label { text-align: center; }
+ .nx .ex-controls button { flex: 1; padding: 9px 8px; min-height: 44px; font-size: 12px; }
+ .nx .ex-board { padding: 24px 20px; min-height: 0; }
+ .nx .ex-flow { grid-template-columns: minmax(0, 1fr); gap: 0; }
+ .nx .ex-node { min-height: 112px; padding: 18px 20px; gap: 6px; }
+ .nx .ex-gateway { min-height: 132px; }
+ .nx .ex-gateway svg { width: 24px; height: 24px; }
+ .nx .ex-wire { width: 1px; height: 28px; margin: auto; }
+ .nx .ex-wire > span { top: 6px; right: -9px; transform: rotate(90deg); }
+ .nx .ex-wire i { left: -3px; top: 0; }
+ .nx .ex-scene[data-ex-entered] .ex-frame:not([hidden]) .ex-wire i { animation-name: ex-packet-mobile; }
+ .nx .ex-result { padding: 18px 20px; }
+ .nx .ex-scene > figcaption { padding: 18px 20px; flex-direction: column; align-items: flex-start; gap: 8px; }
+ .nx .ex-split, .nx .ex-policy { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+ .nx .ex-message { padding: 20px; gap: 14px; }
+ .nx .ex-message code { font-size: 15px; line-height: 26px; }
+ .nx .ex-budget-head { align-items: flex-start; flex-direction: column; gap: 12px; }
+ .nx .ex-budget-head > strong { font-size: 36px; }
+ .nx .ex-row { gap: 16px; font-size: 12px; }
+ .nx .ex-row > span { max-width: 44%; }
+ .nx .ex-row strong { max-width: 56%; }
+ .nx .ex-receipt { padding: 16px 20px; }
+ .nx .ex-total strong { font-size: 34px; }
+ .nx .ex-policy { gap: 18px; }
+}
+@keyframes ex-packet-mobile { 0% { top: 0; opacity: 0; } 15%, 75% { opacity: 1; } 100% { top: calc(100% - 7px); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+ .nx .ex-scene[data-ex-entered] .ex-frame:not([hidden]) .ex-wire i,
+ .nx .ex-scene[data-ex-entered] .ex-frame:not([hidden]) .ex-meter i,
+ .nx .ex-scene[data-ex-entered] .ex-frame:not([hidden]) .ex-bar { animation: none; }
+}
+/* The off-path example must never draw traffic through the gateway. */
+.nx .ex-bypass { display: grid; grid-template-columns: minmax(0, 1fr) 120px minmax(0, 1fr); align-items: center; max-width: 840px; width: 100%; margin: auto; }
+.nx .ex-outside { grid-column: 1 / -1; display: flex; align-items: center; gap: 18px; margin-top: 28px; padding: 20px; border: 1px dashed var(--line-strong); border-radius: var(--r-16); color: var(--muted); }
+.nx .ex-outside strong { display: block; color: var(--ink); font-size: 14px; font-weight: 600; }
+.nx .ex-outside span { display: block; margin-top: 5px; font-size: 13px; line-height: 20px; }
+.nx .ex-outside svg { flex-shrink: 0; }
+@media (max-width: 720px) {
+ .nx .ex-bypass { grid-template-columns: minmax(0, 1fr); }
+ .nx .ex-outside { margin-top: 20px; align-items: flex-start; }
+}
+/* Product-specific objects: comparison rubric, request tree, coverage inventory, close report. */
+.nx .ex-review, .nx .ex-fleet { width: 100%; max-width: 960px; margin: auto; }
+.nx .ex-review-brief { display: flex; flex-direction: column; gap: 10px; margin-bottom: 28px; }
+.nx .ex-review-brief strong { font-size: 20px; line-height: 28px; letter-spacing: -.025em; }
+.nx .ex-review-brief > span:last-child { font-size: 13px; color: var(--muted); }
+.nx .ex-compare { width: 100%; border-collapse: collapse; table-layout: fixed; background: var(--card); font-size: 13px; line-height: 20px; }
+.nx .ex-compare caption { text-align: left; font-size: 12px; color: var(--faint); padding-bottom: 12px; }
+.nx .ex-compare th, .nx .ex-compare td { padding: 18px 20px; text-align: left; border-bottom: 1px solid var(--line); overflow-wrap: anywhere; vertical-align: top; }
+.nx .ex-compare th { font-weight: 600; color: var(--ink); }
+.nx .ex-compare td { color: var(--muted); }
+.nx .ex-compare thead { background: var(--ink); }
+.nx .ex-compare thead th { color: var(--card); font-size: 12px; }
+.nx .ex-compare .ex-needs-review { color: var(--amber); background: var(--amber-soft); font-weight: 600; }
+.nx .ex-verdict { display: flex; align-items: center; gap: 18px; padding: 24px 0 0; }
+.nx .ex-verdict > svg { flex-shrink: 0; }
+.nx .ex-verdict > div { display: flex; flex-direction: column; gap: 6px; min-width: 190px; }
+.nx .ex-verdict span { font-size: 12px; color: var(--faint); }
+.nx .ex-verdict strong { font-size: 15px; font-weight: 600; }
+.nx .ex-verdict p { margin: 0 0 0 auto; max-width: 360px; font-size: 13px; line-height: 21px; color: var(--muted); }
+.nx .ex-trace-layout, .nx .ex-close-layout { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: 40px; width: 100%; max-width: 1020px; margin: auto; align-items: center; }
+.nx .ex-trace { background: var(--card); padding: 28px; border-radius: var(--r-16); box-shadow: var(--shadow-card); }
+.nx .ex-trace-task { display: flex; align-items: center; gap: 16px; padding-bottom: 24px; border-bottom: 1px solid var(--line); }
+.nx .ex-trace-task > div { display: flex; flex-direction: column; gap: 5px; }
+.nx .ex-trace-task span { font-size: 12px; color: var(--muted); }
+.nx .ex-trace-task strong { font-size: 18px; line-height: 24px; }
+.nx .ex-trace ol { list-style: none; margin: 24px 0 0; padding: 0; }
+.nx .ex-trace-item { position: relative; display: flex; gap: 14px; padding-bottom: 24px; }
+.nx .ex-trace-item:last-child { padding-bottom: 0; }
+.nx .ex-trace-item:not(:last-child)::before { content: ''; position: absolute; width: 1px; background: var(--line-strong); top: 28px; bottom: 0; left: 13px; }
+.nx .ex-trace-number { flex-shrink: 0; display: grid; place-items: center; width: 28px; height: 28px; background: var(--paper); border-radius: var(--r-7); font-size: 11px; color: var(--muted); }
+.nx .ex-trace-item > div { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+.nx .ex-trace-item strong { font-size: 14px; font-weight: 600; }
+.nx .ex-trace-item > div > span { color: var(--muted); font-size: 12px; line-height: 19px; }
+.nx .ex-trace-retry { margin-left: 42px; padding: 14px; background: var(--paper); border-radius: var(--r-10); }
+.nx .ex-trace-detail > strong, .nx .ex-close-review > strong { display: block; font-size: 26px; line-height: 34px; letter-spacing: -.025em; margin: 12px 0 22px; }
+.nx .ex-trace-detail > p, .nx .ex-fleet > p { color: var(--muted); font-size: 13px; line-height: 21px; margin: 20px 0 0; }
+.nx .ex-fleet-heading { display: flex; gap: 18px; align-items: center; margin-bottom: 28px; }
+.nx .ex-fleet-heading > div { display: flex; flex-direction: column; gap: 7px; }
+.nx .ex-fleet-heading strong { font-size: 20px; line-height: 28px; letter-spacing: -.025em; }
+.nx .ex-fleet-table th > span { display: block; font-weight: 400; font-size: 12px; margin-top: 5px; color: var(--muted); }
+.nx .ex-coverage-label { display: inline-block; padding: 3px 7px; background: var(--paper); border-radius: var(--r-7); font-size: 12px; color: var(--ink); }
+.nx .ex-rollout { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 26px; font-size: 12px; line-height: 19px; color: var(--muted); }
+.nx .ex-rollout-step { padding: 10px 14px; border-radius: var(--r-8); background: var(--card); }
+.nx .ex-rollout-active { background: var(--ink); color: var(--card); }
+.nx .ex-document { background: var(--card); padding: 32px; border-radius: var(--r-12); box-shadow: var(--shadow-pop); }
+.nx .ex-document-head { display: flex; justify-content: space-between; gap: 18px; color: var(--ink); font-size: 13px; font-weight: 600; }
+.nx .ex-document-head small { color: var(--faint); font-size: 11px; font-weight: 400; }
+.nx .ex-document-period { margin: 30px 0 20px; display: flex; flex-direction: column; gap: 7px; }
+.nx .ex-document-period span { font-size: 12px; color: var(--muted); }
+.nx .ex-document-period strong { font-size: 28px; letter-spacing: -.025em; }
+.nx .ex-document-seal { margin-top: 24px; padding: 16px; border: 1px dashed var(--line-strong); border-radius: var(--r-8); display: flex; flex-direction: column; gap: 6px; }
+.nx .ex-document-seal span { font-size: 11px; color: var(--muted); }
+.nx .ex-document-seal strong { font-size: 13px; font-weight: 600; }
+.nx .ex-close-review ol { margin: 0; padding-left: 18px; }
+.nx .ex-close-review li { padding: 0 0 24px 8px; font-size: 13px; line-height: 21px; color: var(--muted); }
+.nx .ex-close-review li b { display: block; font-weight: 600; color: var(--ink); margin-bottom: 5px; }
+@media (max-width: 720px) {
+ .nx .ex-compare { font-size: 12px; line-height: 19px; }
+ .nx .ex-compare th, .nx .ex-compare td { padding: 13px 8px; }
+ .nx .ex-compare thead th { font-size: 11px; }
+ .nx .ex-verdict { display: grid; grid-template-columns: 32px minmax(0, 1fr); }
+ .nx .ex-verdict > div { min-width: 0; }
+ .nx .ex-verdict > p { grid-column: 1 / -1; }
+ .nx .ex-trace-layout, .nx .ex-close-layout { grid-template-columns: minmax(0, 1fr); gap: 26px; }
+ .nx .ex-trace { padding: 20px; }
+ .nx .ex-trace-retry { margin-left: 20px; padding: 12px; }
+ .nx .ex-fleet-heading { align-items: flex-start; }
+ .nx .ex-fleet-heading > svg { flex-shrink: 0; }
+ .nx .ex-fleet-table th > span { font-size: 11px; }
+ .nx .ex-coverage-label { font-size: 11px; padding: 2px 4px; }
+ .nx .ex-rollout { flex-direction: column; gap: 4px; align-items: stretch; text-align: center; }
+ .nx .ex-rollout > span:not(.ex-rollout-step) { transform: rotate(90deg); }
+ .nx .ex-document { padding: 22px; }
+ .nx .ex-close-review li:last-child { padding-bottom: 0; }
+}
+.nx .ex-trace-retry:last-child { padding-bottom: 14px; }
+@media (max-width: 720px) { .nx .ex-trace-retry:last-child { padding-bottom: 12px; } }
+/* Genuine native capture gallery; images preserve the captured app pixels. */
+.nx .ex-native-walkthrough { padding-top: 72px; }
+.nx .ex-native-chapter { margin: 44px 0 64px; padding-top: 36px; border-top: 1px solid var(--line); }
+.nx .ex-native-chapter h3 { margin: 0 0 12px; font-size: 28px; line-height: 36px; font-weight: 700; letter-spacing: -.025em; }
+.nx .ex-native-chapter > p { margin: 0 0 28px; max-width: 740px; color: var(--muted); font-size: 14px; line-height: 22px; }
+.nx .ex-native-gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; align-items: start; }
+.nx .ex-native-gallery figure { margin: 0; min-width: 0; }
+.nx .ex-native-image { display: grid; place-items: center; padding: 26px 18px; min-height: 260px; background: var(--paper); border-radius: var(--r-16); }
+.nx .ex-native-image img { display: block; width: 100%; height: auto; max-width: 520px; }
+.nx .ex-native-gallery figcaption { display: flex; flex-direction: column; gap: 8px; padding: 18px 2px 0; font-size: 13px; line-height: 21px; color: var(--muted); }
+.nx .ex-native-gallery figcaption strong { color: var(--ink); font-size: 15px; font-weight: 600; }
+.nx .ex-native-gallery figcaption .link { font-size: 12px; }
+.nx .ex-native-single { display: grid; grid-template-rows: auto 1fr; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); column-gap: 56px; align-items: start; }
+.nx .ex-native-single > h3, .nx .ex-native-single > p { grid-column: 1; }
+.nx .ex-native-single .ex-native-gallery { grid-column: 2; grid-row: 1 / 3; grid-template-columns: minmax(0, 1fr); }
+.nx .ex-native-note { padding: 20px 24px; background: var(--paper); border-radius: var(--r-12); color: var(--muted); font-size: 13px; line-height: 21px; }
+@media (max-width: 980px) { .nx .ex-native-gallery { gap: 14px; } .nx .ex-native-image { padding: 20px 12px; min-height: 200px; } }
+@media (max-width: 720px) {
+ .nx .ex-native-walkthrough { padding-top: 48px; }
+ .nx .ex-native-chapter { margin: 32px 0 40px; padding-top: 28px; }
+ .nx .ex-native-chapter h3 { font-size: 24px; line-height: 32px; }
+ .nx .ex-native-gallery, .nx .ex-native-single { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+ .nx .ex-native-image { min-height: 0; padding: 24px 16px; }
+ .nx .ex-native-single > h3 { margin-bottom: 0; }
+ .nx .ex-native-single > p { margin-bottom: 0; }
+ .nx .ex-native-single .ex-native-gallery { grid-column: 1; grid-row: auto; }
+ .nx .ex-native-note { padding: 18px 20px; }
+}
+
+.nx .ex-native-popover img { max-width: 320px; }
+.nx .ex-native-setup img { max-width: 480px; }
+.nx .ex-native-preferences img { max-width: 420px; }
+.nx .ex-native-doctor img { max-width: 430px; }
+.nx .ex-native-coverage img { max-width: 520px; }

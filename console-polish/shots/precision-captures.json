@@ -1,0 +1,156 @@
+{
+  "base": "http://127.0.0.1:5355",
+  "capturedAt": "2026-09-05T23:58:02.707Z",
+  "sampleData": true,
+  "deviceScaleFactor": 2,
+  "compiledAssets": {
+    "index-DPP7RgxH.js": "ae0f9aa83a1b2568dc04caa09ac26d47ca77c6aa88ae7b7bb859f6683230ec54",
+    "index-in2kQ6BF.css": "f4c9f6c487c486dd9a855a7337be02403b6518d543f74191ed0382e921af3b77"
+  },
+  "captures": [
+    {
+      "file": "overview-daylight.png",
+      "path": "/overview",
+      "theme": "daylight",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "file": "spend-daylight.png",
+      "path": "/spend",
+      "theme": "daylight",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "file": "savings-daylight.png",
+      "path": "/savings",
+      "theme": "daylight",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "file": "budgets-daylight.png",
+      "path": "/budgets",
+      "theme": "daylight",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "file": "requests-daylight.png",
+      "path": "/requests",
+      "theme": "daylight",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "file": "routing-daylight.png",
+      "path": "/routing",
+      "theme": "daylight",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "file": "approvals-daylight.png",
+      "path": "/guardrails/agents?tab=autonomy",
+      "theme": "daylight",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "file": "tool-policies-daylight.png",
+      "path": "/guardrails/agents?tab=tools",
+      "theme": "daylight",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "file": "audit-daylight.png",
+      "path": "/compliance/audit",
+      "theme": "daylight",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "file": "members-daylight.png",
+      "path": "/org/members",
+      "theme": "daylight",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "file": "enrollment-daylight.png",
+      "path": "/fleet/setup",
+      "theme": "daylight",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "file": "onboarding-daylight.png",
+      "path": "/welcome",
+      "theme": "daylight",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "file": "status-daylight.png",
+      "path": "/status",
+      "theme": "daylight",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "file": "overview-night.png",
+      "path": "/overview",
+      "theme": "night",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "file": "savings-night.png",
+      "path": "/savings",
+      "theme": "night",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "file": "requests-night.png",
+      "path": "/requests",
+      "theme": "night",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    }
+  ]
+}
